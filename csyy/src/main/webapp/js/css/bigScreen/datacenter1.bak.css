@@ -1,0 +1,864 @@
+﻿/* CSS Document */
+/********************** CSS reset Start **********************/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button{margin:0;padding:0;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:500;}
+select,textarea{font-size:100%;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+img{vertical-align:top;}
+abbr,acronym{border:0;font-variant:normal;}
+del{text-decoration:line-through;}
+address,caption,cite,code,dfn,em,b,i,th,var {font-weight:normal; font-style:normal;}
+ol,ul{list-style:none;}
+caption,th{text-align:left;}
+ins{text-decoration:none;}
+input, button, select, textarea {outline:none;}
+textarea {resize:none;}
+a{color:#FFF;text-decoration:none;}
+a:hover{color:#fff;text-decoration:underline;}
+.clearfix:before, .clearfix:after,.cf:before, .cf:after{content:""; display:table;}
+.clearfix:after,.cf:after{clear:both;}
+.clearfix,.cf{*zoom:1;}
+.clear{clear:both;}
+.none{display:none;}
+.l{float:left;}
+.r{float:right;}
+
+.mt10{margin-top:10px;}
+.mt11{margin-top:11px;}
+.mr8{margin-right:8px;}
+.mr10{margin-right:10px;}
+.pd12{padding:12px 0;}
+.pd15{padding:15px 0;}
+.pd20{padding:20px 0;}
+.pdt10{padding-top:10px;}
+.pdt15{padding-top:15px;}
+.pdl15{padding-top:15px;}
+
+.font_ff31c1{color: #ff31c1 !important;}
+.font_75a653{color: #75a653 !important;}
+.font_b83f44{color: #b83f44 !important;}
+.font_2ab6ff{color: #2ab6ff !important;}
+.font_ff31c1{color: #ff31c1 !important;}
+.font_dc7e3e{color: #dc7e3e !important;}
+.font_1976d2{color: #1976d2 !important;}
+.font_ff31c1{color: #ff31c1 !important;}
+.font_1976d2{color: #1976d2 !important;}
+.font_ff31c1{color: #ff31c1 !important;}
+
+/********************** CSS reset End **********************/
+html,body{height:100%;}
+body{
+	background: #010d17 url(../../images/bigdata/body_bg.jpg) no-repeat center center;
+	font-family: Arial, 'Microsoft Yahei', '微软雅黑', '宋体';
+	font-size: 14px;
+	line-height: 1.5;
+	-overflow:hidden;
+}
+
+/********************** 导航样式 Start ************************/
+.topNav{
+	background: rgba(6,84,107,.5);
+	height: 40px;
+}
+.headTitle{
+	background: url(../../images/bigdata/sprite.png) no-repeat;
+	width: 330px;
+	height: 40px;
+	float: left;
+	text-indent: -1000px;
+	overflow: hidden;
+	margin-right: 100px;
+}
+.topList li{
+	float: left;
+	width: 120px;
+	margin-right: 10px;
+}
+.topList li a{
+	background: url(../../images/bigdata/sprite.png) no-repeat;
+	display: block;
+	width: 120px;
+	height:40px;
+	text-indent: -1000px;
+	overflow: hidden;
+}
+.topList li:nth-child(1) a{
+	background-position:12px -51px;
+}
+.topList li:nth-child(2) a{
+	background-position:12px -119px;
+}
+.topList li:nth-child(1) a.hover{
+	background-color: rgba(52,143,202,.3);
+	background-position:12px -84px;
+}
+.topList li:nth-child(2) a.hover{
+	background-color: rgba(52,143,202,.3);
+	background-position:12px -155px;
+}
+.topList li:nth-child(1) a:hover{
+	background-position:12px -84px;
+}
+.topList li:nth-child(2) a:hover{
+	background-position:12px -155px;
+}
+/********************** 导航样式 End ************************/
+
+/********************** 模块样式 Start ************************/
+.dataMain{
+	width:1320px;
+	margin:17px auto;
+}
+.modBox{
+	float: left;
+	width: 560px;
+	height: 340px;
+}
+.modItem{
+	width: 560px;
+	height: 340px;
+}
+.modLeft{
+	width: 180px;
+	height: 340px;
+}
+.modStyle{
+	width: 558px;
+	height: 338px;
+	border: 1px solid #10314b;
+	background-color: rgba(255,255,255,.05);
+}
+.modLeft .modItem{
+	width: 180px;
+	height: 340px;
+}
+.modLeft .modStyle{
+	width: 178px;
+	height: 338px;
+}
+
+/* 人口统计 Start */
+.containerBox{
+	width:558px;
+	height:338px;
+}
+.containerBox li{
+	width:558px;
+	height:338px;
+}
+.containerTab{
+	width:400px;
+	-width:558px;
+	height:338px;
+	float:left;
+}
+.containerBox_r{
+	width:143px;
+	height:338px;
+	float:right;
+}
+.containerTxt{
+	position:absolute;
+	left:60px;
+	top:249px;
+	color:#FFF;
+}
+/* 人口统计 End */
+
+.itemStyle{
+	border: 1px solid #10314b;
+	background-color: rgba(255,255,255,.05);
+	overflow:hidden;
+}
+
+#schoolBox{
+	position:absolute;
+	z-index:11;
+}
+.schoolBox{
+	width:368px;
+}
+.schoolYear{
+	color:rgba(0, 122, 204, .5);
+	font-size:12px;
+	width:80px;
+	height:188px;
+	position:absolute;
+	right:85px;
+	top:76px;
+}
+.schoolYear span{
+	background:url(../../images/bigdata/sprite.png) no-repeat;
+	display:block;
+	height:42px;
+	line-height:42px;
+	padding-left:26px;
+	font-family:'微软雅黑 Light';
+}
+.schoolYear span:nth-child(1){
+	background-position:0px -306px;
+}
+.schoolYear span:nth-child(2){
+	background-position:0px -369px;
+	margin-top:28px;
+}
+.schoolYear span:nth-child(3){
+	background-position:0px -433px;
+	margin-top:28px;
+}
+
+.MapHotCity{
+	width:220px;
+	height:200px;
+	position: absolute;
+	right:00px;
+	top:144px;
+}
+.MapAreaBox{
+	width:130px;
+	height:80px;
+	position: absolute;
+	right:10px;
+	top:50px;
+	overflow:hidden;
+	
+	
+}
+.MapAreaItem{
+	display: inline-block;
+	background: url(../../images/bigdata-bg4.png) no-repeat;
+	background-size: 100% 100%;
+	height: 30px;
+	width: 145px;
+	line-height:30px;
+	padding-left:5px;
+	color: #79afeb;
+	font-size: 12px;
+	text-align: left;
+}
+.sub_Item_1{
+	font-size: 16px;
+	font-weight: bold;
+	color: #ef9600;
+}
+
+.sub_Item_2{
+	font-weight: bold;
+	color: #ef9600;
+}
+
+
+
+/*翻转效果样式 Start*/
+
+
+.ma_front, .ma_back{width:145px;height:31px;}
+
+.ma_front, .ma_back {backface-visibility: hidden;transition: 0.6s ease-out;-webkit-transition: .6s ease-out; -webkit-transform-style: preserve-3d; -moz-transform-style: preserve-3d; -ms-transform-style: preserve-3d;-o-transform-style: preserve-3d;transform-style: preserve-3d;position: absolute;top: 0;left: 0;}
+
+.ma_front {z-index: 2;transform: rotateX(0deg);transform: rotateX(0deg); -webkit-transform: rotateX(0deg);-moz-transform: rotateX(0deg);-ms-transform: rotateX(0deg);-o-transform: rotateX(0deg);}
+
+.ma_back { z-index:1;transform: rotateX(-180deg);transform: rotateX(-180deg);-webkit-transform: rotateX(-180deg);-moz-transform: rotateX(-180deg);
+-ms-transform: rotateX(-180deg);-o-transform: rotateX(-180deg);}
+/*翻转效果样式 End*/
+
+
+/********************** 模块样式 End ************************/
+.sprite_logo{ 
+	/*background: url(../../images/bigdata/sprite.png) no-repeat -122px -48px;*/
+	width: 178px;
+	height: 30px;
+	line-height: 60px;
+	font-size:22px;
+	text-align:center;
+}
+.sprite_01{
+	background: url(../../images/bigdata/sprite.png) no-repeat 38px -206px;
+	width: 178px;
+	height: 75px;
+}
+.sprite_02{
+	background-position: -103px -206px;
+}
+.numberBox{
+	text-align: center;
+}
+.numTit{
+	font-size: 12px;
+	color: #2ab6ff;
+}
+.numBody{
+	font-size: 32px;
+	font-family: '微软雅黑';
+	color: #FFF;
+	height:35px;
+	line-height:36px;
+}
+.growItem{
+	color: #dc7e3e;
+	font-size: 14px;
+	padding-top: 5px;
+}
+
+
+.lineItem{
+	-background:#0e1e30;
+	width: 178px;
+	height: 75px;
+	
+	perspective: 1000;
+	-webkit-perspective: 1000px; /*父类容器中 perspective 子类允许透视*/
+	-moz-perspective: 1000px;
+	-ms-perspective: 1000px;
+	-o-perspective: 1000px;
+	perspective: 1000px;
+}
+.lineItem:nth-child(1):after{
+	width:10px;
+	height:75px;
+}
+/*翻转效果样式 Start*/
+.lineItem:hover .Itemfront, .hover .Itemfront {transform: rotateY(180deg);-webkit-transform: rotateY(180deg);-moz-transform: rotateY(180deg);-ms-transform: rotateY(180deg);-o-transform: rotateY(180deg); z-index:1;}
+.lineItem:hover .Itemback, .hover .Itemback { transform: rotateY(0deg); -webkit-transform: rotateY(0deg);-moz-transform: rotateY(0deg);-ms-transform: rotateY(0deg);-o-transform: rotateY(0deg); z-index:2;}
+.flipper {transition:transform 0.6s ease-out;
+transition: transform .5s ease-in-out;
+-webkit-transition: transform .5s ease-in-out;
+-moz-transition: transform .5s ease-in-out;
+-ms-transition: transform .5s ease-in-out;
+-o-transition: transform .5s ease-in-out;
+-webkit-transform-style: preserve-3d; /*使其子类变换后得以保留 3d转换后的位置*/
+-moz-transform-style: preserve-3d;
+-ms-transform-style: preserve-3d;
+-o-transform-style: preserve-3d;
+transform-style: preserve-3d;
+display:block;position: relative;}
+.frontBox{width:178px;height:75px;}
+.Itemfront, .Itemback {backface-visibility: hidden;transition: 0.6s ease-out;-webkit-transition: .6s ease-out; -webkit-transform-style: preserve-3d; -moz-transform-style: preserve-3d; -ms-transform-style: preserve-3d;-o-transform-style: preserve-3d;transform-style: preserve-3d;position: absolute;top: 0;left: 0;}
+.Itemfront {-background:#0e1e30;z-index: 2;transform: rotateY(0deg);transform: rotateY(0deg); -webkit-transform: rotateY(0deg);-moz-transform: rotateY(0deg);-ms-transform: rotateY(0deg);-o-transform: rotateY(0deg);}
+.Itemback { z-index:1;transform: rotateY(-180deg);transform: rotateY(-180deg);-webkit-transform: rotateY(-180deg);-moz-transform: rotateY(-180deg);
+-ms-transform: rotateY(-180deg);-o-transform: rotateY(-180deg);}
+/*翻转效果样式 End*/
+
+.wuxi_map{
+	width: 368px;
+	height: 251px;
+	position: relative;
+}
+
+.lineItem .numberBox{
+	background: url(../../images/bigdata/sprite.png) no-repeat;
+	padding:10px 0 0 55px;
+	width:123px;
+}
+.lineItem .numberBox_b{
+	background: url(../../images/bigdata/sprite.png) no-repeat;
+	text-align:left;
+	padding:10px 0 0 65px;
+	width:113px;
+	height:67px;
+}
+.lineItem:nth-child(1) .numberBox{
+	background-position: -544px 15px;
+}
+.lineItem:nth-child(2) .numberBox{
+	background-position: -544px -48px;
+}
+.lineItem:nth-child(3) .numberBox{
+	background-position: -538px -111px;
+}
+/*法人库*/
+.lineItem:nth-child(1) .numberBox_b{
+	background-position: -540px -443px;
+}
+.lineItem:nth-child(2) .numberBox_b{
+	background-position: -540px -514px;
+}
+.lineItem:nth-child(3) .numberBox_b{
+	background-position: -540px -657px;
+}
+
+.lineItem:nth-child(4) .numberBox_b{
+	background-position: -538px -737px;
+}
+.lineItem .numberBox_c{
+	background:none;
+	padding-left:20px;
+	width:145px;
+}
+
+
+.lineText{
+	font-size: 18px;
+	color: #FFF;
+	width: 96px;
+	text-align: center;
+	float: left;
+}
+.lineNum{
+	background:#1976d2;
+	border-radius: 10px 0px 10px 10px;
+	color: #fff;
+	font-size:24px;
+	float: right;
+	margin: 8px 8px 0 0;
+	width: 64px;
+	height: 60px;
+	line-height:20px;
+	text-align:center;
+}
+.lineNum p{
+	height:20px;
+	margin:15px 0 0;
+}
+.lineNum span{
+	margin-top:-10px;
+	font-size: 14px;
+}
+.modItem_bottom .lineItem:nth-child(1) .lineNum{
+	background:#1976d2;
+}
+.modItem_bottom .lineItem:nth-child(3) .lineNum{
+	background:#a13522;
+}
+.modItem_bottom .lineItem:nth-child(4) .lineNum{
+	background:#3e8e02;
+}
+
+
+.leftLine .lineItem .numberBox{
+	text-align: left;
+	padding: 5px 0 0 35px;
+	width: 143px;
+}
+.leftLine .lineItem .numberBox .numBody{
+	font-size: 28px;
+}
+.leftLine .lineItem .numberBox .numBody span{
+	font-size: 12px;
+	padding-left:10px;
+}
+.leftLine .lineItem:nth-child(1) .numberBox{
+	background-position: 2px -293px;
+}
+.leftLine .lineItem:nth-child(2) .numberBox{
+	background-position: 2px -419px;
+}
+.leftLine .lineItem:nth-child(3) .numberBox{
+	background-position: -544px -292px;
+}
+.leftLine .lineItem:nth-child(4) .numberBox{
+	background-position: -544px -368px;
+}
+
+
+/**/
+.subLineBox{
+	background:#007acc;
+	width:178px;
+	height:75px;
+}
+
+
+/********************** 地图样式 Start ************************/
+.mapItem{
+	width:300px;
+	height:280px;
+	padding:5px 5px 0 0;
+}
+.mapItem span{
+	position: absolute;
+	bottom:0;
+	right:15px;
+}
+.wuxiItem{
+	/*background:-url(../../images/wuxi_map.png) no-repeat;*/
+	width:280px;
+	height:255px;
+	position:absolute;
+	left:100px;
+	top:0px;
+}
+.ageBlock{
+	width: 120px;
+	padding-top: 20px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.ageBlock .numberBox{
+	background: url(../../images/bigdata/sprite.png) no-repeat;
+	text-align: left;
+	padding-left: 30px;
+	margin-top: 20px;
+}
+.ageBlock .numberBox .numTit{
+	font-size:12px;
+}
+.ageBlock .numberBox .numBody{
+	font-size:24px;
+	height:24px;
+	line-height:24px;
+}
+.ageBlock .numberBox:nth-child(1){
+	background-position: 2px -306px;
+}
+.ageBlock .numberBox:nth-child(2){
+	background-position: 2px -369px;
+}
+.ageBlock .numberBox:nth-child(3){
+	background-position: 2px -433px;
+}
+/********************** 地图样式 End ************************/
+
+/********************** 人口变化切换样式 Start *******************/
+.picBox{}
+.picwrap {width: 560px;height: 340px;background-color:rgba(255,255,255,.1);box-sizing:border-box;position: relative;overflow: hidden;}
+.picgroup {position: absolute;top:0;left: 0;transition:all 0.4s ease-in;}
+.picgroup li {float: left; position:relative;}
+.picgroup li:nth-child(2){display:none;}
+
+.btngroup {position:absolute;width:300px;height:25px;text-align:left;bottom:0px;}
+.btngroup li {float: left;width:100px;height:20px;cursor:pointer;color:#FFF;}
+.btngroup li span {float: left;margin:5px;width:10px;height:10px;background: rgba(255,255,255,.5);border-radius: 50%;cursor:pointer;}
+
+.btngroup .current, .btngroup li:hover{color:#2ab6ff;}
+.btngroup .current span, .btngroup li:hover span {background: #2ab6ff;}
+
+
+
+/********************** 右侧导航样式 Start ************************/
+.rightMenu{
+	background:rgba(24,64,87,.9);;
+	-width: 250px;
+	-height: 350px;
+	width: 0px;
+	height: 0px;
+	position:fixed;
+	bottom:0px;
+	right:0px;
+}
+.topLogo{
+	background:#06273b;
+	height:250px;
+	height:122px;
+	padding:13px 0 0;
+}
+.logo_icon_1{
+	background:url(../../images/bigdata/rLogo.png) no-repeat;
+	width:88px;
+	height:88px;
+	margin:0 auto;
+	animation: 9.5s linear 0s normal none infinite rotate;
+	-webkit-animation:9.5s linear 0s normal none infinite rotate;
+}
+.logo_icon_2{
+	background:url(../../images/bigdata/rLogo.png) no-repeat 0 -88px;
+	height:88px;
+	animation: 9.5s linear 0s normal none infinite rotateBak;
+	-webkit-animation:9.5s linear 0s normal none infinite rotateBak;
+}
+.logo_icon_3{
+	background:url(../../images/bigdata/rLogo.png) no-repeat 0 -176px;
+	height:88px;
+	animation: 9.5s linear 0s normal none infinite rotateBak2;
+	-webkit-animation:9.5s linear 0s normal none infinite rotateBak2;
+}
+.topLogoText{
+	background: url(../../images/bigdata/bigdata/sprite.png) no-repeat -6px -500px;
+	width:220px;
+	height:18px;
+	margin:6px auto 0;
+	overflow:hidden;
+	text-indent:-1000px;
+}
+.rmList li{
+	padding-left:50px;
+	height:38px;
+	line-height:38px;
+}
+.rmList li:hover{
+	background:rgba(255,255,255,0.1);
+}
+.rmList li a{
+	font-family:'微软雅黑';
+	font-size:16px;
+	color: #FFF;
+	display:block;
+	width:161px;
+	height:38px;
+	text-align:center;
+}
+.rmList li a:hover{
+	text-decoration: none;
+}
+.rmList li a i{
+	background:#3284bb;
+	border-radius:50% 0 50% 50%;
+	display:block;
+	float:left;
+	width:21px;
+	height:21px;
+	margin:10px 0 0;
+}
+.rmList li:nth-child(1) a i{
+	background:#3284bb;
+}
+.rmList li:nth-child(2) a i{
+	background:#c7473b;
+}
+.rmList li:nth-child(3) a i{
+	background:#17a48b;
+}
+.rmList li:nth-child(4) a i{
+	background:#845295;
+}
+.rmList li:nth-child(5) a i{
+	background:#c97124;
+}
+.rmList li a:hover i{
+	-webkit-animation:myfirst .3s;
+	animation-direction:normal;
+	border-radius:50% 50% 0 50%;
+}
+
+
+@-webkit-keyframes myfirst
+{
+from {border-radius:50% 0 50% 50%;}
+to {border-radius:50% 50% 0 50%;}
+}
+
+.menuBoxBtn{
+	display:block;
+	width:100%;
+	height:30px;
+	
+}
+.menuBoxBtn span{
+	background: url(../../images/bigdata/sprite.png) no-repeat 17px -740px;
+	display:block;
+	width:65px;
+	height:30px;
+	margin:0 auto;
+	opacity:0.4;
+}
+.menuBoxBtn:hover span{
+	opacity:1;
+}
+
+.navButton a{
+	display:block;
+	margin:auto;
+	width:60px;
+	height:60px;
+	background:rgba(24,64,87,0.5);
+	position:fixed;
+	bottom:0px;
+	right:0px;
+}
+.navButton a:hover {
+	background:rgba(24,64,87,1.0);
+}
+.arrowUp{
+	background: url(../../images/bigdata/sprite.png) no-repeat -52px -743px;
+	display:block;
+	margin:auto;
+	width:30px;
+	height:17px;
+	margin-top:20px;
+}
+
+
+/********************** 右侧导航样式 End ************************/
+
+
+@-webkit-keyframes rotate{
+from{-webkit-transform:rotate(0deg)}
+to{-webkit-transform:rotate(360deg)}
+}
+@-webkit-keyframes rotateBak{
+from{-webkit-transform:rotate(360deg)}
+to{-webkit-transform:rotate(-360deg)}
+}
+@-webkit-keyframes rotateBak2{
+from{-webkit-transform:rotate(0deg)}
+to{-webkit-transform:rotate(360deg)}
+}
+
+
+/********************** 法人库样式 Start *****************/
+.modItem_right{
+	width:370px;
+	height:338px;
+}
+.instItem_long{
+	width:178px;
+	height:251px;
+}
+.instItem{
+	width:178px;
+	height:163px;
+}
+/*** 导航样式 Start ***/
+.head-nav{
+	width:558px;
+	margin:0 auto;
+	padding:13px 0 0;
+	height:60px;
+}
+.head-nav .top-logo{
+	float:left;
+	margin:41px 0 0;
+}
+.head-nav .hd-nav-box{
+	position:relative;
+	*zoom:1;
+}
+.head-nav .nav-list{
+	position:relative;
+	margin-left:3px;
+	z-index:10;
+}
+.head-nav .nav-list li{
+	background: url(../../images/bigdata/hangye.png) no-repeat;
+	float:left;
+	width:100px;
+	height:61px;
+	margin-left:9px;
+}
+.head-nav .nav-list li h3{
+	font-size:12px;
+	text-align:center;
+}
+.head-nav .nav-list li h3 a{
+	width:100px;
+	height:61px;
+	display:block;
+	overflow:hidden;
+	text-indent:-999em;
+}
+.head-nav .nav-list li h3 a:hover{
+	text-decoration:none;
+}
+.head-nav .menu-hover{
+	background:rgba(179, 48, 56, .1);
+	border:1px solid #69262f;
+	border-radius:5px;
+	width:100px;
+	height:61px;
+	position:absolute;
+	left:9px;
+	bottom:0px;
+	z-index:8;
+}
+.head-nav .nav-list li:nth-child(1){
+	background-position:0 -6px;
+}
+.head-nav .nav-list li:nth-child(2){
+	background-position:0px -80px;
+}
+.head-nav .nav-list li:nth-child(5){
+	background-position:0px -298px;
+}
+.head-nav .nav-list li:nth-child(4){
+	background-position:0px -229px;
+}
+.head-nav .nav-list li:nth-child(3){
+	background-position:0px -155px;
+}
+.head-nav .nav-list li:nth-child(6){
+	background-position:-345px -300px;
+}
+.head-nav .nav-list li:nth-child(7){
+	background-position:-345px -360px;
+}
+.head-nav .nav-list li:nth-child(8){
+	background-position:-345px -420px;
+}
+.head-nav .position_00{
+	background:rgba(179, 48, 56, .1);
+	border:1px solid #69262f;
+}
+.head-nav .position_01{
+	background:rgba(117, 166, 83, .1);
+	border:1px solid #c47731;
+}
+.head-nav .position_02{
+	background:rgba(196, 119, 49, .1);
+	border:1px solid #75a653;
+}
+.head-nav .position_03{
+	background:rgba(255, 49, 193, .1);
+	border:1px solid #ff31c1;
+}
+.head-nav .position_04{
+	background:rgba(196, 119, 49, .1);
+	border:1px solid #c47731;
+}
+.head-nav .position_05{
+	background:rgba(0, 122, 204, .1);
+	border:1px solid #007acc;
+}
+.head-nav .position_06{
+	background:rgba(149, 36, 48, .1);
+	border:1px solid #952430;
+}
+.head-nav .position_07{
+	background:rgba(109, 158, 69, .1);
+	border:1px solid #6d9e45;
+}
+
+
+.meterBigBox{
+	width:558px;
+	height:290px;
+	position:absolute;
+	top:60px;
+	left:1px;
+}
+/*** 导航样式 End ***/
+
+/********************** 法人库样式 End *****************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

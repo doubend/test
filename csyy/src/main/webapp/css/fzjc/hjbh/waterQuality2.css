@@ -1,0 +1,242 @@
+body,html{
+    width: 100%;
+    font-family: "Microsoft YaHei", "΢���ź�";
+    background-color: #E5E5E5;
+}
+.pageInfo{
+    height: 5%;
+    padding: 0 0.5rem 0 0.2rem;
+    color: #807E7F;
+}
+.pageInfo i{
+    height: 29px;
+    width: 28px;
+    float: left;
+    display: inline-block;
+    background: url("../../../image/common/travelHome.png")  no-repeat center;
+}
+.pageInfo span{
+    line-height:1.4rem;
+    color: #807E7F;
+}
+.waterQuality{
+    width: 100%;
+    padding: 0;
+    height:94.5%;
+    position:relative;
+}
+/*.wrapp.boxBottom ul.bar*/
+    /*定义滚动条宽高及背景，宽高分别对应横竖滚动条的尺寸*/
+.waterQuality .bar::-webkit-scrollbar{
+    width: 8px;
+    height: 16px;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+}
+/*定义滚动条的轨道，内阴影及圆角*/
+.waterQuality .bar::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #E7E7E3;
+    border-radius: 10px;
+}
+/*定义滑块，内阴影及圆角*/
+.waterQuality .bar::-webkit-scrollbar-thumb{
+    height: 20px;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #d3d3d3;
+}
+.waterQuality .o-auto{
+	overflow:auto;
+}
+.waterQuality .h100{
+	height:100%;
+	width:100%;
+}
+.waterQuality .h20{
+	height:20%;
+	width:100%;
+}
+.waterQuality .h80{
+	height:80%;
+	width:100%;
+}
+.waterQuality .w50{
+	height:99%;
+	width:50%;
+	cursor:pointer;
+}
+.waterQuality .fine1{
+    background-color:#009966;
+}
+.waterQuality .fine2{
+    background-color:red;
+}
+.waterQuality .airLeft{
+    width: 30%;
+    height:100%;
+    background-color: rgba(255,255,255,.3);
+    position:absolute;
+    top:0;
+    left:0;
+    border:1px solid #e5e5e5;
+    z-index:999;
+}
+.waterQuality .airLeft .head{
+	width:100%;
+	height:3rem;
+	background-color: #f6f7f8;
+}
+.waterQuality .airLeft .head .w50{
+	color:#262e3d;
+	font-size:1rem;
+	line-height:3rem;
+    text-align: center;
+    font-weight: 700;
+}
+.waterQuality .airLeft .head .active{
+	color: #005596;
+    border-bottom: 3px solid #005596;
+}
+.waterQuality .airLeft .bottom{
+	width:100%;
+	height:calc(100% - 3rem);
+	overflow:auto;
+}
+.waterQuality .airLeft .bottom .select{
+	height:12%;
+	width:100%;
+}
+.waterQuality .airLeft .bottom .select select{
+	height:68%;
+	width:90%;
+	appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+	background: #fff url("../../../image/fzjc/hjbh/select-bg.png") no-repeat right center;
+	margin:5% 5%;
+	font-size:0.8rem;
+	padding-left:0.5rem;
+}
+.waterQuality .airLeft .bottom  table{
+    width: 94%;
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+.waterQuality .airLeft .bottom #listInfo,#clear-water tr{
+	cursor:pointer;
+}
+.waterQuality .airLeft .bottom  table td,th{
+	height:1rem;
+	line-height:1rem;
+	text-align:center;
+	border-bottom:1px solid #d3d3d3;
+	font-size:0.7rem;
+	color:#333;
+}
+.waterQuality .airLeft .bottom  table td a{
+	color:#333;
+}
+.waterQuality .airLeft .bottom  table th{
+	border-top:1px solid #d3d3d3;
+}
+.waterQuality .airLeft .bottom  table tr.hightColor{
+	background-color:#12D18B !important;
+}
+.waterQuality .airLeft .bottom  table tr:nth-child(odd){
+	background-color:#f5f5f5;
+}
+.waterQuality .airLeft .bottom  table tr:nth-child(even){
+	background-color:#fff;
+}
+.waterQuality .airLeft .bottom  .charts{
+	height:12rem;
+	width:100%;
+	margin-top:2%;
+	position:relative;
+}
+.waterQuality .airLeft .bottom  .charts select{
+	position:absolute;
+	height:1rem;
+	width:4rem;
+	padding-left:0.5rem;
+	appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+	background: #fff url("../../../image/fzjc/hjbh/select-bg.png") no-repeat right center;
+	z-index:99;
+}
+.waterQuality .airLeft .bottom  .charts .sel1{
+	left: 32%;
+	top:5%;
+}
+.waterQuality .airLeft .bottom  .charts .sel2{
+	left: 60%;
+	top:5%;
+}
+.waterQuality .airLeft .bottom  #charts,#charts1{
+	height:100%;
+	width:100%;
+}
+.waterQuality .airLeft .bottom .ranking{
+	position:relative;
+}
+.waterQuality .airLeft .bottom .ranking select{
+	position:absolute;
+	left: 50%;
+	top:2%;
+}
+.waterQuality .airLeft .bottom .ranking .title {
+	font-size:18px;
+	margin-top:6px;
+	margin-left:3%;
+	color:#333;
+	font-family: 'Microsoft YaHei';
+	font-weight: 600;
+}
+.waterQuality .airRight{
+    height: 100%;
+    width: 100%;
+}
+.waterQuality #airRight{
+    height: 100%;
+    width: 100%;
+    z-index:0;
+}
+
+.waterQuality #legend {
+    position: absolute;
+    right: 0.5rem;
+    bottom: 0.5rem;
+    border: 1px solid #e5e5e5;
+    z-index: 999;
+    background-color: rgba(255,255,255,.5);
+}
+
+.waterQuality #legend li {
+    margin: 0.5rem;
+    font-size: 0.7rem;
+    z-index: 1999;
+}
+.waterQuality #legend i {
+    display: inline-block;
+    height: 0.5rem;
+    width: 1rem;
+    margin-right: 0.5rem;
+    vertical-align: middle;
+}
+.choice{
+	position: absolute;
+    top: 2%;
+   	right:4%;
+    z-index: 10000;
+    font-size: 16px;
+    color: #000;
+    height: 30px;
+    line-height: 30px;
+}
+.textbox{
+	width:105px !important;
+}

@@ -1,0 +1,7 @@
+@CHARSET "UTF-8";
+ .BMap_cpyCtrl .BMap_noprint .anchorBL{
+ display:none;
+ }
+ .anchorBL{
+ display:none;
+ }

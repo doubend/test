@@ -1,0 +1,42 @@
+.signs-platform .signs-index .signs-bg-city .signs-top .signs-top-index:hover {
+    background-color: #1677ba;
+}
+.signs-platform .signs-index .signs-bg-city .signs-top .signs-top-index {
+    background: url(../../image/cstz/signs-top-index.png) no-repeat center bottom;
+    background-color: #1d82c8;
+    border: 3px solid #01538d;
+    border-radius: 10px;
+    height: 120px;
+    width: 210px;
+    margin: 0 auto;
+    position: relative;
+    color: #fff;
+}
+.signs-platform .signs-index .signs-bg-city .signs-top .signs-top-index1:hover {
+    background-color: #1677ba;
+}
+.signs-platform .signs-index .signs-bg-city .signs-top .signs-top-index1 {
+    background-color: #1d82c8;
+    border: 3px solid #01538d;
+}
+.signs-platform .signs-index .signs-bg-city .signs-top .signs-top-index2:hover {
+    background-color: #009a46;
+}
+.signs-platform .signs-index .signs-bg-city .signs-top .signs-top-index2 {
+    background-color: #07af50;
+    border: 3px solid #07af50;
+}
+.signs-platform .signs-index .signs-bg-city .signs-top .signs-top-index3:hover {
+    background-color: #db7600;
+}
+.signs-platform .signs-index .signs-bg-city .signs-top .signs-top-index3 {
+    background-color: #fa8900;
+    border: 3px solid #fa8900;
+}
+.signs-platform .signs-index .signs-bg-city .signs-top .signs-top-index4:hover {
+    background-color: #db0058;
+}
+.signs-platform .signs-index .signs-bg-city .signs-top .signs-top-index4 {
+    background-color: #fc0160;
+    border: 3px solid #fc0160;
+}

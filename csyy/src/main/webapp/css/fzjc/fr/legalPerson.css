@@ -1,0 +1,115 @@
+.legal-person {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    font-family: "Microsoft YaHei", "微软雅黑";
+    background-color: #E5E5E5;
+}
+.legal-person .banner{
+    height: 7.6rem;
+    width: 98.5%;
+    margin: 0.5rem;
+    margin-top : 0;
+    background: url("../../../image/fzjc/fr/legal-person.jpg") no-repeat center;
+    background-size: 100% 100% ;
+}
+.legal-person .top,.bottom {
+    height: 15rem;
+    width: 98.5%;
+    margin: 0.5rem;
+    /*margin-bottom:0px;*/
+}
+.legal-person .legalBox {
+    height: 100%;
+    width: 32.9%;
+    background-color: #fff;
+    margin-right: 0.4rem;
+    position: relative;
+}
+.legal-person .legalBox .unit{
+    position: absolute;
+    top: 14px;
+    left: 238px;
+    color: #6C6C6C;
+    font-size:12px;
+}
+.legal-person .legalBox .unit1{
+    top: 14px;
+    left: 198px;
+}
+.legal-person .legalBox .unit2{
+    top: 14px;
+    left: 148px;
+}
+.legal-person .legalBox .total{
+    position: absolute;
+    top: 48%;
+    /* left: 44%; */
+    height: 16%;
+    width: 100%;
+    text-align: center;
+}
+.legal-person .legalBox .total p{
+    color: #272535;
+}
+.legal-person .legalBox .total p:first-child{
+    color: #272535;
+    font-size: 20px;
+}
+.legal-person .legalBox:last-child {
+    margin-right: 0px;
+}
+.legal-person #legalCharts1,#legalCharts2,#legalCharts3,#legalCharts4,#legalCharts5,#legalCharts6{
+    height: 100%;
+    width: 100%;
+}
+.legal-person .legalCharts6 .title{
+    color: #25313F;
+    font-size: 16px;
+    font-weight: 700;
+    height: 10%;
+    line-height: 2rem;
+    margin-left: 0.8rem;
+}
+.legal-person .legalCharts6 table{
+    border-collapse: collapse;
+    text-align: left;
+    width: 92.7%;
+    margin: 0.4rem 0.8rem 0.8rem;
+    text-align: center;
+}
+.legal-person .legalCharts6 table th,td{
+    height: 1.5rem;
+    line-height: 1.5rem;
+    border: 1px solid #e7e7e7;
+    color: #6B6B6B;
+}
+.legal-person .legalCharts6 table th{
+    color: #333333;
+}
+.legal-person .legalCharts6 table .special{
+    text-align: center;
+}
+.legal-person .legalCharts6 table tr{
+    border: 1px solid #e7e7e7;
+}
+.legal-person .legalCharts6 table tr:nth-child(odd){
+    background: #F1F1F1;
+}
+.legal-person .legalCharts6 table i{
+    display: inline-block;
+    margin-top: 0.35rem;
+    vertical-align: middle;
+}
+.legal-person .legalCharts6 table i.top{
+    height: 15px;
+    width: 11px;
+    background: url("../../../image/fzjc/fr/airTop.png") no-repeat;
+    /*vertical-align: middle;*/
+}
+.legal-person .legalCharts6 table i.bottom{
+    height: 15px;
+    width: 11px;
+    background: url("../../../image/fzjc/fr/airBottom.png") no-repeat;
+    /*vertical-align: middle;*/
+}

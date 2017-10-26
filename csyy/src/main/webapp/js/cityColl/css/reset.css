@@ -1,0 +1,10 @@
+/* reset */
+html,body{height:100%;}
+body,div,ul,li,span,i,em,strong,a,header,img,p,form,h1,h2,h3,h4,h5,h6,th,td{ margin: 0; padding: 0; text-decoration: none; font-family:"微软雅黑", "Microsoft YaHei";}
+img{ vertical-align: top; }
+ul{ list-style: none; }
+img{border:0;}
+*{box-sizing: border-box;}
+strong,i,em{ font-style: normal; outline: none; }
+.clearfix:after{ display: block; height: 0; font-size: 0; clear: both; visibility: hidden; content: '.'; }
+.clearfix{ zoom: 1; }

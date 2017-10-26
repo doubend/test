@@ -1,0 +1,504 @@
+html, body {
+    height: 100%;
+}
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+/*导航条样式样式*/
+.pageInfo{
+    height: 34px;
+    padding: 6px  10px 6px 0px;
+    color: #807E7F;
+    font-size: 12px;
+}
+.pageInfo i{
+    height: 15px;
+    width: 15px;
+    float: left;
+    display: inline-block;
+    margin-right:0.3rem;
+    background: url("../../../image/common/travelHome.png") no-repeat center;
+    margin-top: 0.2%;
+}
+.pageInfo span{
+    line-height:22px;
+    color: #807E7F;
+}
+.w50{
+    height: 100%;
+    width: 50%;
+    cursor: pointer;
+    line-height: 300%;
+}
+.textLeft{
+    text-align: left;
+    font-size: 1.5rem;
+}
+.textRight{
+    text-align: right;
+    font-size: 1.5rem;
+
+}
+.text-color1{
+    color: #013861;
+}
+.text-color2{
+    color: #fff;
+}
+.mgt-6{
+    margin-top:0.3rem;
+}
+.trafficNew {
+    height: 100%;
+    width: 100%;
+    min-width: 1000px;
+    min-height: 600px;
+    padding: 0.5rem;
+    background-color: #f5f5f5;
+}
+.trafficNew .bdr0{
+    border-right: 0px !important;
+}
+.trafficNew{
+    height: 100%;
+    width: 100%;
+    min-width: 1024px;
+    min-height: 560px;
+    padding:0.5rem;
+    padding-top:0px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+.trafficNew .wrapper{
+    width: 100%;
+    height:calc(100% - 34px);
+    position: relative;
+    border:1px solid #959595;
+}
+.trafficNew .h100{
+    height: 100%;
+    width: 100%;
+}
+.trafficNew .h50{
+    height: 50%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+.trafficNew .w27{
+    width: 27%;
+    height: 100%;
+    padding: 0.5rem 1rem;
+    padding-bottom:0px;
+}
+.trafficNew .w46{
+    width: 46%;
+    height:100%;
+    padding: 1rem;
+    padding-bottom:0px;
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+.trafficNew .tLeft{
+    height:27%;
+    width:calc(100% - 50px);
+    background-color: #0065AD;
+    position: absolute;
+    top: 0;
+    left: 50px;
+    z-index:100;
+}
+.trafficNew .bgc1{
+    background-color: #013861;
+}
+.trafficNew .bgc2{
+    background-color: #00538F;
+}
+.trafficNew .bgc3{
+    background-color: #DAEDFC;
+}
+.trafficNew .wrapper .meau{
+    height: 100%;
+    width: 50px;
+    background-color: #013861;
+    position: relative;
+}
+.bottom-bus{
+    position: absolute;
+    bottom:14px;
+    left:66px;
+    right:18px;
+    width:calc(100% - 84px);
+    height:38%;
+    z-index:100;
+}
+.bottom-bus .w400{
+    height: 100%;
+    width:calc((100% - 32px) / 4);
+    border:1px solid #959595;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 0px 12px #959595;
+    -moz-box-shadow: 0px 0px 12px #959595;
+    -o-box-shadow: 0px 0px 12px #959595;
+    -ms-box-shadow: 0px 0px 12px #959595;
+    box-shadow: 0px 0px 12px #959595;
+}
+.bottom-bus .w100{
+    height: 100%;
+    width:calc((100% - 32px) / 4 *2);
+    border:1px solid #959595;
+    position: relative;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 0px 12px #959595;
+    -moz-box-shadow: 0px 0px 12px #959595;
+    -o-box-shadow: 0px 0px 12px #959595;
+    -ms-box-shadow: 0px 0px 12px #959595;
+    box-shadow: 0px 0px 12px #959595;
+}
+.trafficNew .wrapper .title{
+    height:40px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+}
+.trafficNew .wrapper .chart{
+    height: calc(100% - 70px);
+    width: 100%;
+}
+.trafficNew .wrapper #chart{
+     height: 100%;
+     width: 100%;
+ }
+.trafficNew .wrapper .meau li{
+    height: 4rem;
+    min-height: 80px;
+    width: 100%;
+    cursor: pointer;
+    border-bottom: 1px solid #013861;
+}
+.trafficNew .wrapper .meau li .h50{
+    position: relative;
+}
+.trafficNew .wrapper .meau li i{
+    display: block;
+    height: 26px;
+    width: 26px;
+    vertical-align: middle;
+    position: absolute;
+    top:50%;
+    margin-top:-6px;
+    left:50%;
+    margin-left:-13px;
+}
+.trafficNew .wrapper .meau li:last-child{
+    border-bottom: 0px;
+}
+.trafficNew .wrapper .meau li:first-child i{
+    background: url("../../../image/ztfx/jtcx/roadLine.png") no-repeat center;
+}
+.trafficNew .wrapper .meau li:nth-child(2) i{
+    background: url("../../../image/ztfx/jtcx/roadTime.png") no-repeat center;
+}
+.trafficNew .wrapper .meau li:nth-child(3) i{
+    background: url("../../../image/ztfx/jtcx/roadCover.png") no-repeat center;
+}
+.trafficNew .wrapper .meau li:last-child i{
+    background: url("../../../image/ztfx/jtcx/roadSpeed.png") no-repeat center;
+}
+.trafficNew .tRight{
+    width: calc(100% - 50px);
+    height: 100%;   
+}
+/*公交路线分析*/
+.trafficNew  .search{
+    height: 34px;
+    width: 100%;
+    margin-bottom:10px;
+}
+.trafficNew  .search input{
+    height: 80%;
+    width: 85%;
+    margin-top: 1%;
+    padding-left: 0.2rem;
+    border-right:0px;
+    background-color: #013861;
+    display: inline-block;
+    float: left;
+    color: #fff;
+    font-size:12px;
+}
+.trafficNew  .search .btn{
+    height: 80%;
+    width: 15%;
+    background: #013861 url("../../../image/ztfx/jtcx/search.png") no-repeat center;
+    margin-top: 1%;
+    /*border: 1px solid #013861;*/
+    border-left:0px;
+    cursor: pointer;
+}
+.trafficNew  .bus-info{
+    height:calc(100% - 56px);
+    width: 100%;
+   background: url("../../../image/ztfx/jtcx/bus-bg.png") no-repeat center;
+    background-size: 100% 100%;
+}
+.trafficNew  .bus-info .num{
+    font-size: 20px;
+    color: #fff;
+    height: 86%;
+    line-height: 4rem;
+    padding-left: 20%;
+}
+.trafficNew .bus-info .num span{
+    font-size: 0.5rem;
+    color: #fff;
+}
+.trafficNew .bus-info .site{
+    font-size: 30px;
+    height: 86%;
+    width:55%;
+}
+.trafficNew .bus-info .site .icon-bus{
+    height: 100%;
+    width:40%;
+}
+.trafficNew .site .site-info{
+    width: 60%;
+}
+.trafficNew .site .site-info p{
+    color: #fff;
+    font-size: 14px;
+}
+.trafficNew .site .site-info p:first-child{
+    padding-top:1.2rem;
+}
+.trafficNew .bus-line{
+    height:30px;
+    font-size: 12px;
+    color: #fff;
+    width:100%;
+    text-align: center;
+    margin-top: -0.5rem;
+}
+.money{
+    font-size: 12px;
+    color: #fff;
+}
+.bus-right{
+    height:90%;
+    width:100%;
+}
+.bus-right li{
+    height: 50%;
+    width: 50%;
+    float: left;
+}
+.bus-right li .firstBUS{
+    color: #3399FF;
+    font-size: 12px;
+    height: 16px;
+    line-height: 16px;
+}
+.bus-right li .firstBUS span{
+    color: #fff;
+}
+.bus-right li .firstBus-icon{
+    height:calc(100% - 16px);
+    width:100%;
+    font-size: 30px;
+    color: #fff;
+    padding-left: 10%;
+}
+.bus-right li:first-child .firstBus-icon{
+    background: url("../../../image/ztfx/jtcx/firstBus1.png") no-repeat 10% center;
+}
+.bus-right li:nth-child(2) .firstBus-icon{
+    background: url("../../../image/ztfx/jtcx/firstbus2.png") no-repeat 10% center;
+}
+.bus-right li .firstBus-icon span{
+    font-size: 10px;
+}
+/*公交路线样式*/
+.bus-road{
+    height: 100%;
+    /*width:1000px;*/
+}
+.bus-road li {
+    float: left;
+    position: relative;
+    /* margin: 0 5px; */
+    height: 100%;
+    width: 35px;
+}
+.bus-road li:first-child .line{
+    top: 7px;
+    left: 2px;
+}
+.bus-road li span {
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    background-color: #0065AD;
+    border-radius: 50%;
+    border:2px solid #fff;
+}
+.bus-road li span.active{
+    background-color: #fff;
+    border:2px solid #3399FF;
+}
+.bus-road li span.star{
+    border-radius: 0%;
+    border: 0px solid #fff;
+    height: 24px;
+    width: 24px;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+    background: url(../../../image/ztfx/jtcx/busStart.png) no-repeat center;
+    /* margin-top: -38px; */
+    position: absolute;
+    top: -2px;
+    left:-4px;
+    z-index:99;
+}
+.bus-road li span.end{
+    border-radius: 0%;
+    border: 0px solid #fff;
+    height: 24px;
+    width: 24px;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+    background: url(../../../image/ztfx/jtcx/busEnd.png) no-repeat center;
+    /* margin-top: -38px; */
+    position: absolute;
+    top: -2px;
+    left:-4px;
+}
+.bus-road li .line {
+    position: relative;
+    height: 3px;
+    background-color: #fff;
+    top: -12px;
+    left: 17px;
+}
+.bus-road li em {
+    position: absolute;
+    top: 22px;
+    left: 0;
+    display: block;
+    width: 16px;
+    color: #fff;
+}
+/*右侧信息开始*/
+.trafficNew .tRight .map{
+    height:calc(100% - 2rem - 1px);
+    width: 100%;
+    background:url("../../../image/ztfx/jtcx/map-road.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+.trafficNew .w400 p{
+    height:30px;
+    line-height:30px;
+    padding-left:1rem;
+    color: #173653;
+}
+.trafficNew .w100 p{
+    height:30px;
+    line-height:30px;
+    padding-left:1rem;
+    color: #173653;
+}
+.trafficNew .one .chart-table{
+    height: calc(100% - 80px);
+}
+.trafficNew .one table{
+    height: calc(100% - 18px);
+    width: calc(100% - 18px);
+    border-collapse: collapse;
+    text-align: center;
+    margin:0.5rem;
+    margin-bottom:0px;
+   	table-layout: fixed;
+}
+.trafficNew .one table th,td{
+    text-align: center;
+    border:1px solid #E3E6EB;
+    color: #1B344A;
+    height:1.15rem;
+    
+}
+.trafficNew .one table th{
+    background-color: #E5E5E5;
+}
+.trafficNew .one table  td:last-child{
+    text-align: left;
+    width: 70% !important;
+    word-break: normal;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.trafficNew .one table  td i{
+    display: inline-block;
+    height: 19px;
+    width: 19px;
+    border-radius: 50% ;
+    background-color: #05365F;
+    line-height: 18px;
+    text-align: center;
+    color: #fff;
+    margin-right: 0.1rem;
+}
+.trafficNew .wrapper  .t160 p{
+    line-height:0px;
+}
+.trafficNew .w100 .chart2{
+    height:calc(100% - 70px);
+    width: 100%;
+}
+.trafficNew .w100 .chart2 .text{
+    height: 90px;
+    width: 20px;
+    position: absolute;
+    top: 64px;
+    left: 30px;
+    font-size: 10px;
+    color: #00376A;
+}
+.trafficNew .w100 .chart2 .text s{
+    display: block;
+    margin-left:3px;
+}
+.trafficNew .w100 .chart2 .text span{
+    transform: rotate(90deg);
+    display: block;
+}
+.trafficNew #chart2{
+    height: 100%;
+    width: 100%;
+}
+
+@media only screen and (min-width: 1600px) {
+    .trafficNew .tLeft{
+        height:22%;
+    }
+    .trafficNew .site .site-info p:first-child {
+        padding-top: 1.6rem;
+    }
+    .trafficNew .bus-info .num {
+        font-size: 30px;
+        color: #fff;
+        height: 86%;
+        line-height: 4.5rem;
+        padding-left: 20%;
+    }
+}

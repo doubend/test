@@ -1,0 +1,187 @@
+body{
+	height:100%;
+	width:100%;
+	overflow:hidden;
+/* 	background-color: #082752; */
+	font-family: "Microsoft YaHei" ! important;
+}
+.toptitle{
+	height:10%;
+	width:100%;
+	text-align:center;
+	color:#84A1F2;
+	line-height:2;
+	
+}
+.toptitle span{
+	font-size:2.5rem;
+}
+.cont3{
+	height:28%;
+	width:96%;
+	margin:1% 2%;
+}
+.leftcont{
+	width:29%;
+	height:100%;
+	float:left;
+	border:2px solid #214ABB;
+	border-radius: 0 10px 10px 0;
+}
+.wrapc{
+	border-radius: 10px 0 0 10px;
+}
+.cc{
+	float:left;
+	width:82%;
+	height:100%;
+	border:2px solid #214ABB;
+	border-width:2px 0;
+}
+.centercont{
+	height:100%;
+	width:40%;
+	margin-left:2%;
+	float:left;
+}
+.central{
+	border:2px solid #214ABB;
+	border-radius:10px;
+	width:38%;
+	margin-left:2.5%;
+}
+.center_central{
+	width:38%;
+	margin-left:2.5%;
+}
+body{
+	background: #061542;
+}
+.eve-title{
+	height:20%;
+	line-height:2.5rem;
+	font-size:20px;
+	width:100%;
+	color:#F0F2FA;
+}
+._right{
+	text-align:right;
+	padding-right:10px;
+	border-top-left-radius:10px;
+	background: -webkit-linear-gradient(right,#2953CB,#071534);
+}._left{
+	border-top-right-radius:10px;
+	background: -webkit-linear-gradient(left,#2953CB,#071534);
+	padding-left:10px;
+}
+.t_desc{
+	width:100%;
+	height:16%;
+}
+.eve_md_tt{
+	margin-left:2.5%;
+	width:30%;
+	background:#18354F;
+	float:left;
+	padding-left:5px;
+	line-height:2;  
+	font-size:12px;
+	color:#D3D6DA;
+	height:100%;
+}
+.eve_md_tt>div:last-child{
+	height:86%;
+	line-height:2;
+	margin:2% 5%;
+	float:right;
+	border-radius:10%;
+	width:45%;
+	font-size:14px;
+	text-align:center;
+}
+.eve_md_tt>div:first-child{
+	width:45%;
+	height:100%;
+	float:left;
+	line-height:1.1;
+	text-align:center;
+	padding-top:3%;
+}
+#text_desc{
+	width:100%;
+	height:auto;
+	font-size:16px;
+	padding:5px;
+	color:#C2BEBE;
+	line-height:20px;
+}
+.ct_tp>div{
+	width:22%;
+	height:100%;
+	border:2px solid #174AD1;
+	border-radius:10px;
+	margin-left:4%;
+	float:left;
+}
+.ct_bm>div{
+	width:30%;
+	height:100%;
+	margin-left:5%;
+	float:left;
+	border:2px solid #174AD1;
+	border-radius:10px;
+}
+.eve_cont{
+	margin:4%;
+	height:92%;
+	width:92%;
+	border-radius:13px;
+}
+.bgc{
+	background:#469F91;
+	text-align:center;
+	padding:7% 10% 5%;
+	font-size:100%;
+	color:#FFFFFF;
+	letter-spacing:2;
+}
+.ct_bm_eve{
+	padding:6% 5% 3% 30%;
+	font-size:180%;
+	color:#5EA8F9;
+	text-align:center;
+	line-height:1.2;
+}
+.xbb{
+	font-size:120%;
+	padding:5% 0 8% 30%;
+}
+.btm_central_lf_chart{
+	width:70%;
+	height:100%;
+	float:left;
+}
+.btm_central_rt_pie{
+	height:100%;
+	width:30%;
+	float:left;
+}
+.eveagesexinfo{
+	height:30%;
+	magin-top:2.5%;
+	widht:100%;
+	padding:40% 0;
+	font-size:80%;
+	text-align:left;
+}
+.eveagesexinfo>p:first-child{
+	color:#409ACB;
+}
+.eveagesexinfo>p:last-child{
+	color:F37979;
+}
+.btm_central_ht{
+	position:relative;
+	height:130%;
+	margin-top:-4%; 
+}

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:task="http://www.springframework.org/schema/task"
+	xsi:schemaLocation="
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd
+		http://www.springframework.org/schema/task  
+        http://www.springframework.org/schema/task/spring-task.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+	<!-- task扫描注解 -->
+	<task:annotation-driven proxy-target-class="true" />
+	<!-- 导入属性文件 -->
+	<context:property-placeholder
+		location="classpath:jdbc.properties,classpath:config.properties" />
+
+	<!-- 开启@AspectJ的aop自动代理 -->
+	<aop:aspectj-autoproxy proxy-target-class="true" />
+
+	<!-- 开启bean扫描,扫描所有添加了@Service,@Repository,@component注解的类,将它们自动注册到spring容器中 -->
+	<context:component-scan base-package="com.cloud.icenter">
+		<context:exclude-filter type="annotation"
+			expression="org.springframework.stereotype.Controller" />
+	</context:component-scan>
+	 <!-- 数据源配置 -->
+	<bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource"
+		init-method="init" destroy-method="close">
+		<!-- 驱动名称 -->
+		<property name="DriverClassName" value="${jdbc.driver}" />
+		<!-- JDBC连接串 -->
+		<property name="url" value="${jdbc.url}" />
+		<!-- 数据库用户名称 -->
+		<property name="username" value="${jdbc.username}" />
+		<!-- 数据库密码 -->
+		<property name="password" value="${jdbc.password}" />
+		<!-- 连接池最大使用连接数量 -->
+		<property name="maxActive" value="20" />
+		<!-- 初始化大小 -->
+		<property name="initialSize" value="5" />
+		<!-- 获取连接最大等待时间 -->
+		<property name="maxWait" value="60000" />
+		<!-- 连接池最小空闲 -->
+		<property name="minIdle" value="2" />
+		<!-- 逐出连接的检测时间间隔 -->
+		<property name="timeBetweenEvictionRunsMillis" value="3000" />
+		<!-- 最小逐出时间 -->
+		<property name="minEvictableIdleTimeMillis" value="300000" />
+		<!-- 测试有效用的SQL Query -->
+		<property name="validationQuery" value="SELECT 'x'" />
+		<!-- 连接空闲时测试是否有效 -->
+		<property name="testWhileIdle" value="true" />
+		<!-- 获取连接时测试是否有效 -->
+		<property name="testOnBorrow" value="false" />
+		<!-- 归还连接时是否测试有效 -->
+		<property name="testOnReturn" value="false" />
+	</bean>
+	<bean id="sessionFactory"
+		class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+		<property name="dataSource" ref="dataSource" />
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.dialect">${hibernate.dialect}</prop>
+				<prop key="hibernate.show_sql">${hibernate.show_sql}</prop>
+				<prop key="hibernate.format_sql">${hibernate.format_sql}</prop>
+				<prop key="hibernate.use_sql_comments">true</prop>
+				<prop key="hibernate.jdbc.fetch_size">25</prop>
+				<prop key="hibernate.jdbc.batch_size">25</prop>
+				<prop key="hibernate.connection.release_mode">after_transaction</prop>
+				<prop key="hibernate.generate_statistics">true</prop>
+				<prop key="hibernate.cglib.use_reflection_optimizer">true</prop>
+				<prop key="hibernate.current_session_context_class">org.springframework.orm.hibernate4.SpringSessionContext
+				</prop>
+				<prop key="hibernate.hbm2ddl.auto">${hibernate.hbm2ddl.auto}</prop>
+			</props>
+		</property>
+		<property name="packagesToScan" value="com.cloud.icenter.**.pojo" />
+		<property name="mappingLocations">
+			<list>
+				<value>classpath:hibernate/*.hbm.xml</value>
+			</list>
+		</property>
+	</bean>
+
+	<!-- 声明一个 Hibernate4 的事务管理器供代理类自动管理事务用 -->
+	<bean id="transactionManager"
+		class="org.springframework.orm.hibernate4.HibernateTransactionManager">
+		<property name="sessionFactory" ref="sessionFactory" />
+	</bean>
+
+	<!-- 使用annotation定义事务 -->
+	<tx:annotation-driven transaction-manager="transactionManager" />
+
+	<!--事务模板,用于编程式事务管理 -->
+	<bean id="transactionTemplate"
+		class="org.springframework.transaction.support.TransactionTemplate">
+		<property name="transactionManager" ref="transactionManager" />
+		<property name="isolationLevelName" value="ISOLATION_DEFAULT" />
+		<property name="propagationBehaviorName" value="PROPAGATION_REQUIRED" />
+	</bean>
+	
+	<!-- 数据源配置 -->
+	<bean id="dataSource_cj" class="com.alibaba.druid.pool.DruidDataSource"
+		init-method="init" destroy-method="close">
+		<!-- 驱动名称 -->
+		<property name="DriverClassName" value="${jdbc.cj.driver}" />
+		<!-- JDBC连接串 -->
+		<property name="url" value="${jdbc.cj.url}" />
+		<!-- 数据库用户名称 -->
+		<property name="username" value="${jdbc.cj.username}" />
+		<!-- 数据库密码 -->
+		<property name="password" value="${jdbc.cj.password}" />
+		<!-- 连接池最大使用连接数量 -->
+		<property name="maxActive" value="20" />
+		<!-- 初始化大小 -->
+		<property name="initialSize" value="5" />
+		<!-- 获取连接最大等待时间 -->
+		<property name="maxWait" value="60000" />
+		<!-- 连接池最小空闲 -->
+		<property name="minIdle" value="2" />
+		<!-- 逐出连接的检测时间间隔 -->
+		<property name="timeBetweenEvictionRunsMillis" value="3000" />
+		<!-- 最小逐出时间 -->
+		<property name="minEvictableIdleTimeMillis" value="300000" />
+		<!-- 测试有效用的SQL Query -->
+		<property name="validationQuery" value="SELECT 'x'" />
+		<!-- 连接空闲时测试是否有效 -->
+		<property name="testWhileIdle" value="true" />
+		<!-- 获取连接时测试是否有效 -->
+		<property name="testOnBorrow" value="false" />
+		<!-- 归还连接时是否测试有效 -->
+		<property name="testOnReturn" value="false" />
+	</bean>
+	<bean id="sessionFactory_cj"
+		class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+		<property name="dataSource" ref="dataSource_cj" />
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.dialect">${hibernate.cj.dialect}</prop>
+				<prop key="hibernate.show_sql">${hibernate.cj.show_sql}</prop>
+				<prop key="hibernate.format_sql">${hibernate.cj.format_sql}</prop>
+				<prop key="hibernate.use_sql_comments">true</prop>
+				<prop key="hibernate.jdbc.fetch_size">25</prop>
+				<prop key="hibernate.jdbc.batch_size">25</prop>
+				<prop key="hibernate.connection.release_mode">after_transaction</prop>
+				<prop key="hibernate.generate_statistics">true</prop>
+				<prop key="hibernate.cglib.use_reflection_optimizer">true</prop>
+				<prop key="hibernate.current_session_context_class">org.springframework.orm.hibernate4.SpringSessionContext
+				</prop>
+				<prop key="hibernate.hbm2ddl.auto">${hibernate.cj.hbm2ddl.auto}</prop>
+			</props>
+		</property>
+		<property name="packagesToScan" value="com.cloud.icenter.**.pojo" />
+		<property name="mappingLocations">
+			<list>
+				<value>classpath:hibernate/*.hbm.xml</value>
+			</list>
+		</property>
+	</bean>
+    
+     <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+
+
+	<!-- 声明一个 Hibernate4 的事务管理器供代理类自动管理事务用 -->
+	<bean id="transactionManager_cj"
+		class="org.springframework.orm.hibernate4.HibernateTransactionManager">
+		<property name="sessionFactory" ref="sessionFactory_cj" />
+	</bean>
+
+	<!-- 使用annotation定义事务 -->
+	<tx:annotation-driven transaction-manager="transactionManager_cj" />
+
+	<!--事务模板,用于编程式事务管理 -->
+	<bean id="transactionTemplate_cj"
+		class="org.springframework.transaction.support.TransactionTemplate">
+		<property name="transactionManager" ref="transactionManager_cj" />
+		<property name="isolationLevelName" value="ISOLATION_DEFAULT" />
+		<property name="propagationBehaviorName" value="PROPAGATION_REQUIRED" />
+	</bean>
+	
+	<!--1.配置作业类 -->
+	<bean id="job_license" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">  
+	    <!--targetObject指定任务类 -->
+	    <property name="targetObject">  
+			<bean class="com.cloud.icenter.quartz.license.LicenseCheck" />  
+		</property> 
+	    <!--targetMethod指定运行的方法--> 
+	    <property name="targetMethod">
+	        <value>execute</value>  
+	    </property>   
+	</bean>
+	<!--2.配置作业调度的触发方式（触发器） -->
+	<!-- 支持到指定时间运行一次，如每天12:00运行一次等。 -->
+	<bean id="cronTrigger" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">  
+	    <property name="jobDetail" ref="job_license"></property>  
+	    <property name="cronExpression" value="0 0 12 * * ?"></property>
+	   <!-- <property name="cronExpression" value="0 * 18 * * ?"></property> -->
+	</bean>
+	<!--3.配置调度工厂 -->
+	<bean class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+		<property name="triggers">
+			<list>
+				<!--配置的触发器的名字 -->
+				<ref bean="cronTrigger"/>
+			</list>
+		</property>
+	</bean>
+	
+	<!-- 指标计算定时器 -->
+	<!--1.配置作业类 -->
+	 <bean id="job_Zbjs" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">  
+	  <!--  targetObject指定任务类 -->
+	    <property name="targetObject">  
+			<bean class="com.cloud.icenter.yyzx.cstz.controller.ZbjsQuartz" />  
+		</property> 
+	     <!--targetMethod指定运行的方法 -->
+	    <property name="targetMethod">
+	        <value>execute</value>  
+	    </property>   
+	</bean> 
+	<!--2.配置作业调度的触发方式（触发器） -->
+	<!-- 支持到指定时间运行一次，如每天22:00运行一次等。 -->
+	<bean id="cronTriggerZbjs" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">  
+	    <property name="jobDetail" ref="job_Zbjs"></property>  
+	    <property name="cronExpression" value="0 0 22 * * ?"></property><!-- 测试用：0 */1 * * * ? -->
+	</bean>
+	<!--3.配置调度工厂 -->
+	<bean class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+		<property name="triggers">
+			<list>
+			<!-- 	配置的触发器的名字 -->
+				<ref bean="cronTriggerZbjs"/>
+			</list>
+		</property>
+	</bean>
+	<import resource="classpath:spring/platform-sql-service-provider.xml"/>
+	
+</beans>

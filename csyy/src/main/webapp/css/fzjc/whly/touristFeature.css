@@ -1,0 +1,91 @@
+.wrapper{width:100%;height:100%;}
+.place{width:100%;height:1.5rem;line-height:1.5rem;padding:0 0.5rem;}
+.place>i{width:1rem;height:1rem;margin-right:0.5rem;background: url("../../../image/fzjc/whly/features/home.png") no-repeat;background-size: 100%;vertical-align: middle;}
+.mainCon{position:relative;width:100%;height:calc(100% - 1.5rem);background: url("../../../image/fzjc/whly/features/body_bg.jpg") no-repeat;background-size: 100%;}
+
+/*骞翠唤娓稿缁熻*/
+.visitorStatis{position:absolute;top:1rem;left:0.75rem;}
+.outside>.sect,.outside>.personNum{float:left;}
+.inside>.sect,.inside>.personNum{float:left;}
+.inside{padding-left:3rem;margin-top:0.5rem;}
+.sect{width:2.5rem;height:2.5rem;border-radius: 5px;text-align: center;margin-right:0.5rem;}
+.year{}
+.year span:first-child{width:100%;height:1rem;line-height:1rem;background-color: #1D82C8;color:#fff;border-radius: 5px 5px 0 0;}
+.year span:last-child{width:100%;height:1.5rem;line-height:1.5rem;background-color: #fff;color:#000;border-radius:0 0 5px 5px;}
+.visitor{padding:5px;line-height: 20px;color:#fff;}
+.vi_green{background-color: #32B16C;}
+.vi_orange{background-color: #FF8A00;}
+.personNum{height:2.5rem;border-radius: 5px;}
+.personNum li{float:left;width:2.95rem;height:2.5rem;padding:0.25rem;background-color: #EEF8FA;text-align: center;}
+.personNum li:first-child{border-radius:5px 0 0 5px;}
+.personNum li:last-child{border-radius:0 5px 5px 0;}
+.personNum li>span:first-child{width:100%;color:#000;}
+.outside .personNum li>span:last-child{width:100%;color:#32B16C}
+.inside .personNum li>span:last-child{width:100%;color:#FF8A00}
+
+/*浜ら�鏂瑰紡*/
+.traffic{position:absolute;right: 2%;top: 0.8rem;width: 22%;height: 32%;}
+.traffic .title{height: 2.6rem;background: url("../../../image/fzjc/whly/features/title_bg.png") no-repeat;background-size: 100% 100%;text-align: center;color:#fff;}
+.traffic .title>span{line-height: 3;}
+.traffic .chartWrap{position:relative;width: 100%;height: calc(100% - 2.6rem);}
+.chartWrap .chart{width: 100%;height:100%;}
+.traffic .chartSign{width: 1.3rem;height: 96%;position: absolute;top:9%;left: 10%;background: url("../../../image/fzjc/whly/features/2.png") no-repeat;background-size: 100% 90%;}
+
+/*璇佷欢*/
+.certify{position:absolute;right: 2%;top:35%;width: 42%;height:28%;}
+.certify>div{float:right;}
+.certify .pie{height: 100%;width: 32%;}
+.certify .chartSign{height: 100%;width: 12%;padding-top: 1%;}
+.certify .chartSign li{height:1.5rem;line-height: 1.5rem;}
+.certify .chartSign li i{width:1rem;height:1rem;background: url("../../../image/fzjc/whly/features/1.png") no-repeat;background-size:100%;vertical-align: middle;}
+.certify .chartSign li .sign1{background-position: 0px 3px;}
+.certify .chartSign li .sign2{background-position: 0px -21px;}
+.certify .chartSign li .sign3{background-position: 0px -43px;}
+.certify .chartSign li .sign4{background-position: 0px -62px;}
+.certify .chartSign li .sign5{background-position: 0px -86px;}
+.certify .bar{width:56%;height: 100%;}
+
+/*骞撮緞*/
+.ageStatic{width: 42%;height: 33%;position: absolute;right: 2%;top: 64%;}
+.ageStatic>div{float:left;}
+.ageStatic .title{width:2.5rem;height:100%;line-height:1rem;padding-top: 0.5rem;background: url("../../../image/fzjc/whly/features/title_bg2.png") no-repeat;  background-size: 100% 100%;text-align: center;}
+.ageStatic .title>span{width:1rem;height:100%;color:#fff;margin-top：-6px;}
+.ageStatic .ageChart{position:relative;width:calc(100% - 2.5rem);height:100%;}
+.ageStatic .ageChart>div{width:100%;height:100%;}
+.ageStatic .ageChart>span{position:absolute;top:1%;left: 3%;color:#ccc;}
+.ageStatic .ageChart>i{position:absolute;top:16%;width:1.2rem;height:1.2rem;}
+.ageStatic .ageChart>i.man{left:20%;background: url("../../../image/fzjc/whly/features/man.png") no-repeat;background-size:100%;}
+.ageStatic .ageChart>i.woman{right:16%;background: url("../../../image/fzjc/whly/features/woman.png") no-repeat;background-size:100%;}
+
+/*鍦板浘*/
+.migrateMap{position:absolute;top: 20%;left:0;width: 55%;height: calc(100% - 1rem - 110px);}
+@media only screen and (min-width: 1600px) {
+	.traffic .chartSign {
+    width: 1.3rem;
+    height: 96%;
+    position: absolute;
+    top: 9%;
+    left: 6%;
+    background: url(../../../image/fzjc/whly/features/2.png) no-repeat;
+    background-size: 100% 90%;
+}
+.traffic .title>span {
+    line-height: 4.5;
+}
+.certify .chartSign li .sign2 {
+    background-position: 0px -29px;
+}
+.certify .chartSign li .sign3 {
+    background-position: 0px -60px;
+}
+.certify .chartSign li .sign4 {
+    background-position: 0px -86px;
+}
+.certify .chartSign li .sign5 {
+    background-position: 0px -122px;
+}
+.certify .chartSign li {
+    height: 1.7rem;
+    line-height: 1.7rem;
+}
+}

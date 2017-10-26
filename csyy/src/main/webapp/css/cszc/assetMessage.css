@@ -1,0 +1,207 @@
+.pageInfo{
+    height: 3%;
+    padding: 0.3rem  0.5rem 0.3rem 0.5rem;
+    color: #807E7F;
+}
+.pageInfo i{
+    height: 17px;
+    width: 15px;
+    float: left;
+    display: inline-block;
+    margin-right:0.3rem;
+    background: url("../../image/cszc/travelHome.png") no-repeat center;
+}
+.pageInfo span{
+    line-height:1rem;
+    color: #807E7F;
+} 
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.assetMessage{
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #333;
+    font-family: "Microsoft YaHei", "΢���ź�";
+}
+.assetMessage .messageLeft{
+    height: 100%;
+    width: 26%;
+    margin: 0 0.6rem;
+    background-color: #fff;
+    /*border:1px solid #031227;*/
+}
+.assetMessage  .title{
+    font-size: 1rem;
+    height: 8%;
+    width: 100%;
+    padding: 0.4rem 0 0 0.5rem;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-bottom: 1px solid #E5E5E5;
+}
+.assetMessage .messageLeft i{
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    float: left;
+    border-radius: 50%;
+    background-color: #074DAC;
+    position: relative;
+    /*background:url("../image/assetMessage.png");*/
+}
+.assetMessage  em{
+    position: absolute;
+    height: 16px;
+    width: 19px;
+    top: 8px;
+    left: 7px;
+}
+.assetMessage .messageLeft em{
+    background: url("../../image/cszc/assetMessage.png");
+}
+/*
+.assetMessage  span{
+    padding-left: 0.4rem;
+    display: inline-block;
+    margin-top: 0.4rem;
+}
+*/
+.assetMessage .messageLeft table{
+     margin-top: 0.5rem;
+    width: 98%;
+    /* height: 90%; */
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: 0.2rem;
+}
+.assetMessage .messageLeft td,th{
+    height: 1rem;
+    text-align: center;
+    border: 1px solid #E5E5E5; 
+}
+.assetMessage .messageLeft .mouseover{
+    cursor: pointer;
+    color: #004D8F;
+}
+.assetMessage .messageLeft .tdClick{
+    color: #00B4FF;
+    text-decoration: underline;
+}
+.assetMessage .messageRight{
+   height: 100%; 
+    width: 71%;
+    margin-right: 0.6rem;
+    overflow:hidden;
+}
+.assetMessage .messageRight .publicStyle{
+    height: 100%;
+    width: 100%;
+}
+.assetMessage .messageRight .bottom{
+    height: 63%;
+    width: 100%;
+    background-color: #fff;
+}
+.assetMessage .messageRight .top {
+    height: 37%;
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+.messageRight .top .topLeft{
+    height: 100%;
+    width: 49%;
+    background-color: #fff;
+}
+.messageRight .top #topChart1{
+    height: 100%;
+    width: 100%;
+}
+.messageRight .top .topRight {
+    height: 100%;
+    width: 50%;
+    background-color: #fff;
+}
+.messageRight .top #topChart2{
+    height: 100%;
+    width: 76%;
+}
+.messageRight .top #topChart3{
+    height: 100%;
+    width: 24%;
+}
+.assetMessage .messageRight .four {
+    height: 50%;
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+.messageRight .four .topLeft{
+    height: 100%;
+    width: 49%;
+    background-color: #fff;
+}
+.messageRight .four .fourChart{
+    height: 100%;
+    width: 100%;
+}
+.messageRight .four .topRight {
+    height: 100%;
+    width: 50%;
+    background-color: #fff;
+}
+.situation{
+    height: 80%;
+    width: 90%;
+    border: 1px solid #E3E3E3;
+    margin-left:0.8rem;
+    /* background-color: #11195C; */
+}
+.situation .scale{
+    font-size: 0.8rem;
+    font-weight: normal;
+    color: #000;
+    margin: 0.8rem 0 0.3rem 0.8rem;
+				
+}
+.situation table{
+    width: 81%;
+    border-collapse: collapse;
+    text-align: center;
+    /* margin: 8px 8px 8px 12px; */
+    margin-left: 1.1rem;
+    /*color: #fff;*/
+}
+.situation td{
+    height: 1.4rem;
+    text-align: center;
+    border: 1px solid #E5E5E5;
+}
+.situation th{
+    height: 1.4rem;
+    text-align: center;
+    border: 1px solid #E5E5E5;
+}
+.situation tr:first-child{
+    border-bottom: 1px solid #252C69;
+}
+.fourChart p{
+   	font-size: 0.8rem;
+    padding-top: 0.50rem;
+    margin: 0rem 0 1rem 0.8rem;
+    font-weight: 700;
+}    
+td p{
+	font-size: 0.8rem;
+    padding-top: 0.50rem;
+    margin: 0rem 0 1rem 0.8rem;
+    font-weight: 700;
+}

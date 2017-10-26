@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sqlXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="sql.xsd">
+  <select key="queryMap" des="社保地图显示" author="dxliug">
+   <sql>
+    select t1.* ,t2.QY as hqy from rktjxx_rkstj t1
+    left JOIN rkxx_bm_area t2 on t1.QY = t2.CODE
+    LEFT JOIN rkxx_bm_tjztfl t3 
+     on t1.ZTFL = t3.CODE   
+     where t1.tjnf = #{nian} and t1.ZTFL in (0800,0801,0802,0803,0804,0805,0806)
+     order by qy asc
+   </sql>
+  </select>
+  <select key="queryNum" des="查询总人口" author="dxliug">
+   <sql>
+    select t2.QY,SUM(rs) as ars from rktjxx_rkstj t1 left JOIN rkxx_bm_area t2 on t1.QY = t2.CODE
+     where xb = 0 
+      and ZTFL = 0000 and MZ = 00 and NLD = 00 and whcd  = 00 
+      #<!-- and RKJBLX = 0 -->
+      AND tjnf =  #{nian}
+    GROUP BY qy 
+    order by qy asc 
+   </sql>
+  </select>
+  
+  <select key="querySocial" des="社保情况饼图" author="dxliug">
+    <sql>
+     select t1.* ,t2.QY as hqy from rktjxx_rkstj t1
+    left JOIN rkxx_bm_area t2 on t1.QY = t2.CODE
+    LEFT JOIN rkxx_bm_tjztfl t3 
+     on t1.ZTFL = t3.CODE 
+    </sql>
+    <trim prefix="where">
+     <if test="#nian!=null" prefix="and">
+       <exp>
+            t1.TJNF = #{nian}
+         </exp>
+     </if>
+     <if test="#qy!=null" prefix="and" >
+          <exp>
+            t2.QY = #{qy}
+          </exp>
+      </if>
+    </trim>
+    and t1.ZTFL in (0801,0802,0803,0804,0805,0806)
+    order by qy asc
+  </select>
+  
+  <select key="queryAmount" des="参保金额结构图" author="dxliug">
+   <sql>
+	select t1.*,t2.SBJN as hsbjn,t3.QY as hqy from rktjxx_sbxx t1
+	LEFT JOIN rkxx_bm_sbjnlx t2 ON t1.SBJJLX = t2.CODE
+	left JOIN rkxx_bm_area t3 on t1.QY = t3.CODE
+    where t1.tjnf = #{nian} and t1.SBJJLX in (03,04,05)
+    order by qy asc
+  </sql>
+  </select>
+  <select key="queryPeople" des="参保人数查询" author="dxliug">
+  <sql>
+   select t1.RS,t1.ZTFL,t1.QY,t2.TJZTFL as TJZTFL,t3.QY as hqy from rktjxx_rkstj t1
+	LEFT JOIN rkxx_bm_tjztfl t2 ON t1.ZTFL = t2.CODE
+	left JOIN rkxx_bm_area t3 on t1.QY = t3.CODE
+    where t1.tjnf = #{nian} and t1.ZTFL in (0807,0808,0809)
+        order by qy asc
+    </sql>
+  </select>
+ <!--  <select key="" des="贫困家庭情况" author="dxliug">
+    <sql>
+     select t1.RS ,t1.ZTFL,t2.TJZTFL,t1.TJNF,t3.QY from rktjxx_rkstj t1
+     LEFT JOIN rkxx_bm_tjztfl t2 on  t1.ZTFL = t2.CODE 
+     LEFT JOIN rkxx_bm_area t3 on t1.QY = t3.CODE
+     where  t1.ZTFL in (0902,0903,0908,0906,0907)     
+            t1.tjnf = #{nian}
+   </sql>
+  </select>
+  
+  <select key="" des="查询支出金额" author="dxliug">
+   <sql>
+     select t1.JFZCLX,t2.TPNL,t1.SJZC,t1.TJNF,t3.QY from rktjxx_rkfyzc t1 LEFT JOIN rkxx_bm_rkjfzclx t2 ON t1.JFZCLX = t2.CODE
+     LEFT JOIN rkxx_bm_area t3 ON t1.QY = t3.CODE
+     where t1.JFZCLX in (0001,0002)
+           t1.tjnf = #{nian}
+   </sql>
+  </select> -->
+  
+  
+  </sqlXml>

@@ -1,0 +1,161 @@
+@charset "UTF-8";
+/*css 初始化 */
+html, body {
+    margin: 0;
+    padding: 0;
+    border:0;
+    font-family: "Microsoft YaHei", "微软雅黑";
+    /*font-size: 100%;*/
+}
+div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft YaHei", "微软雅黑";
+    font-size: 12px;
+}
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+}
+/*各浏览器显示不同，去掉蓝色边框*/
+fieldset, img, input, button {
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline-style: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: "Microsoft YaHei", "微软雅黑";
+}
+
+/*去掉行内替换元素空白缝隙*/
+select, input {
+    vertical-align: middle;
+}
+
+select, input, textarea {
+    font-size: 12px;
+    margin: 0;
+}
+
+/*防止拖动 影响布局*/
+textarea {
+    resize: none;
+}
+
+/*去掉行内替换元素空白缝隙*/
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+body {
+    font: 100% Microsoft YaHei;
+    color: #6B6B6B;
+    background-color: #f5f5f5;
+}
+
+/*清除浮动*/
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1; /*IE/7/6*/
+}
+
+a {
+    color: #6B6B6B;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+s, i, em {
+    font-style: normal;
+    text-decoration: none;
+}
+
+/*公共类*/
+.w {
+    /*版心 提取 */
+    width: 100%;
+    margin: 0 auto;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+iframe {
+    border: 0;
+}
+/*用到的边距值*/
+.mgt-10{
+    margin-top:0.5rem;
+}
+.mgb-10{
+    margin-bottom: 0.5rem;
+}
+.pdl-10{
+    padding-left:0.5rem;
+}
+/*导航条样式样式*/
+.pageInfo{
+    height: 34px;
+    width:100%;
+    padding: 6px  10px 6px 0px;
+    color:#87D9AB;
+    font-size: 12px;
+}
+.pageInfo i{
+    height: 15px;
+    width: 15px;
+    float: left;
+    display: inline-block;
+    margin-right:0.3rem;
+    background: url("../../../image/fzjc/education/travelHome.png") no-repeat center;
+    margin-top: 0.2%;
+}
+.pageInfo span{
+    line-height:20px;
+    color: #87D9AB;
+}

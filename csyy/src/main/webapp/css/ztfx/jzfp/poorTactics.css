@@ -1,0 +1,26 @@
+.poorTactics {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    font-family: "Microsoft YaHei", "微软雅黑";
+    background-color: #E5E5E5;
+}
+.poorTactics .top,.bottom {
+    height: 15rem;
+    width: 98.5%;
+    margin: 0.5rem;
+    /*margin-bottom:0px;*/
+}
+.poorTactics .poorBox {
+    height: 100%;
+    width: 32.9%;
+    background-color: #fff;
+    margin-right: 0.4rem;
+}
+.poorTactics .poorBox:last-child {
+    margin-right: 0px;
+}
+.poorTactics #poorCharts1,#poorCharts2,#poorCharts3,#poorCharts4,#poorCharts5,#poorCharts6{
+    height: 100%;
+    width: 100%;
+}

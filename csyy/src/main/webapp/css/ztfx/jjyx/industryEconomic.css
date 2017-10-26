@@ -1,0 +1,240 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.pageInfo{
+    height: 3%;
+    padding: 0.3rem  0.5rem 0.3rem 0.5rem;
+    color: #807E7F;
+}
+.pageInfo i{
+    height: 15px;
+    width: 15px;
+    float: left;
+    display: inline-block;
+    margin-right:0.3rem;
+    background: url("../../../image/common/travelHome.png") no-repeat center;
+}
+.pageInfo span {
+    line-height: 1rem;
+    color: #807E7F;
+}
+.industryEconomic {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    font-family: "Microsoft YaHei", "微软雅黑";
+    background: url("../../../image/ztfx/jjyx/in-bg.png") no-repeat ;
+    background-size: 100% 100%;
+}
+.industryEconomic .h45{
+    height: 48%;
+    width: 100%;
+}
+.industryEconomic .h47{
+    height: 48%;
+    width: 100%;
+}
+.industryEconomic .h6{
+    height: 4%;
+    width: 100%;
+}
+.industryEconomic .h50{
+    height: 50%;
+    width: 100%;
+}
+.industryEconomic .h33{
+    height: 33%;
+    width: 100%;
+}
+.industryEconomic .w26{
+    width: 26%;
+    height: 100%;
+}
+.industryEconomic .w46{
+    width: 46%;
+    height: 100%;
+}
+.industryEconomic .top{
+    height: 14%;
+    width: 100%;
+    position: relative;
+}
+.industryEconomic .content{
+    height: 70%;
+    width: 100%;
+}
+.industryEconomic .top .time{
+    height: 2.7rem;
+    width: 2.7rem;
+    position: absolute;
+    top: 0.9rem;
+    left: 1.9rem;
+    border-radius: 5px;
+}
+.industryEconomic .top .time .year{
+    height: 0.9rem;
+    line-height: 0.9rem;
+    width: 100%;
+    color: #fff;
+    background: #1D82C8;
+    border-radius: 5px 5px  0 0;
+    font-size: 0.6rem;
+    font-weight: 400;
+    text-align: center;
+}
+.industryEconomic .top .time .year1{
+    color: #333;
+    background: #fff;
+    border-top: none;
+    border-radius: 0 0 5px 5px ;
+    height: 1.8rem;
+    width: 100%;
+    font-size: 0.6rem;
+    font-weight: 300;
+    text-align: center;
+    color: #4389AD;
+}
+.industryEconomic .top .holiday{
+    height: 2.7rem;
+    width: 2.7rem;
+    color: #fff;
+    position: absolute;
+    top: 0.9rem;
+    left: 4.9rem;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    text-align: center;
+    background-color: #FF4F51;
+}
+.industryEconomic .top .holidayData{
+    height: 2.7rem;
+    /*width: 31%;*/
+    position: absolute;
+    top: 0.9rem;
+    left: 4.9rem;
+    background: #EDF5F8;
+    border-radius: 5px;
+}
+.industryEconomic .top  li{
+    float: left;
+    padding: 0 0.4rem;
+}
+.industryEconomic .top li .holidayName{
+    height: 1.2rem;
+    line-height: 1.2rem;
+    font-size: 0.5rem;
+    font-weight: 400;
+    text-align: center;
+    color: #000;
+}
+.industryEconomic .top  li .holidayPeople{
+    color: #557FA9;
+    height: 1.5rem;
+    font-size: 0.5rem;
+    font-weight: 300;
+    text-align: center;
+}
+.industryEconomic .top  li .holidayPeople em{
+    color: #557FA9;
+    height: 1.5rem;
+    font-size: 1.1rem;
+    font-weight: 300;
+    text-align: center;
+}
+.industryEconomic .top  li .box{
+    height: 1.9rem;
+    width: 2.1rem;
+    background-color:#4489A8 ;
+    border-radius: 6px;
+    margin-top:0.3rem;
+    color: #fff;
+    font-size: 0.6rem;
+    text-align: center;
+}
+.industryEconomic .top  li .leftInfo{
+    font-size: 1.3rem;
+    text-align: center;
+}
+.industryEconomic .top  li .rightInfo{
+    font-size: 0.5rem;
+    text-align: center;
+}
+.industryEconomic .top  li .top1{
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+}
+.industryEconomic .top  li .topBox{
+    height: 14px;
+    width: 26px;
+    line-height: 14px;
+    border:1px solid #408AAD;
+    border-radius: 4px 0 4px 0;
+    color: #408AAD;
+    text-align: center;
+}
+.industryEconomic .top  li .topText{
+    font-size: 0.6rem;
+    color: #408AAD;
+    margin-left: 0.2rem;
+}
+.industryEconomic .top  li .topText em{
+    font-size: 14px;
+}
+.industryEconomic .top  li .topText i{
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    background: url("../../../image/ztfx/jjyx/addGY.png") no-repeat center;
+}
+.industryEconomic .top  li .infoBox{
+    height: 0.75rem;
+    width: 60px;
+    line-height: 0.75rem;
+    border-radius: 4px;
+    border:1px solid #408AAD;
+    color: #408AAD;
+    text-align: center;
+}
+.industryEconomic .top  li .smallBox{
+    height: 1.9rem;
+    width: 1rem;
+    background-color: #408AAD;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    margin-top: 0.3rem;
+}
+.industryEconomic .content .title{
+    height: 60px;
+    width: 100%;
+    background: url("../../../image/ztfx/jjyx/in-bg2.png") no-repeat center;
+    position: relative;
+    background-size: 44% 100%;
+}
+.industryEconomic .content .title .num{
+    position: absolute;
+    top: 30%;
+    left: 32%;
+    color: #418CB4;
+}
+.industryEconomic .content .title .t-info{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    color: #fff;
+}
+.industryEconomic .content #chart1,#chart2,#chart3,#chart4,#chart5,#chart6,#chart7{
+    height: 100%;
+    width: 100%;
+}
+
+@media only screen and (min-width: 1920px) {
+	.industryEconomic .content .title {
+    height: 80px;
+    width: 100%;
+    background: url(../../../image/ztfx/jjyx/in-bg2.png) no-repeat center;
+    position: relative;
+    background-size: 44% 100%;
+}
+}

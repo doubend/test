@@ -1,0 +1,74 @@
+.legalSize {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    font-family: "Microsoft YaHei", "微软雅黑";
+    background-color: #E5E5E5;
+}
+.legalSize .banner{
+    height: 7.6rem;
+    width: 98.5%;
+    margin:0 0.5rem 0.5rem 0.5rem;
+    background: url("../../../image/fzjc/fr/legalSize.jpg") no-repeat center;
+    background-size: 100% 100% ;
+}
+.legalSize .top,.bottom {
+    height: 15rem;
+    width: 98.5%;
+    margin: 0.5rem;
+    /*margin-bottom:0px;*/
+}
+.legalSize .legalBox {
+    height: 100%;
+    width: 32.9%;
+    background-color: #fff;
+    margin-right: 0.4rem;
+    position: relative;
+}
+.legalSize .legalBox .unit{
+    position: absolute;
+    top: 14px;
+    left: 118px;
+    color: #6C6C6C;
+    font-size:12px;
+}
+.legalSize .legalBox .unit1{
+    top: 14px;
+    left: 120px;
+}
+.legalSize .legalBox .unit2{
+    top: 14px;
+    left: 148px;
+}
+.legalSize .legalBox .unit3{
+    top: 14px;
+    left: 246px;
+}
+.legalSize .legalBox .unit4{
+    top: 14px;
+    left: 206px;
+}
+.legalSize .legalBox .total{
+    position: absolute;
+    top: 48%;
+    width: 100%;
+    text-align: center;
+}
+.legalSize .legalBox .total p{
+    color: #272535;
+}
+.legalSize .legalBox .total p:first-child{
+    color: #272535;
+    font-size: 20px;
+}
+.legalSize .legalBox .title{
+    height: 10%;
+    line-height: 2rem;
+}
+.legalSize .legalBox:last-child {
+    margin-right: 0px;
+}
+.legalSize #legalCharts1,#legalCharts2,#legalCharts3,#legalCharts4,#legalCharts5,#legalCharts6{
+    height: 100%;
+    width: 100%;
+}

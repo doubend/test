@@ -1,0 +1,949 @@
+/* CSS Document */
+/********************** CSS reset Start **********************/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button{margin:0;padding:0;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:500;}
+select,textarea{font-size:100%;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+img{vertical-align:top;}
+abbr,acronym{border:0;font-variant:normal;}
+del{text-decoration:line-through;}
+address,caption,cite,code,dfn,em,b,i,th,var {font-weight:normal; font-style:normal;}
+ol,ul{list-style:none;}
+caption,th{text-align:left;}
+ins{text-decoration:none;}
+input, button, select, textarea {outline:none;}
+textarea {resize:none;}
+a{color:#444;text-decoration:none;}
+a:hover{color:#000;text-decoration:underline;}
+.clearfix:before, .clearfix:after,.cf:before, .cf:after{content:""; display:table;}
+.clearfix:after,.cf:after{clear:both;}
+.clearfix,.cf{*zoom:1;}
+.clear{clear:both;}
+.none{display:none;}
+.l{float:left;}
+.r{float:right;}
+
+.mt10{margin-top:10px;}
+.mt11{margin-top:11px;}
+.mt15{margin-top:15px;}
+.mr8{margin-right:8px;}
+.mr10{margin-right:10px;}
+.mr15{margin-right:15px;}
+.pd12{padding:12px 0;}
+.pd15{padding:15px 0;}
+.pd20{padding:20px 0;}
+.pdt10{padding-top:10px;}
+.pdt15{padding-top:15px;}
+.pdl15{padding-left:15px;}
+
+.font_ff31c1{
+	color: #ff31c1 !important;
+}
+.font_75a653{
+	color: #75a653 !important;
+}
+.font_b83f44{
+	color: #b83f44 !important;
+}
+.font_2ab6ff{
+	color: #2ab6ff !important;
+}
+.font_ff31c1{
+	color: #ff31c1 !important;
+}
+.font_dc7e3e{
+	color: #dc7e3e !important;
+}
+.font_1976d2{
+	color: #1976d2 !important;
+}
+.font_ff31c1{
+	color: #ff31c1 !important;
+}
+/********************** CSS reset End **********************/
+html,body{height:100%;}
+body{
+	-background: #010d17 url(../../images/bigdata/body_bg.jpg) no-repeat center center;
+	background: #010d17 url(../../images/bigdata/body_bg.jpg) no-repeat;
+	font-family: Arial, 'Microsoft Yahei', '微软雅黑', '宋体';
+	font-size: 14px;
+	line-height: 1.5;
+	-overflow:hidden;
+}
+
+/********************** 导航样式 Start ************************/
+.topNav{
+	background: rgba(6,84,107,.5);
+	height: 57px;
+	width:100%;
+}
+.headTitle{
+	background: url(../../images/bigdata/sprite.big.png) no-repeat;
+	width: 575px;
+	height: 57px;
+	float: left;
+	text-indent: -1000px;
+	overflow: hidden;
+	margin-right: 10px;
+}
+.headTitle a{
+	width: 575px;
+	height: 57px;
+	display:block;
+}
+.topList>li{
+	float: left;
+	width: 170px;
+	margin-right: 10px;
+	position: relative;
+}
+.topList>li>a{
+	background: url(../../images/bigdata/sprite.big.png) no-repeat;
+	display: block;
+	width: 170px;
+	height:57px;
+	text-indent: -1000px;
+	overflow: hidden;
+}
+.topList>li:nth-child(1) a{
+	background-position:12px -76px;
+}
+.topList>li:nth-child(2) a{
+	background-position:12px -198px;
+}
+.topList>li:nth-child(1) a.hover{
+	background-color: rgba(52,143,202,.3);
+	background-position:12px -136px;
+}
+.topList>li:nth-child(2) a.hover{
+	background-color: rgba(52,143,202,.3);
+	background-position:12px -258px;
+}
+.topList>li:nth-child(1) a:hover{
+	background-color: rgba(52,143,202,.3);
+	background-position:12px -136px;
+}
+.topList>li:nth-child(2) a:hover{
+	background-color: rgba(52,143,202,.3);
+	background-position:12px -258px;
+}
+/********************** 导航样式 End ************************/
+
+/********************** 模块样式 Start ************************/
+.dataMain{
+	width:1840px;
+	margin:0 auto;
+	padding-top:20px;
+	padding-bottom:10px;
+}
+.modBox{
+	float: left;
+	width: 780px;
+	height: 485px;
+}
+.modItem{
+	width: 780px;
+	height: 485px;
+}
+.modLeft{
+	width: 250px;
+	height: 485px;
+}
+.modStyle{
+	width: 778px;
+	height: 483px;
+	border: 1px solid #10314b;
+	background-color: rgba(255,255,255,.05);
+}
+.modLeft .modItem{
+	width: 250px;
+	height: 485px;
+}
+.modLeft .modStyle{
+	width: 248px;
+	height: 483px;
+}
+.modItem_text{
+	display:inline-block;
+	font-size:18px;
+	color:#aaa;
+}
+
+/* 人口统计 Start */
+.containerBox{
+	width:558px;
+	height:338px;
+}
+.containerBox li{
+	width:778px;
+	height:453px;
+}
+.containerTab{
+	width:550px;
+	-width:558px;
+	height:453px;
+	float:left;
+}
+.containerBox_r{
+	width:143px;
+	height:338px;
+	float:right;
+}
+.containerTxt{
+	position:absolute;
+	left:60px;
+	top:365px;
+	color:#FFF;
+}
+/* 人口统计 End */
+
+.itemStyle{
+	border: 1px solid #10314b;
+	background-color: rgba(255,255,255,.05);
+	overflow:hidden;
+}
+
+#schoolBox{
+	position:absolute;
+	z-index:11;
+}
+.schoolBox{
+	width:513px;
+}
+.schoolYear{
+	color:rgba(0, 122, 204, .5);
+	font-size:20px;
+	width:120px;
+	height:188px;
+	position:absolute;
+	right:105px;
+	top:76px;
+}
+.schoolYear span{
+	background:url(../../images/bigdata/sprite.big.png) no-repeat;
+	display:block;
+	height:64px;
+	line-height:64px;
+	padding-left:35px;
+	font-family:'微软雅黑 Light';
+}
+.schoolYear span:nth-child(1){
+	background-position:2px -430px;
+}
+.schoolYear span:nth-child(2){
+	background-position:2px -490px;
+	margin-top:28px;
+}
+.schoolYear span:nth-child(3){
+	background-position:2px -550px;
+	margin-top:28px;
+}
+
+.MapHotCity{
+	width:220px;
+	height:240px;
+	position: absolute;
+	right:50px;
+	top:200px;
+}
+.MapAreaBox{
+	width:150px;
+	height:80px;
+	position: absolute;
+	right:60px;
+	top:100px;
+	overflow:hidden;
+	
+	
+}
+.MapAreaItem{
+	display: inline-block;
+	background: url(../../images/bigdata/bigdata-bg4.png) no-repeat;
+	background-size: 100% 100%;
+	height: 30px;
+	width: 145px;
+	line-height:30px;
+	padding-left:5px;
+	color: #79afeb;
+	font-size: 12px;
+	text-align: left;
+}
+.sub_Item_1{
+	font-size: 16px;
+	font-weight: bold;
+	color: #ef9600;
+}
+
+.sub_Item_2{
+	font-weight: bold;
+	color: #ef9600;
+}
+
+
+
+/*翻转效果样式 Start*/
+/* .MapAreaItem{
+	perspective: 1000;
+	-webkit-perspective: 1000px; 父类容器中 perspective 子类允许透视
+	-moz-perspective: 1000px;
+	-ms-perspective: 1000px;
+	-o-perspective: 1000px;
+	perspective: 1000px;
+}
+.MapAreaItem:hover .ma_front, .hover .ma_front {transform: rotateX(180deg);-webkit-transform: rotateX(180deg);-moz-transform: rotateX(180deg);-ms-transform: rotateX(180deg);-o-transform: rotateX(180deg); z-index:1;}
+.MapAreaItem:hover .ma_back, .hover .ma_back { transform: rotateX(0deg); -webkit-transform: rotateX(0deg);-moz-transform: rotateX(0deg);-ms-transform: rotateX(0deg);-o-transform: rotateX(0deg); z-index:2;}
+ */
+
+.ma_front, .ma_back{width:145px;height:31px;}
+
+.ma_front, .ma_back {backface-visibility: hidden;transition: 0.6s ease-out;-webkit-transition: .6s ease-out; -webkit-transform-style: preserve-3d; -moz-transform-style: preserve-3d; -ms-transform-style: preserve-3d;-o-transform-style: preserve-3d;transform-style: preserve-3d;position: absolute;top: 0;left: 0;}
+
+.ma_front {z-index: 2;transform: rotateX(0deg);transform: rotateX(0deg); -webkit-transform: rotateX(0deg);-moz-transform: rotateX(0deg);-ms-transform: rotateX(0deg);-o-transform: rotateX(0deg);}
+
+.ma_back { z-index:1;transform: rotateX(-180deg);transform: rotateX(-180deg);-webkit-transform: rotateX(-180deg);-moz-transform: rotateX(-180deg);
+-ms-transform: rotateX(-180deg);-o-transform: rotateX(-180deg);}
+/*翻转效果样式 End*/
+
+
+/********************** 模块样式 End ************************/
+.sprite_logo{ 
+	/*background: url(../../images/bigdata/sprite.big.png) no-repeat -230px -45px;*/
+	width: 248px;
+	height: 22px;
+	padding-top: 30px;
+	line-height: 30px;
+	font-size:32px;
+	text-align:center;
+}
+.sprite_01{
+	background: url(../../images/bigdata/sprite.big.png) no-repeat 38px -312px;
+	width: 248px;
+	height: 120px;
+}
+.sprite_02{
+	background-position: -196px -151px;
+}
+.numberBox{
+	text-align: center;
+}
+.numTit{
+	font-size: 16px;
+	color: #2ab6ff;
+}
+.numBody{
+	font-size: 46px;
+	font-family: '微软雅黑';
+	color: #FFF;
+	height:50px;
+	line-height:50px;
+}
+.growItem{
+	color: #dc7e3e;
+	font-size: 14px;
+	padding-top: 5px;
+}
+
+
+.lineItem{
+	width: 248px;
+	height: 108px;
+	
+	perspective: 1000;
+	-webkit-perspective: 1000px; /*父类容器中 perspective 子类允许透视*/
+	-moz-perspective: 1000px;
+	-ms-perspective: 1000px;
+	-o-perspective: 1000px;
+	perspective: 1000px;
+}
+.lineItem:nth-child(1):after{
+	width:10px;
+	height:75px;
+}
+/*翻转效果样式 Start*/
+.lineItem:hover .Itemfront, .hover .Itemfront {transform: rotateY(180deg);-webkit-transform: rotateY(180deg);-moz-transform: rotateY(180deg);-ms-transform: rotateY(180deg);-o-transform: rotateY(180deg); z-index:1;}
+.lineItem:hover .Itemback, .hover .Itemback { transform: rotateY(0deg); -webkit-transform: rotateY(0deg);-moz-transform: rotateY(0deg);-ms-transform: rotateY(0deg);-o-transform: rotateY(0deg); z-index:2;}
+.flipper {transition:transform 0.6s ease-out;
+transition: transform .5s ease-in-out;
+-webkit-transition: transform .5s ease-in-out;
+-moz-transition: transform .5s ease-in-out;
+-ms-transition: transform .5s ease-in-out;
+-o-transition: transform .5s ease-in-out;
+-webkit-transform-style: preserve-3d; /*使其子类变换后得以保留 3d转换后的位置*/
+-moz-transform-style: preserve-3d;
+-ms-transform-style: preserve-3d;
+-o-transform-style: preserve-3d;
+transform-style: preserve-3d;
+display:block;position: relative;}
+.frontBox{width:248px;height:108px;}
+.Itemfront, .Itemback {backface-visibility: hidden;transition: 0.6s ease-out;-webkit-transition: .6s ease-out; -webkit-transform-style: preserve-3d; -moz-transform-style: preserve-3d; -ms-transform-style: preserve-3d;-o-transform-style: preserve-3d;transform-style: preserve-3d;position: absolute;top: 0;left: 0;}
+.Itemfront {z-index: 2;transform: rotateY(0deg);transform: rotateY(0deg); -webkit-transform: rotateY(0deg);-moz-transform: rotateY(0deg);-ms-transform: rotateY(0deg);-o-transform: rotateY(0deg);}
+.Itemback { z-index:1;transform: rotateY(-180deg);transform: rotateY(-180deg);-webkit-transform: rotateY(-180deg);-moz-transform: rotateY(-180deg);
+-ms-transform: rotateY(-180deg);-o-transform: rotateY(-180deg);}
+/*翻转效果样式 End*/
+
+.city_map{
+	width: 513px;
+	height: 358px;
+	position: relative;
+}
+
+.lineItem .numberBox{
+	background: url(../../images/bigdata/sprite.big.png) no-repeat;
+	padding:18px 0 0 90px;
+	width:159px;
+}
+.lineItem .numberBox_b{
+	background: url(../../images/bigdata/sprite.big.png) no-repeat;
+	text-align:left;
+	padding:20px 0 0 98px;
+	width:140px;
+	height:90px;
+}
+.lineItem .numberBox_c{
+	background: none;
+    padding-left: 20px;
+    width: 230px;
+    height: 98px;
+}
+.lineItem:nth-child(1) .numberBox{
+	background-position: -702px 20px;
+}
+.lineItem:nth-child(2) .numberBox{
+	background-position: -702px -72px;
+}
+.lineItem:nth-child(3) .numberBox{
+	background-position: -702px -165px;
+}
+/*法人库*/
+.lineItem:nth-child(1) .numberBox_b{
+	background-position: -700px -692px;
+}
+.lineItem:nth-child(2) .numberBox_b{
+	background-position: -700px -792px;
+}
+.lineItem:nth-child(3) .numberBox_b{
+	background-position: -700px -889px;
+}
+.lineItem:nth-child(4) .numberBox_b{
+	background-position: -700px -990px;
+}
+
+
+.lineText{
+	font-size: 26px;
+	color: #FFF;
+	width: 140px;
+	text-align: center;
+	float: left;
+}
+.lineNum{
+	background:#1976d2;
+	border-radius: 15px 0px 15px 15px;
+	color: #fff;
+	font-size:32px;
+	float: right;
+	margin: 12px 12px 0 0;
+	width: 90px;
+	height: 85px;
+	line-height:20px;
+	text-align:center;
+}
+.lineNum p{
+	height:30px;
+	line-height:30px;
+	margin:18px 0 0;
+}
+.lineNum span{
+	margin-top:-10px;
+	font-size: 14px;
+}
+.modItem_bottom .lineItem:nth-child(1) .lineNum{
+	background:#1976d2;
+}
+.modItem_bottom .lineItem:nth-child(3) .lineNum{
+	background:#a13522;
+}
+.modItem_bottom .lineItem:nth-child(4) .lineNum{
+	background:#3e8e02;
+}
+
+
+.leftLine .lineItem .numberBox{
+	text-align: left;
+	padding: 5px 0 0 100px;
+	width: 143px;
+}
+.leftLine .lineItem .numberBox .numBody{
+	font-size: 32px;
+}
+.leftLine .lineItem .numberBox .numBody span{
+	font-size: 12px;
+	padding-left:10px;
+}
+.leftLine .lineItem:nth-child(1) .numberBox{
+	background-position: -702px -253px;
+}
+.leftLine .lineItem:nth-child(2) .numberBox{
+	background-position: -702px -336px;
+}
+.leftLine .lineItem:nth-child(3) .numberBox{
+	background-position: -544px -292px;
+}
+.leftLine .lineItem:nth-child(4) .numberBox{
+	background-position: -544px -368px;
+}
+
+
+
+
+/**/
+.subLineBox{
+	background:#007acc;
+	width:248px;
+	height:108px;
+}
+
+
+/********************** 地图样式 Start ************************/
+.mapItem{
+	width:365px;
+	height:350px;
+	padding:5px 5px 0 0;
+}
+.mapItem span{
+	position: absolute;
+	top:10px;
+	right:10px;
+	width:18px;
+	line-height:18px;
+}
+.cityItem{
+	background:-url(../../images/bigdata/wuxi_map.png) no-repeat;
+	width:365px;
+	height:350px;
+	position:absolute;
+	left:140px;
+	top:0px;
+}
+.ageBlock{
+	width: 140px;
+	padding-top: 40px;
+	position: absolute;
+	left: 8px;
+	top: 0px;
+}
+.ageBlock .numberBox{
+	background: url(../../images/bigdata/sprite.big.png) no-repeat;
+	text-align: left;
+	padding-left: 35px;
+	margin-top: 30px;
+}
+.ageBlock .numberBox .numTit{
+	font-size:14px;
+}
+.ageBlock .numberBox .numBody{
+	font-size:32px;
+	height:29px;
+	line-height:29px;
+	font-family:'微软雅黑 Light';
+}
+.ageBlock .numberBox:nth-child(1){
+	background-position: 2px -430px;
+}
+.ageBlock .numberBox:nth-child(2){
+	background-position: 2px -490px;
+}
+.ageBlock .numberBox:nth-child(3){
+	background-position: 2px -550px;
+}
+/********************** 地图样式 End ************************/
+
+/********************** 人口变化切换样式 Start *******************/
+.picBox{}
+.picwrap {width: 780px;height: 485px;background-color:rgba(255,255,255,.1);box-sizing:border-box;position: relative;overflow: hidden;}
+.picgroup {position: absolute;top:0;left: 0;transition:all 0.4s ease-in;}
+.picgroup li {float: left; position:relative;}
+.picgroup li:nth-child(2){display:none;}
+
+.btngroup {position:absolute;width:364px;height:40px;line-height:40px;text-align:left;bottom:0px;font-size:20px;}
+.btngroup li {float: left;width:120px;height:40px;cursor:pointer;color:#FFF;}
+.btngroup li span {float: left;margin:10px;width:20px;height:20px;background: rgba(255,255,255,.5);border-radius: 50%;cursor:pointer;}
+
+.btngroup .current, .btngroup li:hover{color:#2ab6ff;}
+.btngroup .current span, .btngroup li:hover span {background: #2ab6ff;}
+
+
+
+/********************** 右侧导航样式 Start ************************/
+.rightMenu{
+	background:rgba(24,64,87,.9);;
+	-width: 250px;
+	-height: 350px;
+	width: 0px;
+	height: 0px;
+	position:fixed;
+	bottom:0px;
+	right:0px;
+}
+.topLogo{
+	background:#06273b;
+	height:250px;
+	height:122px;
+	padding:13px 0 0;
+}
+.logo_icon_1{
+	background:url(../../images/bigdata/rLogo.png) no-repeat;
+	width:88px;
+	height:88px;
+	margin:0 auto;
+	animation: 9.5s linear 0s normal none infinite rotate;
+	-webkit-animation:9.5s linear 0s normal none infinite rotate;
+}
+.logo_icon_2{
+	background:url(../../images/bigdata/rLogo.png) no-repeat 0 -88px;
+	height:88px;
+	animation: 9.5s linear 0s normal none infinite rotateBak;
+	-webkit-animation:9.5s linear 0s normal none infinite rotateBak;
+}
+.logo_icon_3{
+	background:url(../../images/bigdata/rLogo.png) no-repeat 0 -176px;
+	height:88px;
+	animation: 9.5s linear 0s normal none infinite rotateBak2;
+	-webkit-animation:9.5s linear 0s normal none infinite rotateBak2;
+}
+.topLogoText{
+	background: url(../../images/bigdata/sprite.big.png) no-repeat 0px -720px;
+	width:220px;
+	height:18px;
+	margin:6px auto 0;
+	overflow:hidden;
+	text-indent:-1000px;
+}
+.rmList li{
+	padding-left:50px;
+	height:38px;
+	line-height:38px;
+}
+.rmList li:hover{
+	background:rgba(255,255,255,0.1);
+}
+.rmList li a{
+	font-family:'微软雅黑';
+	font-size:16px;
+	color: #FFF;
+	display:block;
+	width:161px;
+	height:38px;
+	text-align:center;
+}
+.rmList li a:hover{
+	text-decoration: none;
+}
+.rmList li a i{
+	background:#3284bb;
+	border-radius:50% 0 50% 50%;
+	display:block;
+	float:left;
+	width:21px;
+	height:21px;
+	margin:10px 0 0;
+}
+.rmList li:nth-child(1) a i{
+	background:#3284bb;
+}
+.rmList li:nth-child(2) a i{
+	background:#c7473b;
+}
+.rmList li:nth-child(3) a i{
+	background:#17a48b;
+}
+.rmList li:nth-child(4) a i{
+	background:#845295;
+}
+.rmList li:nth-child(5) a i{
+	background:#c97124;
+}
+.rmList li a:hover i{
+	-webkit-animation:myfirst .3s;
+	animation-direction:normal;
+	border-radius:50% 50% 0 50%;
+}
+
+
+@-webkit-keyframes myfirst
+{
+from {border-radius:50% 0 50% 50%;}
+to {border-radius:50% 50% 0 50%;}
+}
+
+.menuBoxBtn{
+	display:block;
+	width:100%;
+	height:30px;
+	position:absolute;
+	bottom:0;
+}
+.menuBoxBtn span{
+	background: url(../../images/bigdata/sprite.big.png) no-repeat 17px -660px;
+	display:block;
+	width:65px;
+	height:30px;
+	margin:0 auto;
+	opacity:0.4;
+}
+.menuBoxBtn:hover span{
+	opacity:1;
+}
+
+.navButton a{
+	display:block;
+	margin:auto;
+	width:60px;
+	height:60px;
+	background:rgba(24,64,87,0.5);
+	position:fixed;
+	bottom:0px;
+	right:0px;
+}
+.navButton a:hover {
+	background:rgba(24,64,87,1.0);
+}
+.arrowUp{
+	background: url(../../images/bigdata/sprite.big.png) no-repeat -52px -660px;
+	display:block;
+	margin:auto;
+	width:30px;
+	height:17px;
+	margin-top:20px;
+}
+
+
+/********************** 右侧导航样式 End ************************/
+
+
+@-webkit-keyframes rotate{
+from{-webkit-transform:rotate(0deg)}
+to{-webkit-transform:rotate(360deg)}
+}
+@-webkit-keyframes rotateBak{
+from{-webkit-transform:rotate(360deg)}
+to{-webkit-transform:rotate(-360deg)}
+}
+@-webkit-keyframes rotateBak2{
+from{-webkit-transform:rotate(0deg)}
+to{-webkit-transform:rotate(360deg)}
+}
+
+
+/********************** 法人库样式 Start *****************/
+.modItem_right{
+	width:515px;
+	height:483px;
+}
+.instItem_long{
+	width:248px;
+	height:361px;
+}
+.instItem{
+	width:248px;
+	height:232px;
+}
+/*** 导航样式 Start ***/
+.head-nav{
+	width:558px;
+	margin:0 auto;
+	padding:13px 0 0;
+	height:60px;
+}
+.head-nav .top-logo{
+	float:left;
+	margin:41px 0 0;
+}
+.head-nav .hd-nav-box{
+	position:relative;
+	*zoom:1;
+}
+.head-nav .nav-list{
+	position:relative;
+	margin-left:3px;
+	z-index:10;
+}
+.head-nav .nav-list li{
+	background: url(../../images/bigdata/sprite.png) no-repeat;
+	float:left;
+	width:60px;
+	height:60px;
+	margin-left: 8px;
+}
+.head-nav .nav-list li h3{
+	font-size:12px;
+	text-align:center;
+}
+.head-nav .nav-list li h3 a{
+	width:60px;
+	height:60px;
+	display:block;
+	overflow:hidden;
+	text-indent:-999em;
+}
+.head-nav .nav-list li h3 a:hover{
+	text-decoration:none;
+}
+.head-nav .menu-hover{
+	background:rgba(179, 48, 56, .1);
+	border:1px solid #69262f;
+	border-radius:5px;
+	width:60px;
+	height:60px;
+	position:absolute;
+	left:0px;
+	bottom:0px;
+	z-index:8;
+}
+.head-nav .nav-list li:nth-child(1){
+	background-position:-345px 0;
+}
+.head-nav .nav-list li:nth-child(2){
+	background-position:-345px -60px;
+}
+.head-nav .nav-list li:nth-child(3){
+	background-position:-345px -120px;
+}
+.head-nav .nav-list li:nth-child(4){
+	background-position:-345px -180px;
+}
+.head-nav .nav-list li:nth-child(5){
+	background-position:-345px -240px;
+}
+.head-nav .nav-list li:nth-child(6){
+	background-position:-345px -300px;
+}
+.head-nav .nav-list li:nth-child(7){
+	background-position:-345px -360px;
+}
+.head-nav .nav-list li:nth-child(8){
+	background-position:-345px -420px;
+}
+.head-nav .position_00{
+	background:rgba(179, 48, 56, .1);
+	border:1px solid #69262f;
+}
+.head-nav .position_01{
+	background:rgba(117, 166, 83, .1);
+	border:1px solid #c47731;
+}
+.head-nav .position_02{
+	background:rgba(196, 119, 49, .1);
+	border:1px solid #75a653;
+}
+.head-nav .position_03{
+	background:rgba(255, 49, 193, .1);
+	border:1px solid #ff31c1;
+}
+.head-nav .position_04{
+	background:rgba(196, 119, 49, .1);
+	border:1px solid #c47731;
+}
+.head-nav .position_05{
+	background:rgba(0, 122, 204, .1);
+	border:1px solid #007acc;
+}
+.head-nav .position_06{
+	background:rgba(149, 36, 48, .1);
+	border:1px solid #952430;
+}
+.head-nav .position_07{
+	background:rgba(109, 158, 69, .1);
+	border:1px solid #6d9e45;
+}
+
+
+.meterBigBox{
+	width:778px;
+	height:415px;
+	position:absolute;
+	top:60px;
+	left:1px;
+}
+/*** 导航样式 End ***/
+
+/********************** 法人库样式 End *****************/
+
+
+/********************** 人口库 人口文化统计样式 Start *****************/
+.dropdown-menu{
+	display: none;
+	position: absolute;
+	z-index: 10;
+	width: 100%;
+}
+.dropdown-menu>li{
+	height: 57px;
+	line-height: 57px;
+}
+.dropdown-menu>li>a{
+	background-color: rgba(52,143,202,.6);
+	display: block;
+	text-align: center;
+	font-size: 20px;
+	color: #fff;
+}
+.dropdown-menu>li>a:hover{
+	color: #dfdfdf;
+	text-decoration: none;
+}
+
+.col-xs-3{
+	width: 170px;
+	float: left;
+}
+.col-xs-9{
+	width: 830px;
+	float: right;
+}
+
+
+
+/********************** 人口库 人口文化统计样式 End *****************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

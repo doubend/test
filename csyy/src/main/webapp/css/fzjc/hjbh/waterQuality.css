@@ -1,0 +1,402 @@
+body,html{
+    width: 100%;
+    font-family: "Microsoft YaHei", "΢���ź�";
+    background-color: #E5E5E5;
+}
+.pageInfo{
+    height: 5%;
+    padding: 0 0.5rem 0 0.2rem;
+    color: #807E7F;
+}
+.pageInfo i{
+    height: 29px;
+    width: 28px;
+    float: left;
+    display: inline-block;
+    background: url("../../../image/common/travelHome.png")  no-repeat center;
+}
+.pageInfo span{
+    line-height:1.4rem;
+    color: #807E7F;
+}
+.waterQuality{
+    width: 100%;
+    padding: 0;
+}
+.waterQuality .airLeft{
+    width: 30%;
+    margin-right: 0.3rem;
+    background: #fff;
+    height:35rem;
+}
+.waterQuality .airLeft .airTitle,.ranking1,.minute,.ranking{
+    margin: 0.4rem 0.6rem;
+}
+.waterQuality .airLeft .airTitle{
+    border-bottom:  1px dashed #E7E7E7;
+}
+.waterQuality .airLeft .title{
+    color: #25313F;
+    font-size: 16px;
+}
+.waterQuality .airLeft .box{
+    height: 4rem;
+    width: 38%;
+    line-height: 4rem;
+    text-align: center;
+    font-size: 44px;
+    color: #fff;
+    background: #FF0000;
+    border-radius: 5px;
+    margin: 0.5rem 0.6rem 0.6rem 0;
+}
+.waterQuality .airLeft .info{
+    margin-top:0.5rem;
+}
+.waterQuality .airLeft .info p{
+    margin-bottom:0.3rem;
+    color: #333333;
+}
+.waterQuality .airLeft .info p:first-child{
+    font-size: 24px;
+    color: #FF0000;
+}
+.waterQuality .airLeft .minute{
+    border-bottom:1px solid #e7e7e7;
+}
+.waterQuality .minute ul{
+    margin-bottom: 0.1rem;
+    height: 1.1rem;
+    line-height: 1.1rem;
+}
+.waterQuality .minute ul:last-child{
+    margin-bottom:0.4rem;
+}
+.waterQuality .airLeft .minute li{
+    float: left;
+}
+.waterQuality .airLeft .minute li:first-child{
+    width: 16%;
+    text-align: left;
+}
+.waterQuality .airLeft .minute li:nth-child(2){
+    width: 11%;
+    text-align: left;
+}
+.waterQuality .airLeft .minute li:nth-child(3){
+    width: 51%;
+    text-align: left;
+}
+.waterQuality .minute li:nth-child(4){
+    width: 11%;
+    text-align: center;
+    color: #3F97E1;
+}
+.waterQuality .minute li:nth-child(5){
+    width: 11%;
+    text-align: center;
+    color: #D11947;
+}
+.waterQuality .minute li i{
+    display: inline-block;
+    height: 0.9rem;
+    width: 1.2rem;
+    margin-right: 2px;
+    float: left;
+    margin-top:0.15rem;
+    background-color: #99CCFF;
+}
+.waterQuality .minute li i.drinking-I{
+    background-color: #000080;
+}
+.waterQuality .minute li i.drinking-II{
+    background-color: #99CCFF;
+}
+.waterQuality .minute li i.drinking-III{
+    background-color: #00DCFF;
+}
+.waterQuality .minute li i.drinking-IV{
+    background-color: #EBC79E;
+}
+.waterQuality .minute li i.drinking-V{
+    background-color: #93DB70;
+}
+.waterQuality .minute li i.drinking-VI{
+    background-color: #FF0000;
+}
+.waterQuality .minute li i.sewage-v{
+    background-color: #93DB70;
+}
+.waterQuality .minute li i.sewage-Iv{
+    background-color: #EBC79E;
+}
+.waterQuality .minute li i.bad-v{
+    background-color: #FF0000;
+}
+.waterQuality .airLeft .minute #textBlack{
+    color: #000;
+    margin-bottom:0.3rem;
+}
+.waterQuality .airLeft .minute .font-black{
+    color: #000;
+}
+.waterQuality .airLeft .ranking{
+    border-bottom: 1px solid #e7e7e7;
+}
+.waterQuality .ranking .tableTxt{
+    font-size: 16px;
+    color: #25313F;
+    margin-bottom:0.4rem;
+}
+.waterQuality .ranking table{
+    border-collapse: collapse;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 0.3rem;
+}
+.waterQuality .ranking table th,td{
+    height: 1rem;
+    line-height: 1rem;
+}
+.waterQuality .ranking table th{
+    color: #333333;
+}
+.waterQuality .ranking table .special{
+    text-align: center;
+}
+.waterQuality .ranking table tr{
+    border: 1px solid #e7e7e7;
+}
+.waterQuality .ranking table tr:nth-child(odd){
+    background: #F1F1F1;
+}
+.waterQuality .airLeft table i{
+    display: inline-block;
+    margin-top: 0.35rem;
+    vertical-align: center;
+}
+.waterQuality .airLeft table i.top{
+    height: 15px;
+    width: 11px;
+    background: url("../../../image/fzjc/hjbh/airTop.png") no-repeat center;
+}
+.waterQuality .airLeft table i.bottom{
+    height: 15px;
+    width: 11px;
+    background: url("../../../image/fzjc/hjbh/airBottom.png") no-repeat center;
+}
+.waterQuality .ranking1 .tableTxt span:first-child{
+    font-size: 16px;
+    color: #25313F;
+    margin-bottom:0.4rem;
+}
+.waterQuality .ranking1 .tableTxt span:last-child{
+    font-size: 14px;
+    color:#999999;
+    margin-bottom:0.4rem;
+}
+.waterQuality .airLeft .bar ul{
+    margin-bottom: 0.4rem;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    margin-top:0.4rem;
+}
+.waterQuality .airLeft .bar li{
+     float: left;
+     margin-right: 0.4rem;
+ }
+.waterQuality .airLeft .bar li:last-child{
+    /*float: left;*/
+    margin-right: 0;
+}
+.waterQuality .bar li i{
+    height: 0.5rem;
+    display: inline-block;
+    float: left;
+    margin-top:0.09rem;
+}
+.waterQuality .bar li i.green{
+    width: 11.3rem;
+    background-color: #000080;
+}
+.waterQuality .bar li i.gay{
+    width: 1.4rem;
+    background-color: #ECECEC;
+}
+.waterQuality .bar li i.green1{
+     width: 11rem;
+     background-color: #000080;
+ }
+.waterQuality .bar li i.gay1{
+    width: 1.7rem;
+    background-color: #ECECEC;
+}
+.waterQuality .bar li i.green2{
+    width: 10.5rem;
+    background-color: #99CCFF;
+}
+.waterQuality .bar li i.gay2{
+    width: 2.2rem;
+    background-color: #ECECEC;
+}
+.waterQuality .bar li i.green3{
+    width: 10rem;
+    background-color:#99CCFF;
+}
+.waterQuality .bar li i.gay3{
+    width: 2.7rem;
+    background-color: #ECECEC;
+}
+.waterQuality .bar li i.green4{
+    width: 9.4rem;
+    background-color: #99CCFF;
+}
+.waterQuality .bar li i.gay4{
+    width: 3.3rem;
+    background-color: #ECECEC;
+}
+.waterQuality .bar li i.green5{
+    width: 9rem;
+    background-color: #99CCFF;
+}
+.waterQuality .bar li i.gay5{
+    width: 3.7rem;
+    background-color: #ECECEC;
+}
+    /*�Ҳ���ʽ*/
+.waterQuality .airRight{
+    height: 35rem;
+    width: 69.3%;
+    /*background: url("../images/water_bg.png") no-repeat center;*/
+    background-color: #fff;
+    position: relative;
+}
+.waterQuality #airRight{
+    height: 100%;
+    width: 100%;
+}
+/*ͼ����ʽ*/
+.waterQuality .airLegend{
+    margin: 0.85rem 0 0 1rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.waterQuality .airLegend li{
+    height: 1.2rem;
+    line-height: 1.2rem;
+    margin-right: 1.1rem;
+}
+.waterQuality .airLegend li i{
+    display: inline-block;
+    height: 14px;
+    width: 14px;
+    float: left;
+    margin-top: 0.25rem;
+    margin-right:0.35rem;
+    border-radius: 50%;
+}
+.waterQuality .airLegend li .i1{
+    background-color: #000080;
+}
+.waterQuality .airLegend li .i2{
+    background-color: #99CCFF;
+}
+.waterQuality .airLegend li .i3{
+    background-color: #00DCFF;
+}
+.waterQuality .airLegend li .i4{
+    background-color: #EBC79E;
+}
+.waterQuality .airLegend li .i5{
+    background-color: #93DB70;
+}
+.waterQuality .airLegend li .i6{
+    background-color: #FF0000;
+}
+.waterQuality .airLegend li .i7{
+    background-color: #E0E0E0;
+}
+.waterQuality .airLegend li .i8{
+    background-color: #4C799F;
+}
+.waterQuality .airLegend li span{
+    color: #25313F;
+    font-size: 14px;
+}
+/*ʱ������ʽ*/
+.waterQuality .time {
+    position: absolute;
+    bottom: 4%;
+    left: 10%;
+}
+.waterQuality .timeline li {
+    float: left;
+    position: relative;
+    cursor: pointer;
+    margin-right:15px;
+}
+.waterQuality .timeline .dot {
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    /*line-height: 1.1;*/
+    border-radius: 50%;
+    text-align: center;
+    background-color: #fff;
+    border:1px solid #ccc;
+}
+.waterQuality .timeline .dot > i {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    border-radius: 50%;
+    margin-top: -1px;
+}
+.waterQuality .timeline .beat {
+    background-color: #00A0D3;
+}
+.waterQuality .timeline .progress {
+    position: relative;
+    top: -12px;
+    left: 16px;
+    width: 80px;
+    height: 2px;
+    background: #CFCFCF;
+}
+.waterQuality .timeline .progress span {
+    position: absolute;
+    left: 0;
+    background-color: #00A0D3;
+    width: 0;
+    height: 100%;
+}
+.waterQuality .timeline li > em {
+    position: absolute;
+    top: -24px;
+    left: -28px;
+    width: 70px;
+    text-align: center;
+    font-size: 16px;
+    color: #6B6B6B;
+}
+.waterQuality .time .timeLeft,.timeRight{
+    height: 36px;
+    width: 36px;
+    cursor: pointer;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+    border:1px solid #CFCFCF;
+    position: absolute;
+    }
+.waterQuality .time .timeLeft{
+    background: #fff url("../../../image/fzjc/hjbh/airLeft.png") no-repeat center;
+    top: -12px;
+    left: -60px;
+}
+.waterQuality .time .timeRight{
+    background: #fff url("../../../image/fzjc/hjbh/airRight.png") no-repeat center;
+    top: -12px;
+    right: -60px;
+}

@@ -1,0 +1,134 @@
+.wrapp .top{
+    background: url("../../../image/dpzs/lz/MS1.png") no-repeat;
+    background-size: 100%;
+    color: #FDFF04;
+}
+.wrapp .top .topIcon{
+    background: url("../../../image/dpzs/lz/MS.png") no-repeat center bottom;
+    background-size: 90%;
+    bottom: 17%;
+}
+.wrapp .center{
+    height: 72.4%;
+    width: 100%;
+    overflow-y: hidden;
+}
+.wrapp .center .h33{
+    height: 33%;
+    width: 100%;
+    overflow: hidden;
+}
+.wrapp .center .h63{
+    position: relative;
+}
+.wrapp .center .h37{
+    position: relative;
+}
+.wrapp .center .h63 .text{
+    position: absolute;
+    font-size: 11px;
+    top:25%;
+    left: 40%;
+}
+.wrapp .center .h37 .text1{
+    position: absolute;
+    font-size: 5px;
+    top:25%;
+    left: 40%;
+}
+.wrapp .center .h63 .info{
+    height: 30%;
+    width: 90%;
+    background: url(../../../image/dpzs/lz/MS-center.png) no-repeat center;
+    background-size: 90% 90%;
+    margin-left: 5%;
+    color: #003453;
+    font-size: 12px;
+    line-height: 50px;
+    font-weight: 700;
+    text-align: center;
+}
+.wrapp .center .h33 table{
+    width: 90%;
+    margin-left:5%;
+    border-collapse: collapse;
+}
+.wrapp .center .h63 table{
+    width: 90%;
+    margin-left:5%;
+    border-collapse: collapse;
+}
+.wrapp .center .h33 table.topTable{
+    width: 90%;
+    margin-left:5%;
+    margin-top:4%;
+    border-collapse: collapse;
+}
+
+.wrapp .center table tr:nth-child(odd){
+    background-color: #0075B8;
+}
+.wrapp .center table tr:nth-child(even){
+    background-color: #0164A8;
+}
+.wrapp .center .h63 table th{
+    background-color: #01B0F1;
+    color: #003A66;
+    border: 0px;
+}
+.wrapp .center .h63 table th,td{
+    text-align: center;
+    font-size: 12px;
+    height: 18px;
+    line-height:18px;
+}
+.wrapp .center .h63 td em:first-child{
+    color: #FFFD00;
+}
+.wrapp .center .h63 td em:last-child{
+    color: #63CDFF;
+}
+.wrapp .center .h37 .info1{
+    height: 30%;
+    width: 90%;
+    background: url("../../../image/dpzs/lz/MS-center.png") no-repeat center;
+    background-size: 90% 90%;
+    margin-left: 5%;
+    color: #003453;
+    font-size: 12px;
+    line-height: 50px;
+    font-weight: 700;
+    /*padding-left:3px;*/
+    text-align: center;
+    box-sizing: border-box;
+}
+.wrapp .center .publicTable{
+    height: 50%;
+    overflow: hidden;
+}
+.wrapp .center .h37 table{
+    width: 90%;
+    margin-left: 5%;
+    border-collapse: collapse;
+    text-align: center;
+}
+.wrapp .center .h37 table th{
+    background-color: #01B0F1;
+    color: #003A66;
+    border: 0px;
+}
+.wrapp .center .h37 table th,td{
+    text-align: center;
+    font-size: 12px;
+    height: 18px;
+    line-height: 18px;
+}
+.wrapp .center .h37 td em:first-child{
+    color: #FFFD00;
+}
+.wrapp .center .h37 td em:last-child{
+    color: #63CDFF;
+}
+.wrapp .bottom{
+    background: url("../../../image/dpzs/lz/MS-bottom.png") no-repeat center bottom;
+}

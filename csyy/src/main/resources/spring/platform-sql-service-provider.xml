@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:dubbo="http://code.alibabatech.com/schema/dubbo" xmlns="http://www.springframework.org/schema/beans"
+	xsi:schemaLocation="
+           http://code.alibabatech.com/schema/dubbo    http://code.alibabatech.com/schema/dubbo/dubbo.xsd
+           http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+       ">
+
+
+	<!-- SQL解析引擎初始化配置 -->
+
+	<bean class="com.cloud.icenter.common.loader.LoaderSQLXML">
+
+		<constructor-arg name="resource">
+			<list>			
+			   <value>classpath:/system/conf/query/security.xml</value>
+			   <value>classpath:/system/conf/query/educationInfo.xml</value>
+			   <value>classpath:/system/conf/query/employmentInfo.xml</value>
+			</list>
+		</constructor-arg>
+	</bean>
+</beans>

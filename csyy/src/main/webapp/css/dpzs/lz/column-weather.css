@@ -1,0 +1,207 @@
+.wrapp .top {
+    background: url("../../../image/dpzs/lz/W1.png") no-repeat;
+    background-size: 100%;
+    color: #fff;
+    height: 10%;
+    line-height:47px ;
+}
+.wrapp #timeShow{
+    font-size: 16px;
+}
+.wrapp .center {
+    height: 74.4%;
+    width: 100%;
+    /*overflow-y: hidden;*/
+}
+
+.wrapp .center .h52 {
+    height: 52%;
+    width: 100%;
+    /*overflow: hidden;*/
+}
+
+.wrapp .center .h40 {
+    height: 40%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.zero {
+    height: 18%;
+    width: 100%;
+    background-color: transparent;
+}
+
+.wrapp .center .h8 {
+    height: 8%;
+    /*width: 100%;*/
+    width: 90%;
+    margin-left: 5%;
+    background-color: #013861;
+    border-radius: 6px;
+    font-size: 10px;
+}
+
+.wrapp .center .h8 p {
+    margin-left: 12px;
+    padding-top: 4px;
+    color: #00FDFF;
+}
+
+.wrapp .center .h8 p i {
+    color: #FFFF08;
+    font-size: 12px;
+}
+
+.wrapp .center .h63 {
+    position: relative;
+}
+
+.wrapp .center .h37 {
+    position: relative;
+}
+
+.wrapp .center .h63 .text {
+    position: absolute;
+    font-size: 12px;
+    top: 17%;
+    left: 26%;
+}
+
+.wrapp .center .h37 .text1 {
+    position: absolute;
+    font-size: 12px;
+    top: 28%;
+    left: 32%;
+}
+
+.wrapp .center .h63 .info {
+    height: 24%;
+    width: 90%;
+    background: url("../../../image/dpzs/lz/W2.png") no-repeat center;
+    background-size: 90% 90%;
+    margin-left: 5%;
+    color: #003453;
+    font-size: 12px;
+    line-height: 80px;
+    font-weight: 700;
+    text-align: center;
+    position: absolute;
+    top: -7%;
+}
+
+.wrapp .center .h35 table {
+    width: 90%;
+    margin-left: 5%;
+    border-collapse: collapse;
+}
+
+.wrapp .center .h63 table {
+    width: 90%;
+    margin-left: 5%;
+    border-collapse: collapse;
+}
+
+.wrapp .center table.topTable {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 8%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.wrapp .center table tr:nth-child(even) {
+    background-color: #0075B8;
+}
+
+.wrapp .center table tr:nth-child(odd) {
+    background-color: #0164A8;
+}
+
+.wrapp .center .h63 table th {
+    background-color: #01B0F1;
+    color: #003A66;
+    border: 0px;
+}
+
+.wrapp .center .h63 table th, td {
+    text-align: center;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.wrapp .center .h63 td em:first-child {
+    color: #FFFD00;
+}
+
+.wrapp .center .h63 td em:nth-child(2) {
+    color: #63CDFF;
+}
+.wrapp .center .h63 table tr .bg1{
+    height: 15px;
+    width: 17px;
+    background: url("../../../image/dpzs/lz/sun.png") no-repeat center;
+    padding-left:20px;
+}
+.wrapp .center .h63 table tr .bg2{
+    height: 15px;
+    width: 17px;
+    background: url("../../../image/dpzs/lz/wind.png") no-repeat center;
+}
+.wrapp .center .h63 table tr .bg3{
+    height: 15px;
+    width: 17px;
+    background: url("../../../image/dpzs/lz/rain.png") no-repeat center;
+}
+.wrapp .center .h37 .info1 {
+    height: 28%;
+    width: 90%;
+    background: url("../../../image/dpzs/lz/W3.png") no-repeat center;
+    background-size: 90% 90%;
+    margin-left: 5%;
+    color: #003453;
+    font-size: 12px;
+    line-height: 70px;
+    font-weight: 700;
+    /*padding-left:3px;*/
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.wrapp .center .publicTable {
+    height: 60%;
+    overflow: hidden;
+}
+
+.wrapp .center .h37 table {
+    width: 90%;
+    margin-left: 5%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.wrapp .center .h37 table th {
+    background-color: #01B0F1;
+    color: #003A66;
+    border: 0px;
+}
+
+.wrapp .center .h37 table th, td {
+    text-align: center;
+    font-size: 12px;
+    height: 18px;
+    line-height: 18px;
+}
+
+.wrapp .center .h37 td em:first-child {
+    color: #FFFD00;
+}
+
+.wrapp .center .h37 td em:last-child {
+    color: #63CDFF;
+}
+
+.wrapp .bottom {
+    background: url("../../../image/dpzs/lz/W4.png") no-repeat center bottom;
+}

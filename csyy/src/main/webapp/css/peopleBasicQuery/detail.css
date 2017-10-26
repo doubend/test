@@ -1,0 +1,66 @@
+/* 添加申请弹出框 样式 */
+.my-dialog .modal-dialog{
+  width:500px;
+  margin-top:100px;
+}
+.my-dialog .modal-header{
+  padding:5px 0px;
+  background: #2b71b7;
+  font-size:14px;
+  color:#fff;
+  text-align: center;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.my-dialog button.close{
+  padding-right:10px;
+  color:#fff;
+  opacity: 1;
+}
+.person-info-title{
+  font-size:14px;
+}
+.person-info-title span.sp1{
+  display: inline-block;
+  width:85px;
+  text-align: right;
+}
+.person-info-title span.sp2{
+  color:#2b71b7;
+  font-weight:bold;
+}
+.table-view{
+  border:1px solid #ddd;
+}
+.table-view .td-name{
+  width:85px;
+  background: #f4f8fb;
+  text-align: right;
+}
+.table-view .td-cont{
+  color:#2b71b7;
+}
+
+input.date-width{
+  display: inline-block;
+  width:100px;
+}
+.date-flag{
+  width:10px;
+  margin-left:10px;
+  margin-top:5px;
+}
+.my-dialog label.control-label{
+  font-weight: normal;
+  padding-right:0px;
+  padding-left:0px;
+  color:#333333;
+}
+.required-sp{
+  color:#fd2f2f;
+}
+.my-dialog-add .modal-body{
+  background: #f7f7f7;
+  padding-right:50px;
+}

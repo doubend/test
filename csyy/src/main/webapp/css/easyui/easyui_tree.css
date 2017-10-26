@@ -1,0 +1,352 @@
+/***
+easyui tree
+***/
+.easyui.form-horizontal{
+	overflow-y:auto;
+}
+.easyui .tree {
+  margin: 0 6px;
+  padding: 0;
+  list-style-type: none;
+  text-align: left;
+  overflow:hidden;
+}
+.easyui .tree li {
+  white-space: nowrap;
+}
+.easyui .tree li ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.easyui .tree-node {
+  height: 20px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.easyui .tree-hit {
+  cursor: pointer;
+}
+.easyui .tree-expanded,
+.easyui .tree-collapsed,
+.easyui .tree-folder,
+.easyui .tree-file,
+.easyui .tree-checkbox,
+.easyui .tree-indent {
+  display: inline-block;
+  width: 16px;
+  height: 20px;
+  line-height: 20px;
+  vertical-align: top;
+  overflow: hidden;
+}
+.easyui .tree-expanded {
+  background: url('../../image/easyui/tree_icons.png') no-repeat -18px 0px;
+}
+.easyui .tree-expanded-hover {
+  background: url('../../image/easyui/tree_icons.png') no-repeat -50px 0px;
+}
+.easyui .tree-collapsed {
+  background: url('../../image/easyui/tree_icons.png') no-repeat 0px 0px;
+}
+.easyui .tree-collapsed-hover {
+  background: url('../../image/easyui/tree_icons.png') no-repeat -32px 0px;
+}
+.easyui .tree-lines .tree-expanded,
+.easyui .tree-lines .tree-root-first .tree-expanded {
+  background: url('../../image/easyui/tree_icons.png') no-repeat -144px 0px;
+}
+.easyui .tree-lines .tree-collapsed,
+.easyui .tree-lines .tree-root-first .tree-collapsed {
+  background: url('../../image/easyui/tree_icons.png') no-repeat -128px 0px;
+}
+.easyui .tree-lines .tree-node-last .tree-expanded,
+.easyui .tree-lines .tree-root-one .tree-expanded {
+  background: url('../../image/easyui/tree_icons.png') no-repeat -80px 0px;
+}
+.easyui .tree-lines .tree-node-last .tree-collapsed,
+.easyui .tree-lines .tree-root-one .tree-collapsed {
+  background: url('../../image/easyui/tree_icons.png') no-repeat -64px 0px;
+}
+.easyui .tree-line {
+  background: url('../../image/easyui/tree_icons.png') no-repeat -176px 0px;
+}
+.easyui .tree-join {
+  background: url('../../image/easyui/tree_icons.png') no-repeat -192px 0px;
+}
+.easyui .tree-joinbottom {
+  background: url('../../image/easyui/tree_icons.png') no-repeat -160px 0px;
+}
+.easyui .tree-folder {
+  background: url('../../image/easyui/tree_icons.png') no-repeat -208px 0px;
+}
+.easyui .tree-folder-open {
+  background: url('../../image/easyui/tree_icons.png') no-repeat -224px 0px;
+}
+.easyui .tree-file {
+  background: url('../../image/easyui/tree_icons.png') no-repeat -240px 0px;
+}
+.easyui .tree-loading {
+  background: url('../../image/easyui/loading.gif') no-repeat center center;
+}
+.easyui .tree-checkbox0 {
+  background: url('../../image/easyui/tree_icons.png') no-repeat -208px -18px;
+}
+.easyui .tree-checkbox1 {
+  background: url('../../image/easyui/tree_icons.png') no-repeat -224px -18px;
+}
+.easyui .tree-checkbox2 {
+  background: url('../../image/easyui/tree_icons.png') no-repeat -240px -18px;
+}
+.easyui .tree-title {
+  font-size: 12px;
+  display: inline-block;
+  text-decoration: none;
+  vertical-align: top;
+  white-space: nowrap;
+  padding: 0 2px;
+  height: 20px;
+  line-height: 20px;
+}
+.easyui .tree-node-proxy {
+  font-size: 12px;
+  line-height: 26px;
+  padding: 0 2px 0 20px;
+  border-width: 1px;
+  border-style: solid;
+  z-index: 9900000;
+}
+.easyui .tree-dnd-icon {
+  display: inline-block;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 2px;
+  top: 50%;
+  margin-top: -9px;
+}
+.easyui .tree-dnd-yes {
+  background: url('../../image/easyui/tree_icons.png') no-repeat -256px 0;
+}
+.easyui .tree-dnd-no {
+  background: url('../../image/easyui/tree_icons.png') no-repeat -256px -18px;
+}
+.easyui .tree-node-top {
+  border-top: 1px dotted red;
+}
+.easyui .tree-node-bottom {
+  border-bottom: 1px dotted red;
+}
+.easyui .tree-node-append .tree-title {
+  border: 1px dotted red;
+}
+.easyui .tree-editor {
+  border: 1px solid #ccc;
+  font-size: 12px;
+  height: 14px !important;
+  height: 24px;
+  line-height: 14px;
+  padding: 1px 2px;
+  width: 80px;
+  position: absolute;
+  top: 0;
+}
+.easyui .tree-node-proxy {
+  background-color: #fff;
+  color: #444;
+  border-color: #ddd;
+}
+.easyui .tree-node-hover {
+  background: #eaeaea;
+  color: #444;
+}
+.easyui .tree-node-selected {
+  background: #cecece;
+  color: #000;
+}
+.easyui .tree-node-hidden {
+  display: none;
+}
+.easyui .tree-folder {
+  background: none;
+  padding: 0px;
+  font-size: 15px;
+}
+.easyui .tree-folder-open {
+  -background: none;
+  padding: 0px;
+  font-size: 15px;
+}
+.easyui .tree-file {
+  background: none;
+  padding: 0px;
+  font-size: 15px;
+}
+/***
+数据库左侧树形菜单样式
+***/
+.easyui .DBtree{
+	padding: 5px 0px;
+}
+.DBtree .tree-file {
+  color: #32b16c;
+}
+.DBtree .tree-bg-none {
+  background: none !important;
+}
+.DBtree .tree-folder.fa {
+  color: #1e82c8;
+}
+.DBtree .db-MySQL {
+  background: url('../../image/easyui/dataBase_tree.png') no-repeat 0px -2px;
+}
+.DBtree .db-oracle {
+  background: url('../../image/easyui/dataBase_tree.png') no-repeat 0px -26px;
+}
+.DBtree .db-PostgreSQL {
+  background: url('../../image/easyui/dataBase_tree.png') no-repeat 0px -50px;
+}
+.DBtree .db-SQLite {
+  background: url('../../image/easyui/dataBase_tree.png') no-repeat 0px -74px;
+}
+.DBtree .db-SQLServer {
+  background: url('../../image/easyui/dataBase_tree.png') no-repeat 0px -98px;
+}
+.DBtree .db-MariaDB {
+  background: url('../../image/easyui/dataBase_tree.png') no-repeat 0px -122px;
+}
+.DBtree .tips-num {
+  border: 1px solid #32b16c;
+  border-radius: 10px;
+  color: #32b16c;
+  display: inline-block;
+  line-height: 20px;
+  padding: 0px 7px;
+  font-size: 10px;
+  -webkit-transform: scale(0.8);
+}
+.DBtree .tree-node-hover {
+  background: none;
+  color: #1e82c8;
+}
+.DBtree .tree-node-hover .tree-file {
+  color: #1e82c8;
+}
+.DBtree .tree-node-hover .tips-num {
+  border: 1px solid #1e82c8;
+  color: #1e82c8;
+}
+.DBtree .tree-node-selected {
+  background-color: #1e82c8;
+  color: #fff;
+}
+.DBtree .tree-node-selected .tree-file {
+  color: #fff;
+}
+.DBtree .tree-node-selected .tree-folder.fa {
+  color: #fff;
+}
+.DBtree .tree-node-selected .tips-num {
+  border: 1px solid #fff;
+  color: #fff;
+}
+.DBtree .tree-node-selected .tree-collapsed {
+  background-position: 0px -18px;
+}
+.DBtree .tree-node-selected .tree-expanded {
+  background-position: -18px -18px;
+}
+.DBtree .tree-node-selected .tree-collapsed-hover {
+  background-position: -32px -18px;
+}
+.DBtree .tree-node-selected .tree-expanded-hover {
+  background-position: -50px -18px;
+}
+.DBtree .tree-node-selected .db-MySQL {
+  background: url('../../image/easyui/dataBase_tree.png') no-repeat -16px -2px;
+}
+.DBtree .tree-node-selected .db-oracle {
+  background: url('../../image/easyui/dataBase_tree.png') no-repeat -16px -26px;
+}
+.DBtree .tree-node-selected .db-PostgreSQL {
+  background: url('../../image/easyui/dataBase_tree.png') no-repeat -16px -50px;
+}
+.DBtree .tree-node-selected .db-SQLite {
+  background: url('../../image/easyui/dataBase_tree.png') no-repeat -16px -74px;
+}
+.DBtree .tree-node-selected .db-SQLServer {
+  background: url('../../image/easyui/dataBase_tree.png') no-repeat -16px -98px;
+}
+.DBtree .tree-node-selected .db-MariaDB {
+  background: url('../../image/easyui/dataBase_tree.png') no-repeat -16px -122px;
+}
+
+/***
+作业管理左侧树形菜单样式
+***/
+.TaskTree .tree-folder{
+	color: #1e82c8;
+}
+.TaskTree .tree-file {
+  color: #1e82c8;
+}
+.TaskTree .tree-bg-none {
+  background: none !important;
+}
+.TaskTree .tree-folder.fa {
+  color: #1e82c8;
+}
+.TaskTree .tips-num {
+  border: 1px solid #32b16c;
+  border-radius: 10px;
+  color: #32b16c;
+  display: inline-block;
+  line-height: 20px;
+  padding: 0px 7px;
+  font-size: 10px;
+  -webkit-transform: scale(0.8);
+}
+.TaskTree .tree-node-hover {
+  background: none;
+  color: #1e82c8;
+}
+.TaskTree .tree-node-hover .tree-folder {
+  color: #1e82c8;
+}
+.TaskTree .tree-node-hover .tree-file {
+  color: #1e82c8;
+}
+.TaskTree .tree-node-hover .tips-num {
+  border: 1px solid #1e82c8;
+  color: #1e82c8;
+}
+.TaskTree .tree-node-selected {
+  background-color: #1e82c8;
+  color: #fff;
+}
+.TaskTree .tree-node-selected .tree-folder {
+  color: #fff;
+}
+.TaskTree .tree-node-selected .tree-file {
+  color: #fff;
+}
+.TaskTree .tree-node-selected .tree-folder.fa {
+  color: #fff;
+}
+.TaskTree .tree-node-selected .tips-num {
+  border: 1px solid #fff;
+  color: #fff;
+}
+.TaskTree .tree-node-selected .tree-collapsed {
+  background-position: 0px -18px;
+}
+.TaskTree .tree-node-selected .tree-expanded {
+  background-position: -18px -18px;
+}
+.TaskTree .tree-node-selected .tree-collapsed-hover {
+  background-position: -32px -18px;
+}
+.TaskTree .tree-node-selected .tree-expanded-hover {
+  background-position: -50px -18px;
+}
+

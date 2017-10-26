@@ -1,0 +1,186 @@
+html,body{
+    height: 100%;
+    background-color: #F7F7F7;
+    font-family: "Microsoft YaHei", "微软雅黑";
+}
+span,em,b,i{display: inline-block;}
+*{box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    }
+    
+.busRouteWrap{
+	position:relative;
+	width:100%;height:100%;
+	min-width:1024px;
+	min-height:560px;
+	padding:0 10px 10px;
+}
+/*导航条样式修改*/
+.pageInfo{height:32px;line-height: 28px;}
+.pageInfo i{margin-top:0;background: none;}
+.mainBody{position: relative;	width:100%;height:calc(100% - 32px);}
+.map{position:relative;width:100%;height:100%;}
+.warnTxt{    top: 0px;
+    position: absolute;
+    right: 10px;
+    width: 190px;
+    height: 82px;
+    z-index: 100;
+    padding-left: 10px;
+    color: #fff;
+    font-size: 14px;background-color: rgba(159,158,154,.6);}
+.countDown{position:absolute;right:15px;top:88px;height:33px;z-index:100;line-height:33px;background-color: rgba(25,116,180, .7);color:#fff;padding:0 10px;border-radius: 6px;}
+.countDown em{padding-left:10px;color:#00ffff;}
+.busPoint1{position:absolute;right: 45%;top: 18%;color: yellow;font-size: 46px;}
+.busPoint1>i{position: absolute;left: 11px;top: 6px;font-size: 24px;color: #000;}
+
+/*地图弹框：当前线路信息*/
+.curRunInfo{position:absolute;top: -44px;left: 44px;padding: 5px 10px;border-radius:6px;background-color: rgba(113,113,111,0.7);}
+.curRunInfo li{height:20px;line-height:20px;color:#fff;font-size:12px;white-space: nowrap;}
+.curRunInfo li span{color:#013861;}
+.curRunInfo li span i{width:18px;height:18px;line-height:14px;text-align:center;border-radius: 50%;border:2px solid #013861;background-color: #fff;}
+
+.leftBusList{position:absolute;left:0;top:0;width:221px;height:100%;border-right: 1px solid #C9C9C9;}
+.leftBusList .busListTitle{height:30px;line-height: 30px;font-size:14px;color:#fff;text-align:center;background-color: #0065AD;cursor: pointer;}
+.leftBusList p.busListTitle:nth-of-type(2n){border-top:1px solid #fff;}
+
+.busList{height:calc(100% - 60px);width:100%;background-color: #fff;padding: 10px 0px 0px 8px;}
+.busList .searchBox{height:24px;border:1px solid #C9C9C9;margin:0 10px 10px 0;}
+.busList .searchBox input[type=text]{float:left;width:calc(100% - 20px);height:100%;border:none;padding:0 5px;color:#bfbfbf;}
+.busList .searchBox i{float:right;height:100%;  width: 20px;line-height: 24px;text-align: center;color:#BFBFBF;}
+.busList-ul{height:calc(100% - 34px);overflow: auto;}
+.busList-ul li{height:52px;line-height:52px;padding:0 5px;border-bottom:1px solid #E5E5E5;color:#3399FF;cursor: pointer;}
+.busList-ul li>span{height:100%;width:42%;overflow:hidden;}
+.busList-ul li .busInfo{height:100%;width:58%;overflow:hidden;}
+.busList-ul li .busNum i{font-size:12px;  padding-right: 2px;}
+.busList-ul li .busNum i.ifont-bus{font-size:20px;}
+.pointArrow{position: relative;z-index: 5;height: 52px;line-height: 54px;    width: 35%;}
+.pointArrow i{width:15px;font-size:20px;}
+.busName{padding: 4px 0;    width: 65%;}
+.busName em{display:block;line-height: 1.8;width: 100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.busList-ul li.active{background-color: #3399FF;border-bottom: 1px solid #3399FF;color:#fff;}
+.busList-ul li.active i.ifont.select{color:#013861;}
+
+/*ranking*/
+.busList .piece{height:50%;}
+.busRankTitle{height: 15%;line-height: 4.5;text-align: center;}
+/*rankingTb*/
+.rankingTb{table-layout: fixed;border-collapse:collapse;border-spacing: 0;width:calc(100% - 10px);height:100%;}
+.rankingTb td,.rankingTb th{height:28px;line-height:28px;text-align: center;}
+.rankingTb th{background-color: #E2E6E9;}
+.rankingTb td{border-bottom: 1px solid #E9E9E9;border-left:1px solid #E9E9E9;}
+.rankingTb td:last-child,.rankingTb th:last-child{border-right:1px solid #E9E9E9;}
+.rankingTb th{border-top: 1px solid #E9E9E9;font-size:12px;text-align: center;}
+.rankingTb .line{width:24px;height:16px;  line-height: 16px;background-color: #013861;text-align: center;color:#fff;}
+
+/*覆盖滚动条插件样式*/
+.mCSB_inside>.mCSB_container{margin-right:14px;}
+
+/*拥堵概况*/
+.congestionProfile{position:absolute;right:10px;bottom:10px;width:calc(100% - 240px);box-shadow: 0 0 3px 2px #DCDAD4;}
+.congestionProfile .title{height:30px;line-height:30px;text-align: center;color:#fff;background-color: #0065AD;position:relative;}
+.congestionProfile .title .btn{position:absolute;top:3px;right:14px;cursor:pointer;border-radius:50%;height: 24px;
+    width: 24px;
+    background:#fff url(../../../image/gis/open.png) no-repeat center;}
+.congestionProfile .content{width:100%;height:calc(100% - 30px);border:1px solid #C9C9C9;border-top:none;background-color: #fff;}
+
+.congestionProfile .content .center{height:100%;width:94%;min-width:720px;min-height: 288px;margin:0 auto;}
+.sign{position:relative;width: 20px;height: 16px;vertical-align: -3px;}
+.sign i{position:absolute;height:2px;width:10px;}
+.sign i.one{left:6px;}
+.sign i.two{left: 3px;top: 7px;}
+.sign i.three{left:0px;}
+.graphExplain p:nth-of-type(1) .sign i.one{top:3px;}
+.graphExplain p:nth-of-type(1) .sign i.three{top:11px;}
+.graphExplain p:nth-of-type(2) .sign i.one{top:11px;}
+.graphExplain p:nth-of-type(2) .sign i.three{top:3px;}
+.signBg-green i{background-color: #02B95D;}
+.signBg-red i{background-color: #F34235;}
+
+/*legend*/
+.legend{padding-left: 14%;}
+.legend li{float:left;height: 30px;line-height: 30px;}
+.legend li:not(:last-child){margin-right:24px;}
+.legend li i{width:30px;height:3px; vertical-align: middle;margin-right:5px;}
+i.fine1{background-color: #339967;}
+i.fine2{background-color: #00FF01;}
+i.fine3{background-color: #FFFF01;}
+i.fine4{background-color: #FFC001;}
+i.fine5{background-color: #FE5051;}
+i.fine6{background-color: #BFBFBF;}
+
+.graphExplain{padding-left: 20px;}
+.graphExplain p{color:#898989;}
+.graphExplain .topic{padding-right:15px;color:#013861;}
+
+/*时间点*/
+.timeList{width:40px;}
+.timeList li{height:10px;font-size:12px; -webkit-transform-origin-x: 0;-webkit-transform: scale(0.80); padding: 0 6px;}
+.smallFont {font-size:9.6px;}
+
+/*热点分析图*/
+.busHotspot{width: calc(100% - 40px);}
+.busHotspot li{height:5px;}
+.busHotspot li i{float:left;height:5px;border-top:1px solid;border-left:1px solid;border-right:1px solid;}
+.busHotspot li i:not(:last-child){border-right:none;}
+.busHotspot li:last-child i{border-bottom:1px solid;}
+
+/*公交站点*/
+.busStation{    padding-left: 45px;
+    clear: both;
+    width: 101%;}
+.busStation li{left: -11px;float:left;position:relative;text-align: center;font-size:12px;color:#173655;}/*width:18px;*/
+.busStation li:not(:last-child):after{position:absolute;top: 22px;content:'';height: 2px;background-color: #173655;}
+.busStation li i{
+  	display:table;
+  	margin:0 auto;
+  	margin-bottom:2px;
+}
+.busStation li i:first-child{  font-size: 12px; -webkit-transform-origin-x: 0; -webkit-transform: scale(0.90);}
+.busStation li i.num{width: 100%;font-size:10.8px;}
+.busStation li i.ifont-drip{font-size:18px;display:table;margin:0 auto;}
+.busStation li i.cycle{
+	width: 12px;height: 12px;
+	border: 2px solid #173655;
+  	border-radius: 50%;
+}
+.busStation li span{
+	writing-mode: vertical-lr;/*从左向右 从右向左是 writing-mode: vertical-rl;*/    
+    writing-mode: tb-lr;/*IE浏览器的从左向右 从右向左是 writing-mode: tb-rl；*/
+}
+.busStation li:first-child i.ifont-drip,.busStation li:first-child span{color: #00CC66;}
+.busStation li:last-child i.ifont-drip,.busStation li:last-child span{color: #FF5050;}
+.busStation li:last-child{
+	width:0px !important;
+}
+/* 滚动条样式 */
+/*.wrapp.boxBottom ul.bar*/
+    /*定义滚动条宽高及背景，宽高分别对应横竖滚动条的尺寸*/
+.scrollbar::-webkit-scrollbar{
+    width: 8px;
+    height: 16px;
+    border-radius: 10px;
+    background-color: transparent;
+}
+/*定义滚动条的轨道，内阴影及圆角*/
+.scrollbar::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: transparent;
+    border-radius: 10px;
+}
+/*定义滑块，内阴影及圆角*/
+.scrollbar::-webkit-scrollbar-thumb{
+    height: 20px;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #333;
+}
+
+
+
+
+
+

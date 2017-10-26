@@ -1,0 +1,329 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+.bg {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: #013861;
+}
+.asset-bg {
+    background: url("../../image/navigation/asset-index.png");
+    background-size: 100% 100%;
+}
+.fzjc-bg {
+    background: url("../../image/navigation/auxiliary-index.png");
+    background-size: 100% 100%;
+}
+.ztfx-bg {
+    background: url("../../image/navigation/special-index.png");
+    background-size: 100% 100%;
+}
+.yq-bg {
+    background: url("../../image/navigation/yq-index.png");
+    background-size: 100% 100%;
+}
+.bg .mgr-20{
+    margin-right: 0.9rem;
+}
+.bg .mgt-16{
+    margin-top: 0.8rem;
+}
+.bg .mgr-5{
+    margin-right: 0.25rem;
+}
+.bg .mgr-10{
+    margin-right: 0.5rem;
+}
+.bg .mgb-10{
+    margin-bottom: 0.5rem;
+}
+.bg .nav{
+    height: 7%;
+    width: 100%;
+}
+.bg .nav .logo{
+    height: 100%;
+    width: 4%;
+    background: url("../../image/navigation/whiteIcon.png") no-repeat center;
+}
+.bg #tabhome{
+    height: 92.6%;
+    width: 100%;
+    overflow: hidden;
+}
+.bg .ifont {
+    color: #fff;
+    font-size: 2rem;
+    line-height: 4rem;
+    text-align: center;
+}
+.bg .ifont1 {
+    color: #06AEED;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    margin: 0 1rem;
+}
+.bg .nav .nav-title{
+    font-size: 1.2rem;
+    color: #fff;
+    line-height: 2.4rem;
+}
+.bg .nav .arr{
+    height: 100%;
+    width: 36%;
+    overflow: hidden;
+}
+.bg .nav .arr #nav{
+    height: 100%;
+    width:33%;
+    float: left;
+}
+.bg .nav .arr #nav1{
+    height: 100%;
+    width:66%;
+    float: left;
+    position: relative;
+    display: none;
+}
+#nav1 li{
+    float: left;
+    height: 100%;
+    width: 50%;
+    position: absolute;
+}
+#nav1 li:first-child{
+    top: 0;
+    left: -10%;
+    background: url("../../image/navigation/asset-index70.png") no-repeat;
+    background-size: 100% 100%;
+}
+#nav1 li:nth-child(2){
+    top: 0;
+    left: 30%;
+    background: url("../../image/navigation/asset-index100.png") no-repeat;
+    background-size: 100% 100%;
+}
+.bg .nav .arr li{
+    height: 100%;
+    width: 100%;
+    font-size: 0.8rem;
+    line-height: 2.4rem;
+    color: #fff;
+    text-align: center;
+}
+.bg .nav .arr li.firstPage{
+    background: url("../../image/navigation/asset-index1.png") no-repeat;
+    background-size: 100% 100%;
+}
+.bg .nav .arr li.asset-bg{
+    background: url("../../image/navigation/asset-index1.png") no-repeat;
+    background-size: 100% 100%;
+}
+.bg .nav .arr li.fzjc-bg{
+    background: url("../../image/navigation/fzjc-index1.png") no-repeat;
+    background-size: 100% 100%;
+}
+.bg .nav .arr li.ztfx-bg {
+    background: url("../../image/navigation/ztfx-index1.png") no-repeat;
+    background-size: 100% 100%;
+}
+.bg .nav a{
+    display: inline-block;
+}
+.bg .nav .home{
+    height: 100%;
+    width: 4%;
+    background: url("../../image/navigation/asset-index2.png") no-repeat center;
+    cursor: pointer;
+    background-size: 50% 50%;
+}
+.bg .nav .list{
+    height: 100%;
+    width: 4%;
+    background: url("../../image/navigation/asset-index3.png") no-repeat center;
+    cursor: pointer;
+    background-size: 50% 50%;
+}
+.bg .asset-left {
+    position: absolute;
+    top: 16%;
+    left: 2%;
+}
+
+.bg .box {
+    height: 4rem;
+    width: 4rem;
+}
+.asset-bg .box{
+    background-color: #308CCB;
+    border-radius: 50% 0 50% 50%;
+}
+.fzjc-bg .box{
+    background-color: #30BE72;
+    border-radius: 50% 0 50% 50%;
+}
+.ztfx-bg .box{
+     background-color: #FE9F33;
+     border-radius: 50% 0 50% 50%;
+ }
+.yq-bg .box{
+    background-color: #A532A7;
+    border-radius: 50% 0 50% 50%;
+}
+.bg .info {
+    font-size: 2rem;
+    width: 30px;
+    margin-left: 20px;
+}
+.asset-bg .info{
+    color: #308CCB;
+}
+.fzjc-bg .info{
+    color: #30BE72;
+}
+.ztfx-bg .info{
+     color: #FE9F33;
+}
+.yq-bg .info{
+    color: #A532A7;
+}
+.bg .zero {
+    height: 26%;
+    width: 100%;
+}
+.fzjc-bg .zero{
+    height: 16%;
+    width: 100%;
+}
+.ztfx-bg .zero{
+    height: 8%;
+    width: 100%;
+}
+.bg .content {
+    margin: 0 auto;
+    width: 57%;
+    height: 62%;
+}
+.fzjc-bg .content {
+    margin: 0 auto;
+    width: 78%;
+    height: 62%;
+}
+.ztfx-bg .content {
+    margin-left: 10%;
+    width: 84%;
+    height:90%;
+}
+.yq-bg .content {
+    margin: 0 auto;
+    width: 72%;
+    height:62%;
+}
+.asset-bg .content .content-left,.content-right{
+    width: 7rem;
+}
+.asset-bg .content .content-center{
+    width: 22rem;
+}
+.fzjc-bg .content .content-left{
+    width: 14.3rem;
+}
+.fzjc-bg .content .content-center{
+    width: 14.3rem;
+}
+.fzjc-bg .content .content-right{
+    width: 21.6rem;
+}
+.fzjc-bg .content .content-one{
+	width: 7rem;
+}
+.ztfx-bg .content .content-center{
+    width: 7rem;
+}
+.ztfx-bg .content .content-right{
+    width: 14.3rem;
+}
+.ztfx-bg .content .content-left{
+    width: 40.5rem;
+}
+
+.yq-bg .content-center{
+    width: 15rem;
+}
+.bg .content .title {
+    font-size: 1rem;
+    color: #383637;
+    margin-bottom: 0.8rem;
+}
+.bg .content li {
+    float: left;
+}
+
+.bg .content li a {
+    display: block;
+    height: 7rem;
+    width: 7rem;
+    background-color: rgba(48,140,205,.8);
+}
+
+.fzjc-bg .content li a {
+    background-color: rgba(0,176,80,.8);
+}
+.ztfx-bg .content li a {
+    background-color: rgba(255,128,0,.8);
+    height: 7rem;
+    width: 6.5rem;
+}
+.ztfx-bg .content-left1 div {
+	float:left;
+}
+.ztfx-bg .content-left1 div a {
+	display:block;
+    background-color: rgba(255,128,0,.8);
+    height: 7rem;
+    width: 6.5rem;
+}
+.ztfx-bg .content-left1 div a span{
+	display:block;
+}
+.bg .content-left1 div a .ifont2 {
+    font-size: 2.8rem;
+    height: 80%;
+    line-height: 6.4rem;
+}
+.bg .content-left1 div a span:nth-child(2) {
+    font-size: 0.7rem;
+    padding-left: 0.5rem;
+    color:#fff;
+}
+.yq-bg .content li a {
+    background-color: rgba(165,50,167,.8);
+}
+.bg .content li a .ifont2{
+    font-size: 2.8rem;
+    height: 80%;
+    line-height: 6.4rem;
+}
+.bg .content li a .ifont3{
+    font-size: 5rem;
+    height: 80%;
+    line-height: 6.4rem;
+}
+.bg .content li a span{
+    display: block;
+    color: #fff;
+}
+.bg .content li a span:nth-child(2){
+    font-size: 0.7rem;
+    padding-left: 0.5rem;
+}
+/* .ztfx-bg .content li a span:nth-child(2){
+	font-size:0.7rem;
+} */
+.bg .content li.ts a span:first-child{
+    font-size: 6rem;
+    height: 100%;
+    width: 100%;
+}

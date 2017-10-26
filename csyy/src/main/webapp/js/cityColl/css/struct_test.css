@@ -1,0 +1,21 @@
+/*页面代码*/
+.wrapper{width:100%;height:100%;background: #ccc;overflow:hidden;}
+.topSide,.mdlSide,.btmSide{width:100%;height:33.3%;box-sizing: border-box;}
+.area{width:20%;height:100%;float:left; text-align: center;}
+.p1{font:600 50px/100px "微软雅黑";margin-top:40px;}
+.p2{font:600 30px/100px "微软雅黑";}
+.topSide .part1{background-color: #327FFF;}
+.topSide .part2{background-color: #34DBFF;}
+.topSide .part3{background-color: #43FFA4;}
+.topSide .part4{background-color: #B8FF47;}
+.topSide .part5{background-color: #FF9E47;}
+.mdlSide .part1{background-color: #FF5948;}
+.mdlSide .part2{background-color: #3237FF;}
+.mdlSide .part3{background-color: #6232FF;}
+.mdlSide .part4{background-color: #B535FF;}
+.mdlSide .part5{background-color: #FF36FD;}
+.btmSide .part1{background-color: #FF3380;}
+.btmSide .part2{background-color: #FF3A3A;}
+.btmSide .part3{background-color: #00FFF6;}
+.btmSide .part4{background-color: #FDFF2E;}
+.btmSide .part5{background-color: #FFAD10;}

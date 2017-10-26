@@ -1,0 +1,628 @@
+.tour_pjp .content .rightTour {
+    height: 100%;
+    width: 83%;
+}
+
+.tour_pjp .rightTour .top {
+    height: 50%;
+    width: 100%;
+    background: url("../../../image/dpzs/slp/tour_bg.png") no-repeat center;
+}
+
+.tour_pjp .rightTour .topLeft, .topRight {
+    height: 100%;
+    position: relative;
+}
+
+.tour_pjp .rightTour .w50 {
+    width: 50%;
+}
+
+.tour_pjp .rightTour .rightIcon {
+    position: absolute;
+    top: -0.7rem;
+    left: 10.5rem;
+    height: 39px;
+    width: 197px;
+    background: url(../../../image/dpzs/slp/tour-pjp3.png) no-repeat center;
+    background-size: 100%;
+    font-size: 20px;
+    color: #005C9D;
+    line-height: 39px;
+    text-align: center;
+    z-index: 999;
+}
+
+.tour_pjp .rightTour .rightIcon span {
+    font-size: 16px;
+}
+
+@media only screen and (min-width: 1920px) {
+    body {
+        font-size: 33px;
+    }
+
+    .tour_pjp .rightTour .rightIcon {
+        position: absolute;
+        top: -0.7rem;
+        left: 10.5rem;
+        height: 85px;
+        width: 280px;
+        background: url(../../../image/dpzs/slp/tour-pjp3.png) no-repeat;
+        background-size: 100%;
+        font-size: 26px;
+        color: #005C9D;
+        line-height: 54px;
+        text-align: center;
+        z-index:999;
+    }
+
+    .tour_pjp .rightTour .rightIcon span {
+        font-size: 20px;
+    }
+}
+
+.tour_pjp .rightTour .box {
+    position: absolute;
+    right: 0;
+    top: 8%;
+    width: 20%;
+    z-index: 1;
+}
+
+.tour_pjp .rightTour .bottom {
+    margin-top: 40px;
+    height: 43%;
+    width: 100%;
+    border-radius: 16px;
+    border: 1px solid #488FC3;
+    position: relative;
+    background-color: #0164A8;
+}
+
+.tour_pjp .rightTour .bottom .h50 {
+    height: 50%;
+}
+
+.tour_pjp .rightTour .bottom .chart4, .chart5 {
+    width: 100%;
+}
+
+.tour_pjp .rightTour .bottom .chart5 {
+    position: relative;
+    width: 100%;
+}
+
+.tour_pjp .rightTour .bottom .w38 {
+    width: 38%;
+    height: 100%;
+}
+
+.tour_pjp .rightTour .bottom .w24 {
+    width: 24%;
+    height: 100%;
+}
+
+.tour_pjp .rightTour .bottom .charts6 {
+    height: 100%;
+    width: 100%;
+}
+
+.tour_pjp .rightTour .bottom #charts5, #charts6, #charts7 {
+    height: 100%;
+    width: 100%;
+}
+
+.tour_pjp .rightTour .bottom .chartAbsolute {
+    position: absolute;
+    top: 0px;
+    left: 37%;
+    overflow: hidden;
+}
+
+.tour_pjp .rightTour .bottom .chartAbsoluteInfo {
+    position: absolute;
+    top: 38%;
+    left: 14%;
+    text-align: center;
+    height: 8rem;
+    width: 72%;
+    border-radius: 50%;
+    background: -webkit-radial-gradient(circle at center, #fff, #92C3E1);
+    background: -o-radial-gradient(circle at center, #fff, #92C3E1);
+    background: -moz-radial-gradient(circle at center, #fff, #92C3E1);
+    background: radial-gradient(circle at center, #fff, #92C3E1);
+    z-index: 0;
+}
+
+.tour_pjp .rightTour .chartAbsoluteInfo p:first-child {
+    color: #FF2C98;
+    font-size: 1.4rem;
+    margin-top: 4%;
+}
+
+.tour_pjp .rightTour .chartAbsoluteInfo p:nth-child(2) {
+    color: #02AF46;
+    font-size: 0.8rem;
+}
+
+.tour_pjp .rightTour .chartAbsoluteInfo p:nth-child(2) span {
+    color: #00AEED;
+    font-size: 1rem;
+}
+
+.tour_pjp .rightTour .bottom #chart4 {
+    height: 100%;
+    width: 100%;
+}
+
+.tour_pjp .rightTour .rightIcon1 {
+    top: -6%;
+    left: 40%;
+}
+
+@media only screen and (min-width: 1920px) {
+    body {
+        font-size: 33px;
+    }
+
+    .tour_pjp .rightTour .rightIcon1 {
+        top: -6%;
+        left: 40%;
+    }
+}
+/*新增图表信息*/
+.tour_pjp .rightTour .leftBottom{
+    height: 100%;
+    width: 100%;
+}
+.tour_pjp .rightTour .leftBottom .chartsLeft,.chartsRight{
+    height: 100%;
+    width: 50%;
+}
+.tour_pjp .leftBottom .icon1 {
+    height: 30%;
+    width: 30%;
+    background: url(../../../image/dpzs/dp/traval-in_1.png) no-repeat center;
+    position: absolute;
+    top: 4%;
+    left: 1%;
+    z-index: 99;
+}
+.tour_pjp .leftBottom .icon2 {
+    height: 30%;
+    width: 30%;
+    background: url(../../../image/dpzs/dp/traval-out_1.png) no-repeat center;
+    position: absolute;
+    right: -5%;
+    bottom: 16%;
+    z-index: 99;
+}
+.tour_pjp .leftBottom #chartsLeft,#chartsRight{
+    width: 100%;
+    height: 100%;
+}
+.tour_pjp .rightTour .tourInfo {
+    height: 70%;
+    width: 20%;
+}
+
+@media only screen and (min-width: 1366px) {
+    .tour_pjp .rightTour .tourInfo {
+        height: 70%;
+        width: 20%;
+        margin-top: 8%;
+    }
+    .tour_pjp .rightTour .tourInfo1 {
+        height: 25%;
+        width: 100%;
+        margin-bottom:0.4rem;
+    }
+}
+
+.tour_pjp .rightTour .tourInfo1 {
+    height: 25%;
+    width: 100%;
+}
+
+.tour_pjp .rightTour .tourInfo2 {
+    height: 25%;
+    width: 100%;
+    margin-bottom: 0.1rem;
+}
+
+.tour_pjp .rightTour .tourInfo1 p {
+    font-size: 14px;
+    text-align: center;
+}
+
+.tour_pjp .rightTour .tourInfo1 .tourBox {
+    height: 60%;
+    width: 80%;
+    border-radius: 4px;
+    margin-left: 10%;
+    margin-top: 2%;
+    background-color: #FF0066;
+    font-size: 28px;
+    line-height: 123%;
+    position: relative;
+}
+
+.tour_pjp .rightTour .tourInfo1 .tourBox1 {
+    background-color: #41B0FF;
+    height: 60%;
+    width: 80%;
+    border-radius: 4px;
+    margin-left: 10%;
+    margin-top: 2%;
+    /*background-color: #FF0066;*/
+    font-size: 28px;
+    line-height: 123%;
+    position: relative;
+}
+
+.tour_pjp .rightTour .tourInfo1 .tourBox2 {
+    background-color: transparent;
+    font-size: 24px;
+    height: 60%;
+    width: 80%;
+    border-radius: 4px;
+    margin-top: 2%;
+    line-height: 123%;
+    position: relative;
+    text-align: right;
+    padding-right: 10%;
+}
+
+.tour_pjp .rightTour .tourInfo1 .tourBox span {
+    font-size: 14px;
+    line-height: 60%;
+    position: absolute;
+    top: 16%;
+    right: 4%;
+}
+.tour_pjp .rightTour .tourInfo1 .tourBox1 span {
+    font-size: 14px;
+    line-height: 60%;
+    position: absolute;
+    top: 16%;
+    right: 4%;
+}
+.tour_pjp .rightTour .tourInfo1 .tourBox2 span {
+    font-size: 14px;
+    line-height: 60%;
+    position: absolute;
+    top: 16%;
+    right: -10%;
+    color: #fff;
+}
+
+.tour_pjp .rightTour .tourInfo2 {
+    height: 50%;
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.tour_pjp .rightTour .tourInfo2 .c1 {
+    color: #FF629C;
+}
+
+.tour_pjp .rightTour .tourInfo2 .c2 {
+    color: #FEBE04;
+}
+
+.tour_pjp .rightTour .tourInfo2 .c3 {
+    color: #FFF701;
+}
+
+.tour_pjp .rightTour .tourInfo2 .c4 {
+    color: #64FE2C;
+}
+
+.tour_pjp .rightTour .tourInfo2 .c5 {
+    color: #59D4FE;
+}
+
+.tour_pjp .rightTour table {
+    height: 70%;
+    width: 80%;
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: 10%;
+}
+
+.tour_pjp .rightTour table th, td {
+    height: 0.7rem;
+    border: 1px solid #7FB4DE;
+    text-align: center;
+    width: 1rem;
+}
+
+.tour_pjp .rightTour table td.tdColor {
+    background-color: #FF669A;
+}
+.carousel-indicators .active{width:12px;height:12px;margin:0;background-color:#98FB40}
+@media only screen and (min-width: 1920px) {
+    .tour_pjp .content .rightTour {
+        height: 100%;
+        width: 83%;
+    }
+
+    .tour_pjp .rightTour .top {
+        height: 50%;
+        width: 100%;
+        background: url("../../../image/dpzs/slp/tour_bg.png") no-repeat center;
+    }
+
+    .tour_pjp .rightTour .topLeft, .topRight {
+        height: 100%;
+        position: relative;
+    }
+
+    .tour_pjp .rightTour .w50 {
+        width: 50%;
+    }
+
+    .tour_pjp .rightTour .rightIcon {
+        position: absolute;
+        top: -0.7rem;
+        left: 10.5rem;
+        height: 85px;
+        width: 280px;
+        background: url(../../../image/dpzs/slp/tour-pjp3.png) no-repeat;
+        background-size: 100%;
+        font-size: 26px;
+        color: #005C9D;
+        line-height: 54px;
+        text-align: center;
+        z-index:999;
+    }
+
+    .tour_pjp .rightTour .rightIcon span {
+        font-size: 20px;
+    }
+
+    .tour_pjp .rightTour .box {
+        position: absolute;
+        right: -6%;
+        top: 12%;
+        width: 14%;
+        z-index: 1;
+    }
+
+    .tour_pjp .rightTour .bottom {
+        margin-top: 40px;
+        height: 46%;
+        width: 100%;
+        border-radius: 16px;
+        border: 1px solid #488FC3;
+        position: relative;
+        background-color: #0164A8;
+    }
+
+    .tour_pjp .rightTour .bottom .h50 {
+        height: 50%;
+    }
+
+    .tour_pjp .rightTour .bottom .chart4, .chart5 {
+        width: 100%;
+    }
+
+    .tour_pjp .rightTour .bottom .chart5 {
+        position: relative;
+        width: 100%;
+    }
+
+    .tour_pjp .rightTour .bottom .w38 {
+        width: 38%;
+        height: 100%;
+    }
+
+    .tour_pjp .rightTour .bottom .w24 {
+        width: 24%;
+        height: 100%;
+    }
+
+    .tour_pjp .rightTour .bottom .charts6 {
+        height: 100%;
+        width: 100%;
+    }
+
+    .tour_pjp .rightTour .bottom #charts5, #charts6, #charts7 {
+        height: 100%;
+        width: 100%;
+    }
+
+    .tour_pjp .rightTour .bottom .chartAbsolute {
+        position: absolute;
+        top: 0px;
+        left: 37%;
+        overflow: hidden;
+    }
+
+    .tour_pjp .rightTour .bottom .chartAbsoluteInfo {
+        position: absolute;
+        top: 24%;
+        left:10%;
+        text-align: center;
+        height: 251px;
+        width: 300px;
+        border-radius: 50%;
+        background: -webkit-radial-gradient(circle at center, #fff, #92C3E1);
+        background: -o-radial-gradient(circle at center, #fff, #92C3E1);
+        background: -moz-radial-gradient(circle at center, #fff, #92C3E1);
+        background: radial-gradient(circle at center, #fff, #92C3E1);
+        z-index: 0;
+    }
+
+    .tour_pjp .rightTour .chartAbsoluteInfo p:first-child {
+        color: #FF2C98;
+        font-size: 32px;
+        margin-top: 2.5rem;
+    }
+
+    .tour_pjp .rightTour .chartAbsoluteInfo p:nth-child(2) {
+        color: #02AF46;
+        font-size: 24px;
+    }
+
+    .tour_pjp .rightTour .chartAbsoluteInfo p:nth-child(2) span {
+        color: #00AEED;
+        font-size: 24px;
+    }
+
+    .tour_pjp .rightTour .bottom #chart4 {
+        height: 100%;
+        width: 100%;
+    }
+
+    body {
+        font-size: 33px;
+    }
+
+    .tour_pjp .rightTour .rightIcon1 {
+        top: -5%;
+        left: 40%;
+    }
+
+    .tour_pjp .rightTour .switch {
+        border: 6px solid #00A9F8;
+        height: 325px;
+        width: 626px;
+        margin-top: 11%;
+        border-radius: 16px 0;
+    }
+
+    .tour_pjp .rightTour .tourInfo {
+        height: 70%;
+        width: 20%;
+        margin-top: 8%;
+    }
+
+    .tour_pjp .rightTour .tourInfo1 {
+        height: 25%;
+        width: 100%;
+        margin-bottom:0px;
+    }
+
+    .tour_pjp .rightTour .tourInfo2 {
+        height: 25%;
+        width: 100%;
+        margin-bottom: 0.1rem;
+    }
+
+    .tour_pjp .rightTour .tourInfo1 p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .tour_pjp .rightTour .tourInfo1 .tourBox {
+        height: 47%;
+        width: 67%;
+        border-radius: 4px;
+        margin-left: 17%;
+        margin-top: 2%;
+        background-color: #FF0066;
+        font-size: 28px;
+        line-height: 123%;
+        position: relative;
+        padding-left: 6%;
+    }
+
+    .tour_pjp .rightTour .tourInfo1 .tourBox1 {
+        background-color: #41B0FF;
+        height: 47%;
+        width: 67%;
+        border-radius: 4px;
+        margin-left: 17%;
+        margin-top: 2%;
+        font-size: 28px;
+        line-height: 123%;
+        position: relative;
+        padding-left: 6%;
+    }
+
+    .tour_pjp .rightTour .tourInfo1 .tourBox2 {
+        background-color: transparent;
+        font-size: 24px;
+        height: 60%;
+        width: 80%;
+        border-radius: 4px;
+        margin-top: 2%;
+        line-height: 123%;
+        position: relative;
+        text-align: right;
+        padding-right: 10%;
+    }
+
+    .tour_pjp .rightTour .tourInfo1 .tourBox span {
+        font-size: 14px;
+        line-height: 60%;
+        position: absolute;
+        top: 16%;
+        right: 4%;
+    }
+    .tour_pjp .rightTour .tourInfo1 .tourBox1 span {
+        font-size: 14px;
+        line-height: 60%;
+        position: absolute;
+        top: 16%;
+        right: 4%;
+    }
+    .tour_pjp .rightTour .tourInfo1 .tourBox2 span {
+        font-size: 14px;
+        line-height: 60%;
+        position: absolute;
+        top: 16%;
+        right: -10%;
+        color: #fff;
+    }
+
+    .tour_pjp .rightTour .tourInfo2 {
+        height: 50%;
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+
+    .tour_pjp .rightTour .tourInfo2 .c1 {
+        color: #FF629C;
+    }
+
+    .tour_pjp .rightTour .tourInfo2 .c2 {
+        color: #FEBE04;
+    }
+
+    .tour_pjp .rightTour .tourInfo2 .c3 {
+        color: #FFF701;
+    }
+
+    .tour_pjp .rightTour .tourInfo2 .c4 {
+        color: #64FE2C;
+    }
+
+    .tour_pjp .rightTour .tourInfo2 .c5 {
+        color: #59D4FE;
+    }
+
+    .tour_pjp .rightTour table {
+        height: 70%;
+        width: 80%;
+        border-collapse: collapse;
+        text-align: center;
+        margin-left: 16%;
+        margin-top: 8%;
+    }
+
+    .tour_pjp .rightTour table th, td {
+        height: 0.7rem;
+        border: 1px solid #7FB4DE;
+        text-align: center;
+        width: 1rem;
+    }
+
+    .tour_pjp .rightTour table td.tdColor {
+        background-color: #FF669A;
+    }
+}
+
+

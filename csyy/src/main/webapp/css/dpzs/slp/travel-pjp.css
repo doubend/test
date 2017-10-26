@@ -1,0 +1,685 @@
+.travel-pjp .content{
+    margin-top: 1.2rem;
+    height: 94%;
+}
+.travel-pjp .content .title{
+    background: url("../../../image/dpzs/slp/travel-pjptop.png") no-repeat center bottom;
+    background-size: 59% 26%;
+}
+.travel-pjp .content .icon{
+    background: url("../../../image/dpzs/slp/travel-pjpIcon1.png") no-repeat;
+    background-size: 100% 100%;
+}
+.travel-pjp .content .icon2{
+    top:-2%;
+    font-size: 20px;
+    font-weight: 300;
+}
+.travel-pjp .content .h65{
+    height: 65%;
+    width: 100%;
+    position: relative;
+}
+.travel-pjp .leftTour .travelInfo{
+    height: 24px;
+    width: 100%;
+    background-color: #081734;
+    color: #40B7BF;
+    position: absolute;
+    top: 10.3%;
+    left: 0;
+}
+.travel-pjp .leftTour .travelInfo p{
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    line-height: 24px;
+}
+.travel-pjp .leftTour .table1{
+    height: 20.7%;
+    width: 100%;
+    border-collapse: collapse;
+    position: absolute;
+    top: 16%;
+    left: 0;
+    text-align: center;
+}
+.travel-pjp .leftTour table td{
+    height: 7%;
+    text-align: center;
+}
+.travel-pjp .leftTour table td i{
+    display: inline-block;
+    background: url("../../../image/dpzs/slp/YY.png") no-repeat center;
+    background-size: 60%;
+}
+.travel-pjp .leftTour  .h130{
+    height: 20.7%;
+    font-size: 66px;
+    text-align: center;
+    background-color: #6D006D;
+}
+.travel-pjp .leftTour .h130 i{
+    display: block;
+    height: 55px;
+    width: 43px;
+    background: url("../../../image/dpzs/slp/train.png") no-repeat center;
+    margin-left: 28%;
+    background-size: 80%;
+}
+.travel-pjp .leftTour .h130 .f14{
+    font-size: 14px;
+}
+.travel-pjp .leftTour .table2{
+    height: 52.3%;
+    width: 100%;
+    border-collapse: collapse;
+    position: absolute;
+    top: 37.5%;
+    left: 0;
+    text-align: center;
+}
+.travel-pjp  .move #timeTable{
+    width: 100%;
+    border-collapse: collapse;
+    position: absolute;
+    top: 1.8rem;
+    left: 0;
+    text-align: center;
+    display: none;
+}
+.travel-pjp .bgColor10{
+     height: 1rem;
+     background: url("../../../image/dpzs/slp/tableArr.png") no-repeat center;
+     background-color:#34103C;
+     background-size: 15%;
+     cursor: pointer;
+ }
+.travel-pjp .bgColor20{
+    height: 1rem;
+    background: url("../../../image/dpzs/slp/tableLow.png") no-repeat center;
+    background-color:#34103C;
+    background-size: 15%;
+    cursor: pointer;
+}
+.travel-pjp  .table2 td{
+    height: 7%;
+    width:33%;
+    text-align: center;
+}
+.travel-pjp  .move #timeTable td:first-child{
+    height: 1rem;
+    width:20%;
+    text-align: center;
+}
+.travel-pjp  .move #timeTable td:nth-child(2){
+    height: 1rem;
+    width:60%;
+    text-align: center;
+}
+.travel-pjp  .move #timeTable td:nth-child(3){
+    height: 1rem;
+    width:20%;
+    text-align: center;
+}
+.travel-pjp  .table2 td i{
+    display: inline-block;
+    height: 100%;
+    width: 34px;
+}
+.travel-pjp .table2 .fontBlack{
+    color: #000B00;
+}
+.travel-pjp .table2 .bgColor1{
+    background-color:#920091;
+}
+.travel-pjp  .table2 td .bg1{
+    background: url("../../../image/dpzs/slp/YY.png") no-repeat center;
+    background-size: 48%;
+}
+.travel-pjp  .table2 td .bg2{
+    background: url("../../../image/dpzs/slp/JXC.png") no-repeat center;
+    background-size: 48%;
+}
+.travel-pjp  .table2 td .bg3{
+    background: url("../../../image/dpzs/slp/BS.png") no-repeat center;
+    background-size: 48%;
+}
+.travel-pjp  .table2 td .bg4{
+    background: url("../../../image/dpzs/slp/FJ.png") no-repeat center;
+    background-size: 48%;
+}
+.travel-pjp  .table2 td .bg5{
+    background: url("../../../image/dpzs/slp/QC.png") no-repeat center;
+    background-size: 48%;
+}
+.travel-pjp  .table2 td .bg6{
+    background: url("../../../image/dpzs/slp/BS1.png") no-repeat center;
+    background-size: 48%;
+}
+.travel-pjp  .table2 td .bg7{
+    background: url("../../../image/dpzs/slp/GT.png") no-repeat center;
+    background-size: 48%;
+}
+.travel-pjp .table2 td .bg8{
+    background: url("../../../image/dpzs/slp/WQ.png") no-repeat center;
+    background-size: 48%;
+}
+
+.travel-pjp .table2 td .bg10{
+    background: url("../../../image/dpzs/slp/trainSmall.png") no-repeat center;
+    background-size: 48%;
+}
+.travel-pjp .table2 td .bg11{
+    background: url("../../../image/dpzs/slp/run.png") no-repeat center;
+    background-size: 49%;
+}
+.travel-pjp .table2 .bgColor2{
+    background-color:#C8007C;
+}
+.travel-pjp .table2 .bgColor3{
+    background-color:#FF0066;
+}
+.travel-pjp .table2 .bgColor4{
+    background-color:#FF6946;
+}
+.travel-pjp .table2 .bgColor5{
+    background-color:#FF8A00;
+}
+.travel-pjp .table2 .bgColor6{
+    background-color:#FFA600;
+}
+.travel-pjp .table2 .bgColor7{
+    background-color:#FFFF01;
+}
+.travel-pjp .table2 .bgColor8{
+    background-color:#C8FE44;
+}
+.travel-pjp .table2 .bgColor9{
+    background-color:#92D14F;
+}
+.travel-pjp .table2 .bgColor11{
+    background-color:#670866;
+}
+.travel-pjp .table2 .bgColor12{
+    background-color:#860890;
+}
+.travel-pjp .content .rightTour {
+    height: 100%;
+    width: 83%;
+    /* background: url("../../../image/dpzs/slp/Travel-pjp.png") ; */
+    border:2px solid #00AEED;
+    overflow: hidden;
+    border-radius: 16px;
+    background-size: 100% 100%;
+    position: relative;
+}
+.travel-pjp .content .rightTour .rightBox{
+    height:18%;
+    width: 100%;
+    background-color:rgba(6,21,52,.8);
+    padding-left: 2rem;
+    border-bottom: 1px solid #0072C2;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.travel-pjp .content .rightTour .fatherBox{
+    position: relative;
+    top: 50%;
+}
+.travel-pjp .content .rightTour .rightBox .move{
+    height: 6px;
+    width: 8rem;
+    background-image: -webkit-linear-gradient(top left, #8C038E, #A40387 25%, #D0037C 75%,#FE0069 100%);
+    background-image: -moz-linear-gradient(top left, #8C038E, #A40387 25%, #D0037C 75%,#FE0069 100%);
+    background-image: -o-linear-gradient(top left, #8C038E, #A40387 25%, #D0037C 75%,#FE0069 100%);
+    background-image: -ms-linear-gradient(top left, #8C038E, #A40387 25%, #D0037C 75%,#FE0069 100%);
+    position: absolute;
+    left: 0;
+    z-index:999;
+}
+.travel-pjp .content .rightTour .rightBox .moveLeft,.moveRight{
+    height: 68px;
+    width: 68px;
+    text-align: left;
+    padding-left: 10px;
+    box-sizing: border-box;
+    -wekit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+}
+.travel-pjp .content .rightTour .rightBox .moveLeft{
+    position: absolute;
+    background: url("../../../image/dpzs/slp/timeLineLeft.png") no-repeat ;
+    background-size: 74%;
+    top: -36px;
+    left: -15%;
+}
+.travel-pjp .content .rightTour .rightBox .moveRight{
+    background: url("../../../image/dpzs/slp/tineLineRight.png") no-repeat;
+    background-size: 74%;
+    position: absolute;
+    right: -27%;
+    top:-36px;
+}
+.travel-pjp .content .rightTour .rightBox ul{
+    position: absolute;
+    top: 50%;
+    left:0;
+}
+.travel-pjp .content .rightTour .rightBox li{
+    float: left;
+    height: 6px;
+    width: 2rem;
+    background-color: #00548B;
+    color: #00548B;
+    position: relative;
+}
+.travel-pjp .content .rightTour .rightBox li i{
+    display: block;
+    height: 14px;
+    width: 1px;
+    background-color: #00548B;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.travel-pjp .content .rightTour .rightBox li p{
+    position: absolute;
+    top: 14px;
+    left: -11px;
+}
+.travel-pjp .content .rightTour .rightBox li.last{
+    width: 0;
+}
+.travel-pjp .content .rightTour .SX{
+    position: absolute;
+    right: 0.4rem;
+    top: -2rem;
+    height: 3.9rem;
+    width: 3.9rem;
+}
+.travel-pjp .content .rightTour .sector{
+    position: relative;
+    background-image: -webkit-linear-gradient(top left, #8C038E, #A40387 25%, #D0037C 75%,#FE0069 100%);
+    border:1px solid blue;
+    height: 3.9rem;
+    width: 3.9rem;
+    border-radius: 1.95rem;
+}
+.travel-pjp .content .rightTour .sector .sx1{
+    position: absolute;
+    width: 3.9rem;
+    height: 3.9rem;
+    transform: rotate(0deg);
+    clip: rect(0px,1.95rem,3.9rem,0px);/*杩欎釜clip灞炴�鐢ㄦ潵缁樺埗鍗婂渾锛屽湪clip鐨剅ect鑼冨洿鍐呯殑鍐呭鏄剧ず鍑烘潵锛屼娇鐢╟lip灞炴�锛屽厓绱犲繀椤绘槸absolute鐨�*/
+    border-radius: 1.95rem;
+    background-color: #061534;
+    /*-webkit-animation: an1 2s infinite linear;*/
+}
+
+.travel-pjp .content .rightTour .sector .sx2{
+    position: absolute;
+    width: 3.9rem;
+    height: 3.9rem;
+    transform: rotate(0deg);
+    clip: rect(0px,1.95rem,3.9rem,0px);
+    border-radius: 2.95rem;
+    background-color: #061534;
+   }
+.travel-pjp .content .rightTour .sector1 .sx1{transform: rotate(-0deg);}
+.travel-pjp .content .rightTour .sector1 .sx2{transform: rotate(-60deg);}
+
+.travel-pjp .content .rightTour .sector2 .sx1{transform: rotate(80deg);}
+.travel-pjp .content .rightTour .sector2 .sx2{transform: rotate(140deg);}
+
+.travel-pjp .content .rightTour .sector3 .sx1{transform: rotate(250deg);}
+.travel-pjp .content .rightTour .sector3 .sx2{transform: rotate(180deg);}
+
+/*鍏煎1920澶у睆鏍峰紡*/
+@media only screen and (min-width: 1920px) {
+    .travel-pjp .content{
+        margin-top: 1.2rem;
+        height: 94%;
+    }
+    .travel-pjp .content .title{
+        background: url("../../../image/dpzs/slp/travel-pjptop.png") no-repeat center bottom;
+        background-size: 78%;
+    }
+    .travel-pjp .content .icon{
+        background: url("../../../image/dpzs/slp/travel-pjpIcon1.png") no-repeat;
+        background-size: 100% 100%;
+    }
+    .travel-pjp .content .icon2{
+        top:-2%;
+        font-size: 1rem;
+        font-weight: 300;
+    }
+    .travel-pjp .content .h65{
+        height: 65%;
+        width: 100%;
+        position: relative;
+    }
+    .travel-pjp .leftTour .travelInfo{
+        height:1.2rem;
+        width: 100%;
+        background-color: #081734;
+        color: #40B7BF;
+        position: absolute;
+        top: 10.3%;
+        left: 0;
+    }
+    .travel-pjp .leftTour .travelInfo p{
+        height: 100%;
+        width: 50%;
+        text-align: center;
+        line-height: 28px;
+    }
+    .travel-pjp .leftTour .table1{
+        height: 20.7%;
+        width: 100%;
+        border-collapse: collapse;
+        position: absolute;
+        top: 15.5%;
+        left: 0;
+        text-align: center;
+    }
+    .travel-pjp .leftTour table td{
+        height: 7%;
+        text-align: center;
+    }
+    .travel-pjp .leftTour table td i{
+        display: inline-block;
+        background: url("../../../image/dpzs/slp/YY.png") no-repeat center;
+        background-size: 60%;
+    }
+    .travel-pjp .leftTour  .h130{
+        height: 20.7%;
+        font-size: 66px;
+        text-align: center;
+        background-color: #6D006D;
+    }
+    .travel-pjp .leftTour .h130 i{
+        display: block;
+        height: 55px;
+        width: 43px;
+        background: url("../../../image/dpzs/slp/train.png") no-repeat center;
+        margin-left: 28%;
+        background-size: 80%;
+    }
+    .travel-pjp .leftTour .h130 .f14{
+        font-size: 14px;
+    }
+    .travel-pjp .leftTour .table2{
+        height: 52.3%;
+        width: 100%;
+        border-collapse: collapse;
+        position: absolute;
+        top: 35.5%;
+        left: 0;
+        text-align: center;
+    }
+    .travel-pjp  .move #timeTable{
+        width: 100%;
+        border-collapse: collapse;
+        position: absolute;
+        top: 1.8rem;
+        left: 0;
+        text-align: center;
+        display: block;
+    }
+    .travel-pjp  .move #show{
+        width: 100%;
+    }
+    .travel-pjp .bgColor10{
+        height: 1.4rem;
+        background: url("../../../image/dpzs/slp/tableArr.png") no-repeat center;
+        background-color:#34103C;
+        background-size: 15%;
+        cursor: pointer;
+    }
+    .travel-pjp .bgColor20{
+        height: 1.4rem;
+        background: url("../../../image/dpzs/slp/tableLow.png") no-repeat center;
+        background-color:#34103C;
+        background-size: 15%;
+        cursor: pointer;
+    }
+    .travel-pjp  .table2 td{
+        height: 7%;
+        width:33%;
+        text-align: center;
+    }
+    .travel-pjp  .move #timeTable td:first-child{
+        height: 1.4rem;
+        width:20%;
+        text-align: center;
+    }
+    .travel-pjp  .move #timeTable td:nth-child(2){
+        height: 1rem;
+        width:60%;
+        text-align: center;
+    }
+    .travel-pjp  .move #timeTable td:nth-child(3){
+        height: 1rem;
+        width:20%;
+        text-align: center;
+    }
+    .travel-pjp  .table2 td i{
+        display: inline-block;
+        height: 100%;
+        width: 34px;
+    }
+    .travel-pjp .table2 .fontBlack{
+        color: #000B00;
+    }
+    .travel-pjp .table2 .bgColor1{
+        background-color:#920091;
+    }
+    .travel-pjp  .table2 td .bg1{
+        background: url("../../../image/dpzs/slp/YY.png") no-repeat center;
+        background-size: 48%;
+    }
+    .travel-pjp  .table2 td .bg2{
+        background: url("../../../image/dpzs/slp/JXC.png") no-repeat center;
+        background-size: 48%;
+    }
+    .travel-pjp  .table2 td .bg3{
+        background: url("../../../image/dpzs/slp/BS.png") no-repeat center;
+        background-size: 48%;
+    }
+    .travel-pjp  .table2 td .bg4{
+        background: url("../../../image/dpzs/slp/FJ.png") no-repeat center;
+        background-size: 48%;
+    }
+    .travel-pjp  .table2 td .bg5{
+        background: url("../../../image/dpzs/slp/QC.png") no-repeat center;
+        background-size: 48%;
+    }
+    .travel-pjp  .table2 td .bg6{
+        background: url("../../../image/dpzs/slp/BS1.png") no-repeat center;
+        background-size: 48%;
+    }
+    .travel-pjp  .table2 td .bg7{
+        background: url("../../../image/dpzs/slp/GT.png") no-repeat center;
+        background-size: 48%;
+    }
+    .travel-pjp .table2 td .bg8{
+        background: url("../../../image/dpzs/slp/WQ.png") no-repeat center;
+        background-size: 48%;
+    }
+
+    .travel-pjp .table2 td .bg10{
+        background: url("../../../image/dpzs/slp/trainSmall.png") no-repeat center;
+        background-size: 48%;
+    }
+    .travel-pjp .table2 td .bg11{
+        background: url("../../../image/dpzs/slp/run.png") no-repeat center;
+        background-size: 49%;
+    }
+    .travel-pjp .table2 .bgColor2{
+        background-color:#C8007C;
+    }
+    .travel-pjp .table2 .bgColor3{
+        background-color:#FF0066;
+    }
+    .travel-pjp .table2 .bgColor4{
+        background-color:#FF6946;
+    }
+    .travel-pjp .table2 .bgColor5{
+        background-color:#FF8A00;
+    }
+    .travel-pjp .table2 .bgColor6{
+        background-color:#FFA600;
+    }
+    .travel-pjp .table2 .bgColor7{
+        background-color:#FFFF01;
+    }
+    .travel-pjp .table2 .bgColor8{
+        background-color:#C8FE44;
+    }
+    .travel-pjp .table2 .bgColor9{
+        background-color:#92D14F;
+    }
+    .travel-pjp .table2 .bgColor11{
+        background-color:#670866;
+    }
+    .travel-pjp .table2 .bgColor12{
+        background-color:#860890;
+    }
+    .travel-pjp .content .rightTour {
+        height: 100%;
+        width: 83%;
+        background: url("../../../image/dpzs/slp/Travel-pjp.png") ;
+        border:2px solid #00AEED;
+        overflow: hidden;
+        border-radius: 16px;
+        background-size: 100% 100%;
+    }
+    .travel-pjp .content .rightTour .rightBox{
+        height:18%;
+        width: 100%;
+        background-color:rgba(6,21,52,.8);
+        padding-left: 2rem;
+        border-bottom: 1px solid #0072C2;
+        box-sizing: border-box;
+    }
+    .travel-pjp .content .rightTour .fatherBox{
+        position: relative;
+        top: 50%;
+    }
+    .travel-pjp .content .rightTour .rightBox .move{
+        height: 6px;
+        width: 8rem;
+        background-image: -webkit-linear-gradient(top left, #8C038E, #A40387 25%, #D0037C 75%,#FE0069 100%);
+        background-image: -moz-linear-gradient(top left, #8C038E, #A40387 25%, #D0037C 75%,#FE0069 100%);
+        background-image: -o-linear-gradient(top left, #8C038E, #A40387 25%, #D0037C 75%,#FE0069 100%);
+        background-image: -ms-linear-gradient(top left, #8C038E, #A40387 25%, #D0037C 75%,#FE0069 100%);
+        position: absolute;
+        left: 0;
+        z-index:999;
+    }
+    .travel-pjp .content .rightTour .rightBox .moveLeft,.moveRight{
+        height: 68px;
+        width: 68px;
+        text-align: left;
+        padding-left: 10px;
+        box-sizing: border-box;
+        -wekit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -o-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+    }
+    .travel-pjp .content .rightTour .rightBox .moveLeft{
+        position: absolute;
+        background: url("../../../image/dpzs/slp/timeLineLeft.png") no-repeat ;
+        background-size: 82%;
+        top: -39px;
+        left: -12%;
+    }
+    .travel-pjp .content .rightTour .rightBox .moveRight{
+        background: url("../../../image/dpzs/slp/tineLineRight.png") no-repeat;
+        background-size: 82%;
+        position: absolute;
+        right: -18%;
+        top: -39px;
+    }
+    .travel-pjp .content .rightTour .rightBox ul{`
+        position: absolute;
+        top: 50%;
+        left:0;
+    }
+    .travel-pjp .content .rightTour .rightBox li{
+        float: left;
+        height: 6px;
+        width: 2rem;
+        background-color: #00548B;
+        color: #00548B;
+        position: relative;
+    }
+    .travel-pjp .content .rightTour .rightBox li i{
+        display: block;
+        height: 14px;
+        width: 1px;
+        background-color: #00548B;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .travel-pjp .content .rightTour .rightBox li p{
+        position: absolute;
+        top: 14px;
+        left: -11px;
+        font-size: 0.5rem;
+    }
+    .travel-pjp .content .rightTour .rightBox li.last{
+        width: 0;
+    }
+    .travel-pjp .content .rightTour .SX{
+        position: absolute;
+        right: 0.4rem;
+        top: -2rem;
+        height: 3.9rem;
+        width: 3.9rem;
+    }
+    .travel-pjp .content .rightTour .sector{
+        position: relative;
+        background-image: -webkit-linear-gradient(top left, #8C038E, #A40387 25%, #D0037C 75%,#FE0069 100%);
+        border:2px solid blue;
+        height: 3.9rem;
+        width: 3.9rem;
+        border-radius: 1.95rem;
+    }
+    .travel-pjp .content .rightTour .sector .sx1{
+        position: absolute;
+        width: 3.9rem;
+        height: 3.9rem;
+        transform: rotate(0deg);
+        clip: rect(0px,1.95rem,3.9rem,0px);/*杩欎釜clip灞炴�鐢ㄦ潵缁樺埗鍗婂渾锛屽湪clip鐨剅ect鑼冨洿鍐呯殑鍐呭鏄剧ず鍑烘潵锛屼娇鐢╟lip灞炴�锛屽厓绱犲繀椤绘槸absolute鐨�*/
+        border-radius: 1.95rem;
+        background-color: #061534;
+        /*-webkit-animation: an1 2s infinite linear;*/
+    }
+
+    .travel-pjp .content .rightTour .sector .sx2{
+        position: absolute;
+        width: 3.9rem;
+        height: 3.9rem;
+        transform: rotate(0deg);
+        clip: rect(0px,1.95rem,3.9rem,0px);
+        border-radius: 2.95rem;
+        background-color: #061534;
+    }
+    .travel-pjp .content .rightTour .sector1 .sx1{transform: rotate(-0deg);}
+    .travel-pjp .content .rightTour .sector1 .sx2{transform: rotate(-60deg);}
+
+    .travel-pjp .content .rightTour .sector2 .sx1{transform: rotate(80deg);}
+    .travel-pjp .content .rightTour .sector2 .sx2{transform: rotate(140deg);}
+
+    .travel-pjp .content .rightTour .sector3 .sx1{transform: rotate(250deg);}
+    .travel-pjp .content .rightTour .sector3 .sx2{transform: rotate(180deg);}
+
+}

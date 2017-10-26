@@ -1,0 +1,461 @@
+.people-pjp .content{
+    margin-top: 1.2rem;
+    height: 94%;
+}
+.people-pjp .content .title{
+    background: url("../../../image/dpzs/slp/people-pjpIcon.png") no-repeat center bottom;
+    background-size: 46% 26%;
+}
+.people-pjp .h27{
+    height: 27%;
+    width: 100%;
+    border-bottom: 1px solid #4FA9DB;
+}
+.people-pjp .h19{
+    height: 19%;
+    width: 100%;
+}
+.people-pjp .h60{
+    height: 60.5%;
+    width: 100%;
+    margin-bottom: 1.2rem;
+    border: 1px solid #027DA9;
+    background-color: #03386C;
+    border-radius: 16px;
+}
+.people-pjp .h40{
+    height: 35.5%;
+    width: 100%;
+    border: 1px solid #008FC1;
+    border-radius: 16px 0 16px 0;
+}
+.people-pjp .w33{
+    height: 100%;
+    width: 33%;
+}
+.people-pjp .mgt-12{
+    margin-top: 12%;
+}
+.people-pjp .mgl-24{
+    margin-left: 24%;
+}
+.people-pjp .content .low p:first-child{
+    height: 20%;
+    font-size: 16px;
+    color: #fff;
+    line-height: 2em;
+    text-align: center;
+}
+.people-pjp .content .low p:nth-child(2){
+    height: 20%;
+    font-size: 28px;
+    color: #00FFF6;
+    text-align: center;
+    position: relative;
+}
+.people-pjp .content .low p:nth-child(2) em{
+    position: absolute;
+    color: #fff;
+    font-size: 11px;
+    top: 0;
+    right: 14%;
+}
+.people-pjp .content .low .pie{
+    height: 60%;
+    width: 100%;
+    position: relative;
+}
+.people-pjp .content .low .pie .pieText{
+    position: absolute;
+    top: 26%;
+    left: 37%;
+}
+.people-pjp  .pie .pieText .t1{
+    font-size: 22px;
+}
+.people-pjp  .pie .pieText .t2{
+    font-size: 12px;
+}
+.people-pjp .content .low #pie{
+    height: 100%;
+    width: 100%;
+}
+.people-pjp .content .city{
+    border-bottom: 1px solid #4FA9DB;
+}
+.people-pjp .content .country .low-icon{
+    height: 40%;
+    width: 100%;
+}
+.people-pjp .content .country .icon10{
+    background: url("../../../image/dpzs/slp/people-pjpIcon1.png") no-repeat center bottom;
+    background-size: 26% 88%;
+}
+.people-pjp .content .country .icon20{
+    background: url("../../../image/dpzs/slp/people-pjpIcon3.png") no-repeat center bottom;
+    background-size: 26% 88%;
+}
+.people-pjp .content .country p:nth-child(2){
+    height: 24%;
+    font-size: 16px;
+    color: #fff;
+    line-height: 2em;
+    text-align: center;
+}
+.people-pjp .content .country p:nth-child(3){
+    height: 30%;
+    font-size: 28px;
+    color: #00FFF6;
+    text-align: center;
+    position: relative;
+}
+.people-pjp .content .country p:nth-child(3) em{
+    position: absolute;
+    color: #fff;
+    font-size: 11px;
+    top: 0;
+    right: 14%;
+}
+.people-pjp .content .country p.fontY{
+    color: #FFFA00;
+}
+.people-pjp .content .rightTour{
+    height: 100%;
+    width: 83%;
+}
+.rightBox{
+    height: 10%;
+    width: 64%;
+    line-height: 2.5em;
+    text-align: center;
+    border:1px solid #03FBFB;
+    border-radius: 16px 0;
+    color: #07FAE6;
+}
+.people-pjp .content .rightTour table{
+    height: 67%;
+    width: 88%;
+    margin-left: 12%;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 13px;
+}
+.people-pjp .content .rightTour tr{
+    display: block;
+    margin:0 0 7px 0;
+    width: 100%;
+    border-radius: 6px;
+}
+.people-pjp .content .rightTour tr:first-child{
+    margin-top: 14px;
+}
+.people-pjp .content .rightTour th,td{
+    /*height: 26px;*/
+    /*line-height: 26px;*/
+    text-align: center;
+    width: 88px;
+    height:1.6em;
+}
+.people-pjp .content .rightTour th{
+    background-color: #01B0F1;
+    color: #04355D;
+}
+.people-pjp .content .rightTour th:first-child{
+    -webkit-border-radius: 6px 0 0 6px;
+    -moz-border-radius: 6px 0 0 6px;
+    border-radius:  6px 0 0 6px;
+}
+.people-pjp .content .rightTour th:last-child{
+    -webkit-border-radius: 0px 6px 6px 0;
+    -moz-border-radius: 0px 6px 6px 0;
+    border-radius:  0px 6px 6px 0;
+}
+.people-pjp .content .bgColor1{
+    background-color: #034579;
+}
+.people-pjp .content  .bgColor2{
+    background-color: #025B93;
+}
+.people-pjp .content  #map{
+    height: 100%;
+    width: 100%;
+}
+.people-pjp .rightTour .chartBox{
+    height: 76%;
+    width: 100%;
+}
+.people-pjp .chartBox .w50{
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+.people-pjp .chartBox .w50 .men,.girl{
+    position: absolute;
+    top: 0%;
+    left: 40%;
+    z-index:99;
+}
+.people-pjp .chartBox .w50 .menText{
+    font-size: 28px;
+    color: #65FFFF;
+    position: relative;
+}
+.people-pjp .chartBox .w50 .menText i{
+    font-size: 11px;
+    position: absolute;
+    top: 7%;
+    right: -33%;
+}
+.people-pjp .chartBox .w50 .mColor{
+    color: #F934BF;
+}
+.people-pjp .chartBox .w50 .micon,.gicon{
+    height: 50px;
+    width: 50px;
+}
+.people-pjp .chartBox .w50 .micon{
+   background: url("../../../image/dpzs/slp/p1.png") no-repeat;
+}
+.people-pjp .chartBox .w50 .gicon{
+    background: url("../../../image/dpzs/slp/p2.png") no-repeat;
+}
+.people-pjp .chartBox  #chart1,#chart2{
+     height: 100%;
+     width: 100%;
+ }
+.people-pjp #chart3,#chart4,#chart5{
+    height: 100%;
+    width: 100%;
+}
+@media only screen and (min-width: 1920px){
+    .people-pjp .content{
+        margin-top: 1.2rem;
+        height: 94%;
+    }
+    .people-pjp .content .title{
+        background: url("../../../image/dpzs/slp/people-pjpIcon.png") no-repeat center bottom;
+        background-size: 64%;
+    }
+    .people-pjp .h27{
+        height: 27%;
+        width: 100%;
+        border-bottom: 1px solid #4FA9DB;
+    }
+    .people-pjp .h19{
+        height: 19%;
+        width: 100%;
+    }
+    .people-pjp .h60{
+        height: 60.5%;
+        width: 100%;
+        margin-bottom: 1.2rem;
+        border: 1px solid #027DA9;
+        background-color: #03386C;
+        border-radius: 16px;
+    }
+    .people-pjp .h40{
+        height: 35.8%;
+        width: 100%;
+        border: 1px solid #008FC1;
+        border-radius: 16px 0 16px 0;
+    }
+    .people-pjp .w33{
+        height: 100%;
+        width: 33%;
+    }
+    .people-pjp .mgt-12{
+        margin-top: 12%;
+    }
+    .people-pjp .mgl-24{
+        margin-left: 24%;
+    }
+    .people-pjp .content .low p:first-child{
+        height: 20%;
+        font-size: 16px;
+        color: #fff;
+        line-height: 4em;
+        text-align: center;
+    }
+    .people-pjp .content .low p:nth-child(2){
+        height: 20%;
+        font-size: 28px;
+        color: #00FFF6;
+        text-align: center;
+        position: relative;
+    }
+    .people-pjp .content .low p:nth-child(2) em{
+        position: absolute;
+        color: #fff;
+        font-size: 11px;
+        top: 0;
+        right: 22%;
+    }
+    .people-pjp .content .low .pie{
+        height: 60%;
+        width: 100%;
+        position: relative;
+    }
+    .people-pjp .content .low .pie .pieText{
+        position: absolute;
+        top: 33%;
+        left: 42%;
+    }
+    .people-pjp  .pie .pieText .t1{
+        font-size: 22px;
+    }
+    .people-pjp  .pie .pieText .t2{
+        font-size: 12px;
+    }
+    .people-pjp .content .low #pie{
+        height: 100%;
+        width: 100%;
+    }
+    .people-pjp .content .city{
+        border-bottom: 1px solid #4FA9DB;
+    }
+    .people-pjp .content .country .low-icon{
+        height: 40%;
+        width: 100%;
+    }
+    .people-pjp .content .country .icon10{
+        background: url("../../../image/dpzs/slp/people-pjpIcon1.png") no-repeat center bottom;
+        background-size: 26% 88%;
+    }
+    .people-pjp .content .country .icon20{
+        background: url("../../../image/dpzs/slp/people-pjpIcon3.png") no-repeat center bottom;
+        background-size: 26% 88%;
+    }
+    .people-pjp .content .country p:nth-child(2){
+        height: 24%;
+        font-size: 16px;
+        color: #fff;
+        line-height: 3em;
+        text-align: center;
+    }
+    .people-pjp .content .country p:nth-child(3){
+        height: 30%;
+        font-size: 28px;
+        color: #00FFF6;
+        text-align: center;
+        position: relative;
+    }
+    .people-pjp .content .country p:nth-child(3) em{
+        position: absolute;
+        color: #fff;
+        font-size: 11px;
+        top: 10%;
+        right: 24%;
+    }
+    .people-pjp .content .country p.fontY{
+        color: #FFFA00;
+    }
+    .people-pjp .content .rightTour{
+        height: 100%;
+        width: 83%;
+    }
+    .rightBox{
+        height: 10%;
+        width: 64%;
+        line-height: 4em;
+        text-align: center;
+        border:1px solid #03FBFB;
+        border-radius: 16px 0;
+        color: #07FAE6;
+    }
+    .people-pjp .content .rightTour table{
+        height: 74%;
+        width: 88%;
+        margin-left: 12%;
+        border-collapse: collapse;
+        text-align: center;
+        font-size: 13px;
+    }
+    .people-pjp .content .rightTour tr{
+        display: block;
+        margin:0 0 7px 0;
+        width: 100%;
+        border-radius: 6px;
+        height: 42px;
+    }
+    .people-pjp .content .rightTour tr:first-child{
+        margin-top: 14px;
+        height: 42px;
+    }
+    .people-pjp .content .rightTour th,td{
+        text-align: center;
+        width: 92px;
+        height:3em;
+    }
+    .people-pjp .content .rightTour th{
+        background-color: #01B0F1;
+        color: #04355D;
+        height: 42px;
+    }
+    .people-pjp .content .rightTour th:first-child{
+        -webkit-border-radius: 6px 0 0 6px;
+        -moz-border-radius: 6px 0 0 6px;
+        border-radius:  6px 0 0 6px;
+    }
+    .people-pjp .content .rightTour th:last-child{
+        -webkit-border-radius: 0px 6px 6px 0;
+        -moz-border-radius: 0px 6px 6px 0;
+        border-radius:  0px 6px 6px 0;
+    }
+    .people-pjp .content .bgColor1{
+        background-color: #034579;
+    }
+    .people-pjp .content  .bgColor2{
+        background-color: #025B93;
+    }
+    .people-pjp .content  #map{
+        height: 100%;
+        width: 100%;
+    }
+    .people-pjp .rightTour .chartBox{
+        height: 76%;
+        width: 100%;
+    }
+    .people-pjp .chartBox .w50{
+        width: 50%;
+        height: 100%;
+        position: relative;
+    }
+    .people-pjp .chartBox .w50 .men,.girl{
+        position: absolute;
+        top: 4%;
+        left: 40%;
+        z-index:99;
+    }
+    .people-pjp .chartBox .w50 .menText{
+        font-size: 28px;
+        color: #65FFFF;
+        position: relative;
+    }
+    .people-pjp .chartBox .w50 .menText i{
+        font-size: 11px;
+        position: absolute;
+        top: 7%;
+        right: -33%;
+    }
+    .people-pjp .chartBox .w50 .mColor{
+        color: #F934BF;
+    }
+    .people-pjp .chartBox .w50 .micon,.gicon{
+        height: 50px;
+        width: 50px;
+    }
+    .people-pjp .chartBox .w50 .micon{
+        background: url("../../../image/dpzs/slp/p1.png") no-repeat;
+    }
+    .people-pjp .chartBox .w50 .gicon{
+        background: url("../../../image/dpzs/slp/p2.png") no-repeat;
+    }
+    .people-pjp .chartBox  #chart1,#chart2{
+        height: 100%;
+        width: 100%;
+    }
+    .people-pjp #chart3,#chart4,#chart5{
+        height: 100%;
+        width: 100%;
+    }
+}

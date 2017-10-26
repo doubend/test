@@ -1,0 +1,388 @@
+body,html{
+    width: 100%;
+    font-family: "Microsoft YaHei", "微软雅黑";
+    background-color: #E5E5E5;
+}
+.pageInfo{
+    height: 5%;
+    padding: 0 0.5rem 0 0.2rem;
+    color: #807E7F;
+}
+.pageInfo i{
+    height: 29px;
+    width: 28px;
+    float: left;
+    display: inline-block;
+    background: url("../../../image/common/travelHome.png")  no-repeat center;
+}
+.pageInfo span{
+    line-height:1.4rem;
+    color: #807E7F;
+}
+.airQuality{
+    /*height: 100%;*/
+    width: 100%;
+    /*overflow: auto;*/
+    padding: 0;
+}
+.airQuality .airLeft{
+    height: 35.7rem;
+    width: 30%;
+    margin-right: 0.3rem;
+    background: #fff;
+}
+.airQuality .airLeft .airTitle,.ranking1,.minute,.ranking{
+    margin: 0.4rem 0.6rem;
+}
+.airQuality .airLeft .airTitle{
+    border-bottom:  1px dashed #E7E7E7;
+}
+.airQuality .airLeft .title{
+    color: #25313F;
+    font-size: 16px;
+}
+.airQuality .airLeft .box{
+    height: 4rem;
+    width: 38%;
+    line-height: 4rem;
+    text-align: center;
+    font-size: 44px;
+    color: #000000;
+    background: #FEE047;
+    border-radius: 5px;
+    margin: 0.5rem 1rem 0.6rem 0;
+}
+.airQuality .airLeft .info{
+    margin-top:0.5rem;
+}
+.airQuality .airLeft .info p{
+    margin-bottom:0.3rem;
+    color: #333333;
+}
+.airQuality .airLeft .info p:first-child{
+    font-size: 24px;
+    color: #25313F;
+}
+.airQuality .airLeft .minute{
+    border-bottom:1px solid #e7e7e7;
+}
+.airQuality .minute ul{
+    margin-bottom: 0.1rem;
+    height: 1.1rem;
+    line-height: 1.1rem;
+}
+.airQuality .minute ul:last-child{
+    margin-bottom:0.4rem;
+}
+.airQuality .airLeft .minute li{
+    float: left;
+}
+.airQuality .airLeft .minute li:first-child{
+    width: 12%;
+    text-align: left;
+}
+.airQuality .airLeft .minute li:nth-child(2){
+    width: 11%;
+    text-align: left;
+}
+.airQuality .airLeft .minute li:nth-child(3){
+    width: 50%;
+    text-align: left;
+}
+.airQuality .minute li:nth-child(4){
+    width: 13%;
+    text-align: center;
+    color: #3F97E1;
+}
+.airQuality .minute li:nth-child(5){
+    width: 14%;
+    text-align: center;
+    color: #D11947;
+}
+.airQuality .minute li i{
+    display: inline-block;
+    height: 0.9rem;
+    width: 1.2rem;
+    margin-right: 2px;
+    float: left;
+    margin-top:0.15rem;
+    background-color: #19A375;
+}
+.airQuality .minute li i.fine{
+    background-color:#FEE047;
+}
+.airQuality .minute li i.mild-pollution{
+    background-color: #FFA347;
+}
+.airQuality .minute li i.fine1{
+    background-color:#009966;
+}
+.airQuality .minute li i.fine2{
+    background-color:#FEDD33;
+}
+.airQuality .minute li i.fine3{
+    background-color:#FF9933;
+}
+.airQuality .minute li i.fine4{
+    background-color:#CC0033;
+}
+.airQuality .minute li i.fine5{
+    background-color:#660099;
+}
+.airQuality .minute li i.fine6{
+    background-color: #7E0023;
+}
+.airQuality .airLeft .minute #textBlack{
+    color: #000;
+    margin-bottom:0.3rem;
+}
+.airQuality .airLeft .minute .font-black{
+    color: #000;
+}
+.airQuality .airLeft .ranking{
+    border-bottom: 1px solid #e7e7e7;
+}
+.airQuality .ranking .tableTxt{
+    font-size: 16px;
+    color: #25313F;
+    margin-bottom:0.4rem;
+}
+.airQuality .ranking table{
+    border-collapse: collapse;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 0.3rem;
+}
+.airQuality .ranking table th,td{
+    height: 1rem;
+    line-height: 1rem;
+}
+.airQuality .ranking table th{
+    color: #333333;
+}
+.airQuality .ranking table .special{
+    text-align: center;
+}
+.airQuality .ranking table tr{
+    border: 1px solid #e7e7e7;
+}
+.airQuality .ranking table tr:nth-child(odd){
+    background: #F1F1F1;
+}
+.airQuality .airLeft table i{
+    display: inline-block;
+    margin-top: 0.35rem;
+    vertical-align: center;
+}
+.airQuality .airLeft table i.top{
+    height: 15px;
+    width: 11px;
+    background: url("../../../image/fzjc/hjbh/airTop.png") no-repeat center;
+}
+.airQuality .airLeft table i.bottom{
+    height: 15px;
+    width: 11px;
+    background: url("../../../image/fzjc/hjbh/airBottom.png") no-repeat center;
+}
+.airQuality .ranking1 .tableTxt span:first-child{
+    font-size: 16px;
+    color: #25313F;
+    margin-bottom:0.4rem;
+}
+.airQuality .ranking1 .tableTxt span:last-child{
+    font-size: 14px;
+    color:#999999;
+    margin-bottom:0.4rem;
+}
+.airQuality .airLeft .bar ul{
+    margin-bottom: 0.4rem;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    margin-top:0.4rem;
+}
+.airQuality .airLeft .bar li{
+     float: left;
+     margin-right: 0.4rem;
+ }
+.airQuality .airLeft .bar li:last-child{
+    /*float: left;*/
+    margin-right: 0;
+}
+.airQuality .bar li i{
+    height: 0.5rem;
+    display: inline-block;
+    float: left;
+    margin-top:0.09rem;
+}
+.airQuality .bar li i.green{
+    width: 1.4rem;
+    background-color: #19A375;
+}
+.airQuality .bar li i.gay{
+    width: 12.3rem;
+    background-color: #ECECEC;
+}
+.airQuality .bar li i.green1{
+     width: 3.4rem;
+     background-color: #FEE047;
+ }
+.airQuality .bar li i.gay1{
+    width: 10.3rem;
+    background-color: #ECECEC;
+}
+.airQuality .bar li i.green2{
+    width: 5.4rem;
+    background-color: #FEE047;
+}
+.airQuality .bar li i.gay2{
+    width: 8.3rem;
+    background-color: #ECECEC;
+}
+.airQuality .bar li i.green3{
+    width: 6.4rem;
+    background-color:#FEE047;
+}
+.airQuality .bar li i.gay3{
+    width: 7.3rem;
+    background-color: #ECECEC;
+}
+.airQuality .bar li i.green4{
+    width: 7.4rem;
+    background-color: #FFA347;
+}
+.airQuality .bar li i.gay4{
+    width: 6.3rem;
+    background-color: #ECECEC;
+}
+    /*右侧样式*/
+.airQuality .airRight{
+    height: 33.7rem;
+    width: 69.3%;
+    /*background: url("../images/air_bg.png") no-repeat center;*/
+    background-color: #fff;
+    position: relative;
+}
+.airQuality #airRight{
+    height:100%;
+    width: 100%;
+}
+/*图例样式*/
+.airQuality .airLegend{
+    margin: 0.85rem 0 0 1rem;
+
+}
+.airQuality .airLegend li{
+    height: 1.2rem;
+    line-height: 1.2rem;
+    margin-right: 1.1rem;
+}
+.airQuality .airLegend li i{
+    display: inline-block;
+    height: 14px;
+    width: 14px;
+    float: left;
+    margin-top: 0.25rem;
+    margin-right:0.35rem;
+    border-radius: 50%;
+}
+.airQuality .airLegend li .i1{
+    background-color: #009966;
+}
+.airQuality .airLegend li .i2{
+    background-color: #FF9933;
+}
+.airQuality .airLegend li .i3{
+    background-color: #660099;
+}
+.airQuality .airLegend li .i4{
+    background-color: #396A95;
+}
+.airQuality .airLegend li .i5{
+    background-color: #FEDD33;
+}
+.airQuality .airLegend li .i6{
+    background-color: #CC0033;
+}
+.airQuality .airLegend li .i7{
+    background-color: #7E0023;
+}
+.airQuality .airLegend li span{
+    color: #25313F;
+    font-size: 14px;
+}
+/*时间轴样式*/
+.airQuality .time {
+    position: absolute;
+    bottom: 2%;
+    left: 10%;
+}
+.airQuality .timeline li {
+    float: left;
+    position: relative;
+    cursor: pointer;
+    margin-right:15px;
+}
+.airQuality .timeline .dot {
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    /*line-height: 1.1;*/
+    border-radius: 50%;
+    text-align: center;
+    background-color: #fff;
+    border:1px solid #ccc;
+}
+.airQuality .timeline .dot > i {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    border-radius: 50%;
+    margin-top: -1px;
+}
+.airQuality .timeline .beat {
+    background-color: #00A0D3;
+}
+.airQuality .timeline .progress {
+    position: relative;
+    top: -12px;
+    left: 16px;
+    width: 60px;
+    height: 2px;
+    background: #CFCFCF;
+}
+.airQuality .timeline .progress span {
+    position: absolute;
+    left: 0;
+    background-color: #00A0D3;
+    width: 0;
+    height: 100%;
+}
+.airQuality .timeline li > em {
+    position: absolute;
+    top: -24px;
+    left: -20px;
+    width: 70px;
+    text-align: center;
+    font-size: 16px;
+    color: #6B6B6B;
+}
+.airQuality .time .timeLeft,.timeRight{
+    height: 36px;
+    width: 36px;
+    cursor: pointer;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+    border:1px solid #CFCFCF;
+    position: absolute;
+    }
+.airQuality .time .timeLeft{
+    background: #fff url("../../../image/fzjc/hjbh/airLeft.png") no-repeat center;
+    top: -12px;
+    left: -60px;
+}
+.airQuality .time .timeRight{
+    background: #fff url("../../../image/fzjc/hjbh/airRight.png") no-repeat center;
+    top: -12px;
+    right: -60px;
+}

@@ -1,0 +1,235 @@
+/*页面代码*/
+.wrapper {
+    width: 100%;
+    height: 100%;
+    background: url("../img/bg1.png") no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    position: relative;
+}
+.fullScreen{position:absolute;top:2%;right: 0.4rem;width:18px;height:18px;background: url("../img/fullScreen.png") no-repeat center;cursor:pointer;z-index: 100;}
+
+.leftSide{width:20%;height:100%;float:left;-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box}
+.rightSide {
+    height: 100%;
+    width: 80%;
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.container-top {
+    height: 66.3%;
+    width: 100%;
+    margin-bottom:0.2rem;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.container-btm{
+    height: 33%;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*页面左边*/
+.top{width:100%;height:33%; border:0.05rem solid #1C222E; background-color: rgba(0,0,0,0.4);}
+.middle{width:100%;height:33%;border:0.05rem solid #1C222E; background-color: rgba(0,0,0,0.4);}
+.bottom{width:100%;height:33%;border:0.05rem solid #1C222E; background-color: rgba(0,0,0,0.4);}
+.bigdata-header{height:2rem;line-height: 2rem;font-size: 0.65rem;color:#ffffff;}
+.bottom .bigdata-header{height:2rem;line-height: 2rem;font-size: 0.65rem;color:#ffffff;}
+.bigdata-header .title {
+    font-size: 0.75rem;
+    font-style: italic;
+    color: #0cb2c2;
+    padding-right: 0.25rem;
+    padding-left:0.5rem;
+}
+.bigdata-desc {
+    width: 24.7%;
+    height: 100%;
+    margin-left: 0.15rem;
+    border:0.05rem solid #1C222E; background-color: rgba(0,0,0,0.4);
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.tag {
+    margin: 0 0 0.15rem 0;
+}
+.bigdata-desc-cont{width:100%;height:77%;}
+/*页面右边上*/
+.leftBar{width:50.2%;height:100%;padding-top: 1rem;float:left;}
+.textContent{width: 90%;margin: 0 auto;height:35%;}
+.text-p1{color:#0DF6FF;font:400 16px "Arial";}
+.text-p1 .info1 {
+    /* font-size: 10px; */
+    color: #fffb88;
+    font-style: normal;
+}
+.text-p1 .info2 {
+    display:inline-block;
+   /*  font-size: 10px; */
+    color: #ff8604;
+    padding: 0 2px;
+    font-style: italic;
+    animation:zdjpop 2s linear infinite alternate;
+    -moz-animation:zdjpop 2s linear infinite alternate;
+    -webkit-animation:zdjpop 2s linear infinite alternate;
+    -o-animation:zdjpop 2s linear infinite alternate;
+}
+.textMark{width:100%;height:64%;position:relative;top:-1rem;left:-3rem;}
+.cycleMain{width: 6.5rem;
+    height: 6.5rem;
+    border: 0.05rem solid #0670C6;
+    position: absolute;
+    top: 0.2rem;
+    right: 8rem;
+    padding-top:2.2rem;
+    box-shadow: inset 0 0 1rem 0.1rem #0763AD;
+    border-radius: 50%;}
+.cycleMain p{color:#DDDEDE;font-size:0.8rem;text-align: center;line-height: 1rem;}
+.cycle{border: 0.05rem solid #0DF6FF;box-shadow: inset 0 0 1rem 0.1rem #089BA6;
+    border-radius: 50%;}
+.spec1{width:4.85rem;height:4.85rem;position:absolute;top:0.15rem;right:1rem;padding-top:1.1rem;}
+.cycle .comp1{color:#EF9600;text-align: center;}
+.cycle .comp2{color:#79AFEB; text-align: center;}
+.spec1 .p1,.spec1 em{font:bold 16px "Arial";}
+.spec1 .p2{font:400 10px "Arial";}
+.spec1 em{padding:0;}
+.spec2{width: 4.25rem;
+    height: 4.25rem;padding-top:0.9rem;
+    position: absolute;
+    top: 5rem;
+    right:4rem;}
+.spec2 .p1,.spec2 em,.spec3 .p1,.spec3 em{font:bold 16px "Arial";}
+.spec2 .p2,.spec3 .p2{font:600 16px "Arial";}
+.spec2 em,.spec3 em{padding:0 ;}
+
+.spec3{width: 4.15rem;
+    height: 4.15rem;padding-top:0.9rem;
+    position: absolute;
+    top: 7rem;
+    right: 10rem;}
+.spec4{width: 4.15rem;
+    height: 4.15rem;padding-top:0.9rem;
+    position: absolute;
+    top: 5.3rem;
+    right: 16rem;}
+.spec4 .p1,.spec4 em{font:bold 0.6rem/1rem "Arial";}
+.spec4 .p2{font:600 0.5rem/0.75rem "Arial";}
+.spec4 em{padding:0 0.25rem;}
+
+.spec1,.spec2,.spec3,.spec4{
+    animation:bounceIn 2s linear infinite alternate;
+    -moz-animation:bounceIn 2s linear infinite alternate;
+    -o-animation:bounceIn 2s linear infinite alternate;
+    -webkit-animation:bounceIn 2s linear infinite alternate;
+}
+/*页面右边表格*/
+/* .rightBar{width:49.5%;height:100%;margin-left:4px;float:left; border:1px solid #1C222E; background-color: rgba(0,0,0,0.4);} */
+.rightBar{width:49.6%;height:100%;float:left; border:0.05rem solid #1C222E; background-color: rgba(0,0,0,0.4);}
+.header-title{
+    padding-left: 1rem;
+    height: 10%;
+    line-height: 2.25rem;
+}
+.header-title .span1 {
+    display: inline-block;
+    color: #0daebe;
+    font-size: 0.8rem;
+    font-style: italic;
+    font-weight: 500;
+    padding-right: 0.5rem;
+}
+
+.header-title .span2 {
+    display: inline-block;
+    color: #fff;
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+
+.statisTable {
+    width: 95%;
+    height: 87%;
+    margin: 0 auto;
+    color: #DEE3EB;
+    table-layout: fixed;
+}
+.statisTable thead tr {
+    height:1.75rem;
+    line-height:1.75rem;
+    background-color: #0b518d;
+}
+.statisTable .th1 {
+    width: 30%;
+}
+
+.statisTable .th2 {
+    width: 20%;
+}
+
+.statisTable .th3 {
+    width: 30%;
+}
+
+.statisTable .th4 {
+    width: 20%;
+}
+
+.statisTable tr th {
+    font-size: 0.6rem;
+    font-weight: 600;
+}
+
+.statisTable tr td {
+    font-size: 0.6rem;
+    text-align: center;
+}
+
+.statisTable tbody tr td {
+    border-bottom: 0.05rem solid rgba(255,255,255,0.3);
+}
+.statisTable tbody tr td:last-child{color:#00FFFD;}
+/*页面右边下*/
+
+
+@keyframes zdjpop {
+    0% {
+        font-weight: 600;
+        transform:scale(1);
+    }
+    50% {
+        font-weight: 600;
+        transform:scale(1.3);
+    }
+    100% {
+        font-weight: 600;
+        transform:scale(1);
+    }
+}
+
+
+
+/*底部*/
+.bigdata-bottom {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+
+
+
+
+
+
+
+

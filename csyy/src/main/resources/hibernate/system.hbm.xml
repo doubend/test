@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+                                   "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<!-- 基于角色的权限验证:检查角色能访问的功能 -->
+	<query name="system.checkUrlForRole">select DISTINCT f from RoleFunction rf,Function f
+		where rf.roleId in(:roleId) and f.funcId=rf.functionId and f.status=0 and
+		f.type=2
+	</query>
+	<!-- 基于角色的权限验证:检查角色能访问的顶级功能菜单 -->
+	<query name="system.checkTopFunctionForRole">select DISTINCT f from RoleFunction rf,Function f
+		where f.parentId is null and rf.roleId in(:roleId) and f.funcId=rf.functionId and f.status=0 and
+		f.type=2
+	</query>
+	<!-- 基于角色的权限验证:检查角色能访问的功能菜单 -->
+	<query name="system.checkFunctionForRole">select DISTINCT f from RoleFunction rf,Function f
+		where f.parentId=:parentId and rf.roleId in(:roleId) and f.funcId=rf.functionId and f.status=0 and
+		f.type=2
+	</query>
+	<!-- 基于角色的权限验证:检查角色是否有权访问功能code -->
+	<query name="system.checkCodeForRole">
+		select count(f) from RoleFunction rf,Function f
+		where f.code=:code and f.status=0 and f.type=2 and rf.functionId=f.funcId and
+		rf.roleId in(:roleId)
+	</query>
+	<!-- 基于角色的权限验证:检查并获取角色有权访问的子菜单 -->
+	<query name="system.checkMenuForRole">
+		select DISTINCT m from Menu m,MenuCache mc
+		where m.parentId=:parentId and m.status=0 and mc.menuId=m.menuId and
+		mc.type='role' and mc.dataId in(:roleId)
+		order by m.seqNum
+	</query>
+	<!-- 基于角色的权限验证:检查并获取角色有权访问的顶级菜单 -->
+	<query name="system.checkTopMenuForRole">
+		select DISTINCT m from Menu m,MenuCache mc
+		where m.parentId is null and m.status=0 and mc.menuId=m.menuId and
+		mc.type='role' and mc.dataId in(:roleId)
+		order by m.seqNum
+	</query>
+	
+	<!-- 基于组织机构的权限验证:检查组织机构能访问的功能 -->
+	<query name="system.checkUrlForOrgan">
+		select DISTINCT f from OrganFunction orgfunc,Function f
+		where orgfunc.organId in(:organId) and f.funcId=orgfunc.functionId and
+		f.status=0 and f.type=2
+	</query>
+	<!-- 基于组织机构的权限验证:检查组织机构能访问的功能菜单 -->
+	<query name="system.checkTopFunctionForOrgan">
+		select DISTINCT f from OrganFunction orgfunc,Function f
+		where  f.parentId is null and orgfunc.organId in(:organId) and f.funcId=orgfunc.functionId and
+		f.status=0 and f.type=2
+	</query>
+	<!-- 基于组织机构的权限验证:检查组织机构能访问的功能菜单 -->
+	<query name="system.checkFunctionForOrgan">
+		select DISTINCT f from OrganFunction orgfunc,Function f
+		where  f.parentId=:parentId and orgfunc.organId in(:organId) and f.funcId=orgfunc.functionId and
+		f.status=0 and f.type=2
+	</query>
+	
+	<!-- 基于组织机构的权限验证:检查组织机构是否有权访问功能code -->
+	<query name="system.checkCodeForOrgan">
+		select count(f) from OrganFunction orgfunc,Function f
+		where f.code=:code and f.status=0 and f.type=2 and orgfunc.functionId=f.funcId
+		and orgfunc.organId in(:organId)
+	</query>
+	<!-- 基于组织机构的权限验证:检查并获取组织机构有权访问的子菜单 -->
+	<query name="system.checkMenuForOrgan">
+		select DISTINCT m from Menu m,MenuCache mc
+		where m.parentId=:parentId and m.status=0 and mc.menuId=m.menuId and
+		mc.type='organ' and mc.dataId in(:organId)
+		order by m.seqNum
+	</query>
+	<!-- 基于组织机构的权限验证:检查并获取组织机构有权访问的顶级菜单 -->
+	<query name="system.checkTopMenuForOrgan">
+		select DISTINCT m from Menu m,MenuCache mc
+		where m.parentId is null and m.status=0 and mc.menuId=m.menuId and
+		mc.type='organ' and mc.dataId in(:organId)
+		order by m.seqNum
+	</query>
+	<!-- 获取菜单与功能关联 -->
+	<query name="system.GetMenuFunction">
+	select m from MenuFunction m where functionId in (:functionId) order by m.menuId
+	</query>
+</hibernate-mapping>

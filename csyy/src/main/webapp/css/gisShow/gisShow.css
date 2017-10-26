@@ -1,0 +1,7 @@
+
+.table{border:0px;}
+.table>tbody>tr>th,.table>tbody>tr>td{border:0px;padding:6px;line-height:30px;}
+.table .tb-name{width:20%;white-space: nowrap;text-align:right;}
+.table .tb-input{width:35%;text-align:left;}
+.table .tb-tips{width:15%;white-space: nowrap;text-align:right;}
+.table .tb-txt{width:30%;}

@@ -1,0 +1,387 @@
+.eci-index .tsMap {
+	height: 100%;
+	width: 100%;
+}
+
+.eci-index #tsMap {
+	height: 100%;
+	width: 100%;
+}
+
+.eci-index .one {
+	position: absolute;
+	top: 16%;
+	left: 33%;
+	height: 84%;
+	width: 30%;
+}
+
+.eci-index .one .scroll {
+	height: 40%;
+	width: 100%;
+	border-radius: 50%;
+	background: radial-gradient(transparent, rgba(137, 106, 163, .9),
+		rgb(197, 101, 165), rgb(255, 98, 167));
+	color: #fff;
+	text-align: center;
+	padding-top: 20%;
+}
+
+.eci-index .one .scroll span {
+	font-size: 20px;
+	display: inline-block;
+	padding-bottom: 0.5rem;
+}
+
+.eci-index .one .line1 {
+	position: absolute;
+	bottom: 0px;
+	left: 48%;
+	width: 2px;
+	height: 60%;
+	background-color: rgb(255, 98, 167);
+}
+
+.eci-index .two {
+	position: absolute;
+	top: 36%;
+	left: 10%;
+	height: 64%;
+	width: 25%;
+}
+
+.eci-index .three {
+	position: absolute;
+	top: 36%;
+	right: 8%;
+	height: 64%;
+	width: 25%;
+}
+
+.eci-index .scroll1 {
+	height: 45%;
+	width: 100%;
+	border-radius: 50%;
+	background: radial-gradient(transparent, rgba(81, 162, 128, .9),
+		rgba(120, 190, 91, .9), #6AB168);
+	color: #fff;
+	text-align: center;
+	padding-top: 10%;
+}
+
+.eci-index .scroll1 span {
+	font-size: 20px;
+	display: inline-block;
+	padding-bottom: 5%;
+}
+
+.eci-index .line2 {
+	position: absolute;
+	bottom: 0px;
+	left: 48%;
+	width: 2px;
+	height: 55%;
+	background-color: #6AB168;
+}
+
+.eci-index .four {
+	position: absolute;
+	top: 60%;
+	right: 26%;
+	height: 40%;
+	width: 24%;
+}
+
+.eci-index .four .scroll4 {
+	font-size: 10px;
+	height: 60%;
+	width: 100%;
+	border-radius: 50%;
+	background: radial-gradient(transparent, rgba(12, 158, 223, .9),
+		rgba(0, 179, 244, .9), #32A3D8);
+	color: #fff;
+	text-align: center;
+	padding-top: 4%;
+}
+
+.eci-index .four .scroll4 span {
+	font-size: 20px;
+	display: inline-block;
+	padding-bottom: 5%;
+}
+
+.eci-index .four .line4 {
+	position: absolute;
+	bottom: 0px;
+	left: 48%;
+	width: 2px;
+	height: 40%;
+	background-color: #32A3D8;
+}
+/* 法人新增样式 */
+.screen-bd .total-item .fa, .screen-bd .total-item .new {
+	color: rgb(255, 255, 0);
+	position: relative
+}
+
+.screen-bd .total-item .fa, .screen-bd .total-item .new1 {
+	position: relative;
+	color: rgb(102, 255, 255);
+}
+
+.screen-bd .total-item .fa, .screen-bd .total-item .new2 {
+	position: relative;
+	color:rgb(254,55,136);
+}
+
+.new span {
+	position: absolute;
+	top: 0;
+	left: 40%;
+	font-size: 16px;
+}
+
+.new .small-new {
+	color: #0B92C2;
+}
+
+.new .middle-new {
+	color: #fff;
+}
+
+.new .tiny-new {
+	color: #047FC2;
+}
+
+@media only screen and (max-width: 1216px) {
+	.eci-index .tsMap {
+		height: 100%;
+		width: 100%;
+	}
+	.eci-index #tsMap {
+		height: 100%;
+		width: 100%;
+	}
+	.eci-index .one {
+		position: absolute;
+		top: 16%;
+		left: 33%;
+		height: 84%;
+		width: 30%;
+	}
+	.eci-index .one .scroll {
+		height: 40%;
+		width: 100%;
+		border-radius: 50%;
+		background: radial-gradient(transparent, rgba(137, 106, 163, .9),
+			rgb(197, 101, 165), rgb(255, 98, 167));
+		color: #fff;
+		text-align: center;
+		padding-top: 20%;
+	}
+	.eci-index .one .scroll span {
+		font-size: 20px;
+		display: inline-block;
+		padding-bottom: 0.5rem;
+	}
+	.eci-index .one .scroll .line1 {
+		position: absolute;
+		bottom: 0px;
+		left: 48%;
+		width: 2px;
+		height: 60%;
+		background-color: rgb(255, 98, 167);
+	}
+	.eci-index .two {
+		position: absolute;
+		top: 36%;
+		left: 7%;
+		height: 64%;
+		width: 28%;
+	}
+	.eci-index .three {
+		position: absolute;
+		top: 36%;
+		right: 4%;
+		height: 64%;
+		width: 28%;
+	}
+	.eci-index .scroll1 {
+		height: 45%;
+		width: 100%;
+		border-radius: 50%;
+		background: radial-gradient(transparent, rgba(81, 162, 128, .9),
+			rgba(120, 190, 91, .9), #6AB168);
+		color: #fff;
+		text-align: center;
+		padding-top: 10%;
+	}
+	.eci-index .scroll1 span {
+		font-size: 20px;
+		display: inline-block;
+		padding-bottom: 5%;
+	}
+	.eci-index .scroll1 .line2 {
+		position: absolute;
+		bottom: 0px;
+		left: 48%;
+		width: 2px;
+		height: 55%;
+		background-color: #6AB168;
+	}
+	.eci-index .four {
+		position: absolute;
+		top: 60%;
+		right: 24%;
+		height: 40%;
+		width: 25%;
+	}
+	.eci-index .four .scroll4 {
+		font-size: 10px;
+		height: 60%;
+		width: 100%;
+		border-radius: 50%;
+		background: radial-gradient(transparent, rgba(12, 158, 223, .9),
+			rgba(0, 179, 244, .9), #32A3D8);
+		color: #fff;
+		text-align: center;
+		padding-top: 4%;
+	}
+	.eci-index .four .scroll4 span {
+		font-size: 20px;
+		display: inline-block;
+		padding-bottom: 5%;
+	}
+	.eci-index .four .scroll4 .line4 {
+		position: absolute;
+		bottom: 0px;
+		left: 48%;
+		width: 2px;
+		height: 40%;
+		background-color: #32A3D8;
+	}
+	.new span {
+	position: absolute;
+	top: 0;
+	left: 37%;
+	font-size: 16px;
+}
+}
+
+@media only screen and (min-width:1920px) {
+	.eci-index .tsMap {
+		height: 100%;
+		width: 100%;
+	}
+	.eci-index #tsMap {
+		height: 100%;
+		width: 100%;
+	}
+	.eci-index .one {
+		position: absolute;
+		top: 16%;
+		left: 33%;
+		height: 84%;
+		width: 30%;
+		font-size: 20px;
+	}
+	.eci-index .one .scroll {
+		height: 40%;
+		width: 100%;
+		border-radius: 50%;
+		background: radial-gradient(transparent, rgba(137, 106, 163, .9),
+			rgb(197, 101, 165), rgb(255, 98, 167));
+		color: #fff;
+		text-align: center;
+		padding-top: 28%;
+	}
+	.eci-index .one .scroll span {
+		font-size: 30px;
+		display: inline-block;
+		padding-bottom: 0.5rem;
+	}
+	.eci-index .one .scroll .line1 {
+		position: absolute;
+		bottom: 0px;
+		left: 48%;
+		width: 2px;
+		height: 60%;
+		background-color: rgb(255, 98, 167);
+	}
+	.eci-index .two {
+		position: absolute;
+		top: 36%;
+		left: 10%;
+		height: 64%;
+		width: 25%;
+	}
+	.eci-index .three {
+		position: absolute;
+		top: 36%;
+		right: 8%;
+		height: 64%;
+		width: 25%;
+	}
+	.eci-index .scroll1 {
+		height: 45%;
+		width: 100%;
+		border-radius: 50%;
+		background: radial-gradient(transparent, rgba(81, 162, 128, .9),
+			rgba(120, 190, 91, .9), #6AB168);
+		color: #fff;
+		text-align: center;
+		padding-top: 22%;
+		font-size: 20px;
+	}
+	.eci-index .scroll1 span {
+		font-size: 30px;
+		display: inline-block;
+		padding-bottom: 5%;
+	}
+	.eci-index .scroll1 .line2 {
+		position: absolute;
+		bottom: 0px;
+		left: 48%;
+		width: 2px;
+		height: 55%;
+		background-color: #6AB168;
+	}
+	.eci-index .four {
+		position: absolute;
+		top: 60%;
+		right: 26%;
+		height: 40%;
+		width: 24%;
+	}
+	.eci-index .four .scroll4 {
+		font-size: 10px;
+		height: 60%;
+		width: 100%;
+		border-radius: 50%;
+		background: radial-gradient(transparent, rgba(12, 158, 223, .9),
+			rgba(0, 179, 244, .9), #32A3D8);
+		color: #fff;
+		text-align: center;
+		padding-top: 10%;
+		font-size: 18px;
+	}
+	.eci-index .four .scroll4 span {
+		font-size: 28px;
+		display: inline-block;
+		padding-bottom: 5%;
+	}
+	.eci-index .four .scroll4 .line4 {
+		position: absolute;
+		bottom: 0px;
+		left: 48%;
+		width: 2px;
+		height: 40%;
+		background-color: #32A3D8;
+	}
+	.new span {
+	position: absolute;
+	top: 0;
+	left: 42%;
+	font-size: 16px;
+}
+}

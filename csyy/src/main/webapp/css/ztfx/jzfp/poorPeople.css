@@ -1,0 +1,212 @@
+.poorPeople {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    font-family: "Microsoft YaHei", "΢���ź�";
+}
+
+.poorPeople .top {
+    height: 4.3rem;
+    width: 98.5%;
+    margin: 0.5rem;
+    margin-top : 0;
+    background: #fff;
+}
+
+.poorPeople .top ul {
+    height: 100%;
+    width: 100%;
+}
+
+.poorPeople .top li {
+    float: left;
+    width: 19%;
+    height: 2rem;
+    margin-top: 0.9rem;
+    border-right: 1px solid #e5e5e5;
+}
+
+.poorPeople .top li:last-child {
+    border-right: 0px solid #e5e5e5;
+}
+
+.poorPeople .top li:first-child {
+    width: 23%;
+    font-size: 40px;
+    color: #00B4FF;
+    font-weight: 400;
+    line-height: 2rem;
+    text-align: center;
+}
+
+.poorPeople .top .pic {
+    position: relative;
+    margin: 0 1.5rem;
+}
+
+.poorPeople .top span {
+    position: absolute;
+    bottom: -18px;
+    left: 0;
+}
+
+.poorPeople .top img {
+    height: 37px;
+    width: 54px;
+}
+
+.poorPeople .top .text {
+    color: #25313F;
+    font-size: 20px;
+}
+
+.poorPeople .center, .bottom {
+    height: 15rem;
+    width: 98.5%;
+    margin: 0.5rem;
+    margin-bottom:0px;
+}
+
+.poorPeople .poorBox {
+    height: 100%;
+    width: 32.9%;
+    background-color: #fff;
+    margin-right: 0.4rem;
+
+}
+
+.poorPeople .poorBox:last-child {
+    margin-right: 0px;
+}
+
+.poorPeople #poorChart1, #poorChart2, #poorChart3, #poorChart4, #poorChart4_1, #poorChart4_2, #poorChart4_3, #poorChart5, #poorChart6 {
+    height: 100%;
+    width: 100%;
+}
+
+.poorPeople #poorChart2 table {
+    margin: 0 1rem;
+    width: 90%;
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid #E5E5E5;
+}
+
+.poorPeople #poorChart2 th {
+    color: #25313F;
+    background-color: #EEEEEE;
+}
+
+.poorPeople #poorChart2 tr {
+    height: 1.7rem;
+    color: #7B7B7B;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.poorPeople .title {
+    font-size: 16px;
+    margin-left: 1.1rem;
+    color: #25313F;
+    font-weight: 700;
+    height: 2.4rem;
+    line-height: 2.5rem;
+}
+
+.poorPeople .timeLine {
+    height: 1.7rem;
+}
+.poorPeople .timeLine1 {
+    height: 0.7rem;
+    position: relative;
+}
+.poorPeople .timeLine ul {
+    height: 100%;
+    width: 100%;
+}
+.poorPeople .timeLine li {
+    float: left;
+    color: #7B7B7B;
+    margin-left: 1rem;
+    height: 100%;
+    padding: 0 0.9rem;
+    line-height: 1.7rem;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+}
+.poorPeople .timeLine li.clickStyle {
+    background-color: #00B4FF;
+    color: #fff;
+}
+.poorPeople .timeLine1 li span.spanColor{
+    color:#00B4FF;
+}
+.poorPeople .timeLine1 li i.iColor{
+    background-color:#00B4FF;
+}
+.poorPeople .timeLine1 ul{
+    height: 1px;
+    width: 324px;
+    background: #ccc;
+    margin: 2% 0 0 64px;
+    position: relative;
+}
+.poorPeople .pie{
+    height: 18px;
+    width: 18px;
+    background-color: #21B7F6;
+    border-radius: 50%;
+    position: absolute;
+    top: -7px;
+    left: 72px;
+    z-index: 99;
+}
+.poorPeople .timeLine1  li{
+    float: left;
+    font-size: 12px;
+    color: #25313F;
+    margin-top: 3%;
+    margin-right: 42px;
+    position: relative;
+}
+.poorPeople .timeLine1  li:last-child{
+    margin-right:0px;
+}
+.poorPeople .timeLine1 li span{
+    margin-left: 2px;
+}
+.poorPeople .timeLine1 li span.move{
+    font-size: 20px;
+}
+.poorPeople .timeLine1 li i{
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    border:1px solid #00B4FF;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: -100%;
+    left: 0.5rem;
+}
+.poorPeople .timeLine1 .left, .right {
+    height: 16px;
+    width: 14px;
+    /*cursor: pointer;*/
+    position: absolute;
+}
+.poorPeople .timeLine1 .left {
+    background: url("../../../image/ztfx/jzfp/poorLeft.png") no-repeat center;
+    top: -0.4rem;
+    left: 1.2rem;
+}
+.poorPeople .timeLine1 .right {
+    background: url("../../../image/ztfx/jzfp/poorRight.png") no-repeat center;
+    top: -0.4rem;
+    right: 1.2rem;
+}
+
+.poorPeople .charts {
+    height: 10.5rem;
+    width: 100%;
+    overflow: hidden;
+}

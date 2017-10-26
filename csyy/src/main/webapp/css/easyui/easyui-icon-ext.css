@@ -1,0 +1,70 @@
+/*以下是扩展图标*/
+.icon-home{
+	background:url('icons/home.png') no-repeat center center;
+}
+.icon-sort{
+	background:url('icons/sort.png') no-repeat center center;
+}
+.icon-func{
+	background:url('icons/function.png') no-repeat center center;
+}
+.icon-users{
+	background:url('icons/users.png') no-repeat center center;
+}
+.icon-group{
+	background:url('icons/group.png') no-repeat center center;
+}
+.icon-pict{
+	background:url('icons/picture.png') no-repeat center center;
+}
+.icon-folder{
+	background:url('icons/folder.png') no-repeat center center;
+}
+.icon-organ{
+	background:url('icons/organ.png') no-repeat center center;
+}
+.icon-dept{
+	background:url('icons/dept.png') no-repeat center center;
+}
+.icon-emp{
+	background:url('icons/emp.png') no-repeat center center;
+}
+.icon-emp-woman{
+	background:url('icons/emp-woman.png') no-repeat center center;
+}
+.icon-star{
+	background:url('icons/star.png') no-repeat center center;
+}
+.icon-menu{
+	background:url('icons/menu.png') no-repeat center center;
+}
+.icon-right{
+	background:url('icons/right.png') no-repeat center center;
+}
+.icon-item{
+	background:url('icons/item.png') no-repeat center center;
+}
+.icon-file{
+	background:url('icons/file.png') no-repeat center center;
+}
+.icon-download{
+	background:url('icons/download.gif') no-repeat center center;
+}
+.icon-txt{
+	background:url('icons/txt.gif') no-repeat center center;
+}
+.icon-view{
+	background:url('icons/txt.gif') no-repeat center center;
+}
+.icon-chart{
+	background:url('icons/chart.png') no-repeat center center;
+}
+.icon-tongji{
+	background:url('icons/tongji.png') no-repeat center center;
+}
+.icon-ruku{
+	background:url('icons/ruku.png') no-repeat center center;
+}
+.icon-chuku{
+	background:url('icons/chuku.png') no-repeat center center;
+}

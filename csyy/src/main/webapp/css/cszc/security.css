@@ -1,0 +1,731 @@
+.top{
+	margin-top: 0.5%;
+}
+.pageInfo{/*页面title  */
+    height: 3%;
+    font-size:12px;
+    padding: 0.3rem  0.5rem 0.3rem 0.5rem;
+    color: #807E7F;
+    background-color: #e7e7e7;
+}
+.pageInfo i{
+    height: 17px;
+    width: 15px;
+    float: left;
+    display: inline-block;
+    margin-right:0.3rem;
+    background: url("../../image/common/travelHome.png") no-repeat center;
+}
+.pageInfo span{
+    line-height:1rem;
+    color: #807E7F;
+}
+
+.leftSide1{
+	width:53%;
+	height:95%;
+	float:left;
+	margin-left:-1%;
+	margin-top:6%;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.rightSide1{
+	width:53%;
+	height:70%;
+	float:right;
+	margin-right:1rem;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+ .map-btm{
+  	width: 120%;
+  	height: 220%;
+ }
+ 
+
+.peopleLive{
+    height: 117%;
+    width: 100%;
+    padding-top:0.3%;
+    font-family: "Microsoft YaHei", "寰蒋闆呴粦";
+    background-color: #E7E7E7;
+}
+.zs span:first-child{
+	color: #999999;
+	font-size: 14px;
+	margin-top: 0.3rem;
+	margin-left: 0.8rem
+}
+.zsf span:first-child{
+	color: #25313F;
+	font-size: 18px;
+	margin-top: 0.3rem;
+	margin-left: 0.8rem
+}
+.zs1 span:first-child{
+	color: #999999;
+	font-size: 14px;
+	margin-top: 0.3rem;
+	margin-left: 0.8rem
+}
+.zs span:nth-child(2){
+	color: #25313F;
+	font-size: 18px;
+	margin-top: 0.3rem;
+	margin-left: 2.5rem
+}
+.zs1 span:nth-child(2){
+	color: #25313F;
+	font-size: 18px;
+	margin-top: 0.3rem;
+	margin-left: 3rem
+}
+.zs2 span:first-child{
+	color: #999999;
+	font-size: 14px;
+	margin-top: 0.3rem;
+	margin-left: 0.8rem
+}
+.zs2 span:nth-child(2){
+	color: #25313F;
+	font-size: 18px;
+	margin-top: 0.3rem;
+	margin-left: 1rem
+}
+.title-p{
+	margin-left:-88%;
+	margin-top:1.2%;
+	color: #336181;
+    font-size: 16px;
+    font-weight: 700;
+}
+.wen1{
+	color:#9E9E9E;
+	font-size: 16px;
+	margin-top: 0.2rem;
+	margin-left: 3.9rem
+}
+.wen2{
+	color:#9E9E9E;
+	font-size: 16px;
+	margin-top: 0.2rem;
+	margin-left: 3.2rem
+}
+.num1{
+	color:blue;
+	font-size: 18px;
+	margin-top: 2.7rem;
+	margin-left: 4.9rem
+}
+.zb span:first-child{
+	color: #999999;
+	font-size: 14px;
+	margin-top: 0.5rem;
+	margin-left: 0.7rem;
+}
+.zb span:nth-child(2){
+	height: 25%;
+	width: 34%;
+}
+.zb span:nth-child(3){
+   color: #25313F;
+	font-size: 18px;
+	margin-top: 0.2rem;
+	margin-left: 1.6rem
+}
+/* 调表格大小 */
+.peopleLive .consumptionBoxT2 table th, td {
+    height: 0.7rem;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    line-height:0.8rem;
+}
+/* 调表格大小 */
+.peopleLive .consumptionBoxT table th, td {
+    height: 0.7rem;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    line-height:0.8rem;
+}
+.peopleLive .job-titleT2{
+    height: 1rem;
+    line-height: 0.5rem;
+    padding-top: 0.2rem;
+    margin-left: 0.8rem;
+    color: #336181;
+    font-size: 13px;
+    font-weight: 700;
+}
+.peopleLive .bottom {
+    height: 12.9rem;
+    width: 16rem;
+    border: 1px solid #e5e5e5;
+    background-color: #fff;
+    margin-bottom: 0.3rem;
+    position: relative;
+}
+.peopleLive .charts {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    z-index: 999;
+}
+.peopleLive .consumptionBoxT table {
+    height: 14rem;
+    width: 243%;
+    margin: 0 0.7rem;
+    border-collapse: collapse;
+}
+.peopleLive .consumptionBoxT2 table {
+    height: 5rem;
+    width: 236%;
+    margin: 0 0.7rem;
+    border-collapse: collapse;
+}
+.peopleLive .peopleLive-top .consumption .consumptionBoxT{
+    height: 60.5%;
+    width: 100%;
+    background-color: #fff;
+}
+
+.pageInfo{
+    height: 3%;
+    padding: 0.3rem  0.5rem 0.3rem 0.5rem;
+    color: #807E7F;
+    background-color: #e7e7e7;
+}
+.pageInfo i{
+    height: 17px;
+    width: 15px;
+    float: left;
+    display: inline-block;
+    margin-right:0.3rem;
+    background: url("../../image/common/travelHome.png") no-repeat center;
+}
+.pageInfo span{
+    line-height:1rem;
+    color: #807E7F;
+}
+.job div{
+	float: left;
+}
+
+.peopleLive .mgr-8{
+    margin-right:0.3rem;
+}
+.peopleLive .mgr-81{
+    margin-right:0rem;
+}
+.peopleLive .mgt-8{
+    margin-top:0.4rem;
+}
+/*调框与框直接的间隔  */
+.peopleLive .mgb-8{
+     margin-bottom:0.3rem;
+ }
+.peopleLive .mgb-10{
+    margin-bottom:0.5rem;
+}
+
+.peopleLive .mgl-10{
+    margin-left:0.5rem;
+}
+.peopleLive .mgr-10{
+    margin-right:0.5rem;
+}
+.peopleLive .w24{
+    width: 24%;
+    height: 100%;
+    /*background-color: #fff;*/
+}
+.peopleLive .w501{
+    width: 39%;
+    height: 110%;
+    background-color: #fff;
+}
+.peopleLive .w505{
+    width: 49.4%;
+    height: 66.4%;
+    background-color: #fff;
+}
+.peopleLive .w502{
+    width: 60%;
+    height: 96%;
+    background-color: #fff;
+}
+.peopleLive .w503{
+    width: 39%;
+    height: 61%;
+    margin-top:-19%;
+    background-color: #fff;
+}
+.peopleLive .w504{
+    width: 60%;
+    height: 75%;
+    margin-top:0.4%;
+    background-color: #fff;
+}
+.peopleLive .h501{
+    height: 100%;
+    width: 100%;
+}
+.peopleLive .h502{
+    height: 100%;
+    width: 100%;
+}
+/*.peopleLive .w50{*/
+    /*widht: 50%;*/
+    /*height: 100%;*/
+/*}*/
+.peopleLive .w33{
+    height: 100%;
+    width: 23.3%;
+}
+.peopleLive .w26{
+    height: 100%;
+    width: 26.3%;
+    position: relative;
+}
+.peopleLive .w40{
+    height: 100%;
+    width: 40.3%;
+    position: relative;
+}
+.peopleLive .w60{
+    height: 100%;
+    width: 59.7%;
+}
+.peopleLive .title{
+    height: 1.4rem;
+    line-height: 1.4rem;
+    padding-top: 0.2rem;
+    margin-left: 0.5rem;
+    color: #25313F;
+    font-size: 16px;
+    font-weight: 700;
+}
+.peopleLive .titleS{
+    height: 1.4rem;
+    line-height: 1.4rem;
+    padding-top: 1rem;
+    margin-left: 0.8rem;
+    color: #25313F;
+    font-size: 24px;
+    font-weight: 700;
+}
+.peopleLive .title em{
+    font-size: 12px;
+    color: #6C6C6C;
+    font-weight: 400;
+}
+.peopleLive .peopleLive-top{
+    height: 21rem;
+    /*background: #fff;*/
+}
+/*.peopleLive .peopleLive-top .consumption{*/
+    /*background-color: #fff;*/
+/*}*/
+.peopleLive .peopleLive-top .consumption .consumptionBox{
+    height: 45%;
+    width: 100%;
+    background-color: #fff;
+}
+
+.peopleLive .peopleLive-top .consumption .consumptionBox #conCharts1,#conCharts2{
+    width: 100%;
+    height: 10.2rem;
+}
+/* 调框大小 */
+.peopleLive .peopleLive-bottom{
+    height: 12rem;
+}
+.flr{
+	float: right;
+}
+.peopleLive .peopleLive-bottom .Enge{
+    background-color: #fff;
+    /* margin-top: 32.1%; */
+   /*  margin-left: -24.7%; */
+}
+.peopleLive .peopleLive-bottom .low-income{
+    background-color: #fff;
+}
+.peopleLive .peopleLive-top .ListBox{
+    height: 3.25rem;
+    background-color: #fff;
+}
+/* 调框的大小 */
+.peopleLive .peopleLive-top .ListBox2{
+    height: 12rem;
+    background-color: #fff;
+}
+.peopleLive .ListBox ul{
+    height: 100%;
+    width: 100%;
+}
+.peopleLive .ListBox li{
+    float: left;
+}
+.peopleLive .ListBox li:first-child{
+    width: 20%;
+    height: 100%;
+}
+.peopleLive .ListBox li.bg1{
+    background: url("../../image/fzjc/mzzj/icon_1.png") no-repeat center;
+    background-size: 50px 50px;
+}
+.peopleLive .ListBox li.bg2{
+    background: url("../../image/fzjc/mzzj/icon_2.png") no-repeat center;
+    background-size: 50px 50px;
+}
+.peopleLive .ListBox li.bg3{
+    background: url("../../image/fzjc/mzzj/icon_3.png") no-repeat center;
+    background-size: 50px 50px;
+}
+.peopleLive .ListBox li.bg4{
+    background: url("../../image/fzjc/mzzj/icon_4.png") no-repeat center;
+    background-size: 50px 50px;
+}
+.peopleLive .ListBox li.bg5{
+    background: url("../../image/fzjc/mzzj/icon_5.png") no-repeat center;
+    background-size: 50px 50px;
+}
+.peopleLive .ListBox li.bg6{
+    background: url("../../image/fzjc/mzzj/icon_6.png") no-repeat center;
+    background-size: 50px 50px;
+}
+.bg7{
+    background: url("../../image/fzjc/mzzj/icon_7.png") no-repeat center;
+    background-position:40px 10px;
+    width: 200px;
+    height: 185px;
+    background-size: 150px 150px;
+    background-position:45px 35px;
+}
+.bg8{
+    background: url("../../image/fzjc/mzzj/icon_8.png") no-repeat center;
+    background-position:40px 10px;
+    width: 200px;
+    height: 185px;
+    background-size: 150px 150px;
+    background-position:45px 35px;
+}
+.bg9{
+    background: url("../../image/fzjc/mzzj/icon_9.png") no-repeat center;
+    background-position:40px 10px;
+    width: 200px;
+    height: 185px;
+    background-size: 150px 150px;
+    background-position:45px 35px;
+}
+.bg10{
+    background: url("../../image/fzjc/mzzj/icon_10.png") no-repeat center;
+    background-position:40px 10px;
+    width: 200px;
+    height: 185px;
+    background-size: 150px 150px;
+    background-position:45px 35px;
+}
+.bg11{
+    background: url("../../image/fzjc/mzzj/icon_11.png") no-repeat center;
+    background-position:40px 10px;
+    width: 200px;
+    height: 185px;
+    background-size: 150px 150px;
+    background-position:45px 35px;
+}
+.bg12{
+    background: url("../../image/fzjc/mzzj/icon_12.png") no-repeat center;
+    background-position:40px 10px;
+    width: 200px;
+    height: 185px;
+    background-size: 150px 150px;
+    background-position:45px 35px;
+}
+.peopleLive .ListBox li:nth-child(2){
+    height: 2.1rem;
+    width: 1px;
+    background-color: #E5E5E5;
+    margin-top: 0.7rem;
+}
+.peopleLive .ListBox li:nth-child(3){
+    width: 42%;
+    height: 100%;
+}
+.peopleLive .ListBox li p:first-child{
+    color: #999999;
+    font-size: 18px;
+    margin-top: 0.5rem;
+    margin-left:0.7rem;
+}
+.peopleLive .ListBox li p:nth-child(2){
+    color: #999999;
+    margin-left:0.7rem;
+    margin-top: 0.1rem;
+}
+.peopleLive .ListBox li:nth-child(4){
+    height: 2.1rem;
+    width: 1px;
+    background-color: #E5E5E5;
+    margin-top: 0.7rem;
+}
+.peopleLive .ListBox li:nth-child(5){
+    width: 35%;
+    height: 100%;
+}
+.peopleLive .peopleLive-top .jobTop .jobCharts{
+    height: 9.55rem;
+    width: 100%;
+}
+.peopleLive .jobCharts #jobCharts1,#jobCharts2,#jobCharts3{
+    height: 100%;
+    width: 100%;
+}
+.peopleLive .jobCharts .public{
+    position: relative;
+}
+.peopleLive .jobCharts .public .jobInfo{
+    position: absolute;
+    top: 30%;
+    left: 28%;
+    color: #fff;
+    z-index: 99;
+    font-size: 12px;
+}
+.peopleLive .jobCharts .public .jobInfo1{
+    position: absolute;
+    top: 40%;
+    left: 28%;
+    color: #fff;
+    z-index: 99;
+    font-size: 12px;
+}
+.peopleLive .jobCharts .public .jobInfo2{
+    position: absolute;
+    top: 44%;
+    left: 28%;
+    color: #fff;
+    z-index: 99;
+    font-size: 12px;
+}
+.peopleLive .job-title{
+    height: 1.6rem;
+    line-height: 1.4rem;
+    padding-top: 0.2rem;
+    margin-left: 0.8rem;
+    color: #336181;
+    font-size: 16px;
+    font-weight: 700;
+}
+.peopleLive .job-titleT{
+    height: 1rem;
+    line-height: 0rem;
+    padding-top: 0.3rem;
+    padding-left: 0.7rem;
+    color: #336181;
+    font-size: 13px;
+    font-weight: 700;
+}
+.title1{
+	 color: #336181;
+	 margin-left: -51%;
+	 padding-top: 0.3rem;
+	 font-size: 16px;
+     font-weight: 700;
+}
+/* .peopleLive .job{
+    background:#fff url("../../../image/fzjc/hgjj/job-bg.jpg") no-repeat center;
+    background-size: cover;
+} */
+.peopleLive .jobBottom .job-distribution{
+    height: 10.4rem;
+    width: 100%;
+    position: relative;
+}
+.peopleLive .jobBottom .job-distribution .job-tower{
+    position: relative;
+}
+.peopleLive .jobBottom .job-distribution .text{
+    width: 58px;
+    height: 61px;
+    color: #336181;
+    font-size: 14px;
+    position: absolute;
+    left: 31%;
+    bottom: 0;
+}
+.peopleLive .jobBottom .job-distribution .text1{
+    left: 58%;
+    bottom: 9%;
+}
+
+.peopleLive .jobBottom .job-distribution .text2{
+    left: 85.5%;
+    bottom: 18%;
+}
+#Enge{
+    height: 9.8rem;
+    width: 100%;
+}
+.peopleLive  .low-income table{
+    border-collapse: collapse;
+    text-align: center;
+    height: 84%;
+    width: 94%;
+    margin: 0.1rem 0.5rem 0.5rem 0.5rem;
+    border-radius: 5px 0 0  5px;
+}
+
+.peopleLive  .low-income table .trColor{
+    background-color: #F1F1F1;
+}
+.peopleLive .peopleLive-bottom .income{
+    position: relative;
+}
+.peopleLive .peopleLive-bottom .income .tab{
+    position: absolute;
+    top: 4%;
+    right: 3%;
+}
+.peopleLive .peopleLive-bottom .income .tab li{
+    height: 1.5rem;
+    width: 5.5rem;
+    line-height: 1.5rem;
+    float: left;
+    margin-left: 0.5rem;
+    border: 1px solid #E5E5E5;
+    color: #999999;
+    padding-left: 2rem;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    cursor: pointer;
+    position: relative;
+}
+.peopleLive .peopleLive-bottom .income .tab li.tabColor{
+    background-color: #12D18B;
+    color: #fff;
+}
+.peopleLive .income .tab li i{
+    display: inline-block;
+    height: 26px;
+    width: 25px;
+     position: absolute;
+    top: 2%;
+    left: 8%;
+}
+.peopleLive .income .tab .bg-1{
+    background: url("../../../image/fzjc/hgjj/Building.png") no-repeat center;
+}
+.peopleLive .income .tab .bg-1s{
+    background: url("../../../image/fzjc/hgjj/town.png") no-repeat center;
+}
+.peopleLive .income .tab .bg-2{
+    background: url("../../../image/fzjc/hgjj/peopleHome.png") no-repeat center;
+}
+.peopleLive .income .tab .bg-2s{
+    background: url("../../../image/fzjc/hgjj/countryside.png") no-repeat center;
+}
+.peopleLive .peopleLive-bottom .incomeBox{
+    height: 9.8rem;
+    width: 100%;
+}
+.peopleLive .peopleLive-bottom .incomeBox .incomeTop{
+    height: 4rem;
+    width: 8.9rem;
+    background: url("../../../image/fzjc/hgjj/peopleLive-fram.png") no-repeat bottom;
+    margin-bottom: -2px;
+    margin-top:1.1rem;
+    margin-left: 2.5rem;
+}
+.peopleLive .peopleLive-bottom .incomeBox .incomeBottom{
+    height: 4rem;
+    width: 8.9rem;
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+    margin-left: 2.5rem;
+}
+.peopleLive .peopleLive-bottom .incomeBox .income1{
+    height: 8.9rem;
+    width: 8.9rem;
+    border-radius: 50%;
+    background: #12D18B;
+    position: absolute;
+    top: -122%;
+    left: 0;
+    padding-top: 64%;
+    font-size: 14px;
+    text-align: center;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+}
+.peopleLive .peopleLive-bottom .incomeBox #incomeChart{
+    height: 100%;
+    width: 100%;
+}
+@media only screen and (min-width: 1920px) {
+	.peopleLive .ListBox li p:first-child{
+    color: #25313F;
+    font-size: 20px;
+    margin-top: 1rem;
+    margin-left:0.7rem;
+}
+  .center-class{
+	    color: #fff;
+	    font-size: 12px;
+	    width: 15%;
+	    height: 20%;
+	    margin-top: 50%;
+	    margin-left: 34%;
+	   
+  }
+   .peopleLive .jobCharts .public .jobInfo{
+    position: absolute;
+    top: 36%;
+    left: 34%;
+    color: #fff;
+    z-index: 99;
+    font-size: 12px;
+}
+.peopleLive .jobCharts .public .jobInfo1{
+    position: absolute;
+    top: 40%;
+    left: 34%;
+    color: #fff;
+    z-index: 99;
+    font-size: 12px;
+}
+.peopleLive .jobCharts .public .jobInfo2{
+    position: absolute;
+    top: 44%;
+    left: 34%;
+    color: #fff;
+    z-index: 99;
+    font-size: 12px;
+}
+.peopleLive .income .tab .bg-1{
+    background: url("../../../image/fzjc/hgjj/Building.png") no-repeat center;
+    margin-top:0.2rem;
+}
+.peopleLive .income .tab .bg-1s{
+    background: url("../../../image/fzjc/hgjj/town.png") no-repeat center;
+     margin-top:0.2rem;
+}
+.peopleLive .income .tab .bg-2{
+    background: url("../../../image/fzjc/hgjj/peopleHome.png") no-repeat center;
+     margin-top:0.2rem;
+}
+.peopleLive .income .tab .bg-2s{
+    background: url("../../../image/fzjc/hgjj/countryside.png") no-repeat center;
+     margin-top:0.2rem;
+}
+}

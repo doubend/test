@@ -1,0 +1,199 @@
+.industryEconomic {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    font-family: "Microsoft YaHei", "微软雅黑";
+}
+.pageInfo{
+    height: 3%;
+    padding: 0.3rem  0.5rem 0.3rem 0.5rem;
+    color: #807E7F;
+}
+.pageInfo i{
+    height: 15px;
+    width: 15px;
+    float: left;
+    display: inline-block;
+    margin-right:0.3rem;
+    background: url("../../../image/common/travelHome.png") no-repeat center;
+}
+.pageInfo span{
+    line-height:1rem;
+    color: #807E7F;
+}
+.industryEconomic .mgl-5{
+    margin-left: 0.5rem;
+}
+.industryEconomic .mgr-5{
+    margin-right: 0.5rem;
+}
+.industryEconomic .mgb-4{
+    margin-bottom: 0.4rem;
+}
+.industryEconomic .w24{
+    width: 24%;
+}
+.industryEconomic .w49{
+    width: 49%;
+}
+.industryEconomic .w50{
+    width: 50%;
+}
+.industryEconomic .h50{
+    height: 50%;
+}
+.industryEconomic .mgt-3{
+    margin-top:0.3rem;
+}
+.industryEconomic .mgt-14{
+    margin-top:1.4rem;
+}
+.industryEconomic .industrycenter{
+    background-color: #fff;
+    height: 31.6rem;
+}
+.industryEconomic .industryBOx{
+    height: 15.6rem;
+    width: 100%;
+    background-color: #fff;
+}
+.industryEconomic .title{
+    height: 1.4rem;
+    line-height: 1.4rem;
+    padding-top: 0.2rem;
+    margin-left: 0.5rem;
+    color: #25313F;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+.industryEconomic .title em{
+    font-size: 0.6rem;
+    color: #6C6C6C;
+    font-weight: 400;
+}
+.industryEconomic .industryBOx .chartBox{
+    height: 13.9rem;
+    width: 100%;
+}
+.industryEconomic .industryBOx #chartBar{
+    height: 100%;
+    width: 100%;
+}
+.industryEconomic .industryBOx #chartpie{
+    height: 100%;
+    width: 25%;
+}
+.industryEconomic .industryBOx #chart1,#chart2,#chart3,#chart4,#chart7{
+    height: 100%;
+    width: 100%;
+}
+.industryEconomic .industryBOx table.industryTable{
+    height: 13.6rem;
+    width: 94%;
+    margin: 0.2rem 0.5rem 0.5rem 0.5rem;
+    border-collapse: collapse;
+    text-align: center;
+}
+.industryEconomic .industryBOx table.industryTable th,td{
+    height: 1.2rem;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+}
+.industryEconomic .industryBOx table.industryTable th{
+    background-color: #12D18B;
+    color: #fff;
+    border: 1px solid #12D18B;
+}
+.industryEconomic  table .bgColor{
+    background-color: #F1F1F1;
+}
+.industryEconomic .industrycenter .industryTop,.industryBottom{
+    width: 100%;
+}
+.industryEconomic .industrycenter .top1{
+    color: #25313F;
+    font-size: 1.1rem;
+    padding: 1rem 0 0 1rem;
+}
+.industryEconomic .industrycenter .top1 em{
+    display: inline-block;
+    height: 2rem;
+    width: 1.2rem;
+    line-height: 2rem;
+    text-align: center;
+    border: 2px solid #21B7F6;
+    color: #21B7F6;
+    margin: 0 0.25rem;
+}
+.industryEconomic .industrycenter .w40{
+    height: 98%;
+    width: 40.3%;
+    position: relative;
+}
+.industryEconomic .industrycenter .w60{
+    height: 98%;
+    width: 59.7%;
+}
+.industryEconomic .industrycenter  .incomeBox{
+    height: 9.8rem;
+    width: 100%;
+}
+.industryEconomic .industrycenter  .incomeBox .incomeTop{
+    height: 4rem;
+    width: 8.9rem;
+    background: url("../../../image/fzjc/hgjj/industrycenter.png") no-repeat bottom;
+    margin-bottom: -6px;
+    margin-top:2rem;
+    margin-left: 2.5rem;
+}
+.industryEconomic .industrycenter  .incomeBox .incomeBottom{
+    height: 4rem;
+    width: 8.9rem;
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+    margin-left: 2.5rem;
+}
+.industryEconomic .industrycenter  .incomeBox .income1{
+    height: 8.9rem;
+    width: 8.9rem;
+    border-radius: 50%;
+    background: #21B7F6;
+    position: absolute;
+    top: -122%;
+    left: 0;
+    padding-top: 64%;
+    font-size: 0.7rem;
+    text-align: center;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+}
+.industryEconomic .industrycenter  .incomeBox #incomeChart{
+    height: 100%;
+    width: 100%;
+}
+.industryEconomic .industryBottom table.industry{
+    height: 14.9rem;
+    width: 97%;
+    margin: 0.5rem;
+    border-collapse: collapse;
+    text-align: center;
+
+}
+.industryEconomic .industryBottom table.industry th,td{
+    height: 1.2rem;
+    border: 1px solid #E5E5E5;
+    text-align: center;
+    color: #6C6C6C;
+}
+.industryEconomic .industryBottom table.industry th{
+    background-color: #F1F1F1;
+    color: #6C6C6C;
+    border-radius: 0px;
+}
+.industryEconomic .industryBottom table.industry td.fontW{
+    font-weight: 700;
+}

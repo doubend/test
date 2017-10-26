@@ -1,0 +1,565 @@
+html,body{height:100%;width: 100%;
+    overflow: hidden;
+    font-family: "Microsoft YaHei", "微软雅黑";
+    }
+.bigBox{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    /*background: url("../images/banner.png")no-repeat;*/
+    background-size: 100%;
+}
+*{
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	-o-box-sizing:border-box;
+}
+.list{
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    z-index: 9999;
+    width:13.8rem;
+    min-width: 190px;
+}
+.list .title{
+    height: 2.1rem;
+    width: 100%;
+    border:1px soloid rgba(7,70,124,.8); 
+    font-size: 16px;
+    background-color: rgba(7,70,124,.8);
+    line-height: 2.1rem;
+    color: #fff;
+    position: relative;
+    border-bottom:0px;
+}
+.list  .w50{
+	width:50%;
+	height:100%;
+}
+.list .title span{
+    padding-left: 12px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.list .title i{
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    background: url("../../image/gis/buttom.png") no-repeat;
+    float: right;
+    margin: 0.5rem 0.5rem 0 0;
+    cursor: pointer;
+}
+.list #animate{
+    /*display: none;*/
+}
+#animate .checked{
+    background: url("../../image/gis/checked.png") no-repeat center;
+}
+#bureaus .checked{
+    background: url("../../image/gis/checked.png") no-repeat center;
+}
+
+/*样式*/
+.list #bureaus{
+	height: 15rem;
+    border:1px solid rgba(55,83,107,.8);
+    border-top:0px;
+    border-right:0px;
+    background-color: rgba(55,83,107,.8);
+    color: #000;
+    overflow: auto;
+}
+.list #animate{
+    height: 15rem;
+    border:1px solid rgba(55,83,107,.8);
+    border-top:0px;
+    border-left:0px;
+    background-color: rgba(55,83,107,.8);
+    color: #000;
+    overflow: auto;
+}
+.list .message .lineC{
+    font-size: 14px;
+    line-height: 36px;
+    padding-left: 12px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-bottom: 1px solid #545d6c;
+    position: relative;
+    cursor: pointer;
+    color:#3492c8;
+}
+.list .message .lineC:before{
+    content: '';
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    background: url("../../image/gis/title.png");
+    cursor: pointer;
+    margin-right: 0.2rem;
+}
+.list .message em{
+    position: absolute;
+    top: 0.6rem;
+    right: 0.9rem;
+    height: 10px;
+    width: 10px;
+    background: url("../../image/gis/arr-b.png") no-repeat center center;
+}
+.list .line ul{
+    display: none;
+}
+.list .line li{
+    height: 30px;
+    line-height: 30px;
+    list-style: none;
+    padding-left: 44px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: pointer;
+    position: relative;
+    color:#fff;
+}
+.list li i{
+    display: inline-block;
+    height: 8px;
+    width: 8px;
+    border: 1px solid #A9A9A9;
+    /* margin-right: 4px; */
+    position: absolute;
+    top: 0.5rem;
+    left: 1.4rem;
+}
+
+/*右侧样式*/
+.right {
+    margin: 0 12px 0 0;
+    width: 13.8rem;
+    min-width: 276px;
+    position: absolute;
+    right: 0.5rem;
+    top: 0.5rem;
+    z-index: 999;
+}
+.right .search ul{
+    height: 1.75rem;
+    background-color: rgba(7,70,124,.8);
+    margin:0px 0 0.3rem 0;
+}
+.right .search li {
+    float: left;
+    vertical-align: middle;
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
+.right .search li:first-child{
+    height: 16px;
+    width: 20px;
+    margin-top: 0.5rem;
+    background: url("../../image/gis/bicF.png");
+}
+.right .search li:nth-child(2){
+    height: 20px;
+    width: 1px;
+    margin-top: 0.5rem;
+    background-color: #42729B;
+}
+.right .search li:nth-child(3){
+    height: 16px;
+    width: 16px;
+    margin-top: 0.5rem;
+    background:url("../../image/gis/plus.png");
+}
+.right .search li:nth-child(4){
+    height: 20px;
+    width: 1px;
+    margin-top: 0.5rem;
+    background-color: #42729B;
+}
+.right .search li:nth-child(5){
+    margin-top: 0.25rem;
+}
+.right .search li input{
+    height: 1.3rem;
+    width: 12.5rem;
+    margin-left: 0.7rem;
+    color: #fff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 0.3rem;
+    border:1px solid #545d6c;
+    background-color: transparent;
+}
+::-webkit-input-placeholder { /* WebKit browsers */ 
+color: #fff; 
+} 
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */ 
+color: #fff; 
+} 
+::-moz-placeholder { /* Mozilla Firefox 19+ */ 
+color: #fff; 
+} 
+:-ms-input-placeholder { /* Internet Explorer 10+ */ 
+color: #fff; 
+} 
+.right .searchLi {
+    position: relative;
+}
+.right .searchLi button{
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    background: url("../../image/gis/search.png") no-repeat center;
+    top: 0.25rem;
+    right: 0.4rem;
+}
+.right .search li button{
+   
+}
+.right .search li:last-child{
+    margin-left:0px;
+    margin-top: 0.25rem;
+}
+/* .right .news {
+    margin-bottom: 10px;
+} */
+.right .news .title{
+    height: 1.7rem;
+    background-color: rgba(7,70,124,.8);
+}
+.right .news p{
+    font-size: 14px;
+    color: #fff;
+    line-height: 34px;
+    margin-left: 0.5rem;
+}
+.right .news .title em{
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    background: url(../../image/gis/buttom.png) no-repeat;
+    float: right;
+    margin: 7px 10px 0 0;
+    cursor: pointer;
+}
+.right .newsBottom{
+    height: 13.35rem;
+    border:0.1rem solid rgb(55,83,107);
+    border-top:0.1rem solid transparent;
+    background-color: rgba(55,83,107,.8);
+    color: #fff;
+}
+.right .newsBottom table{
+    /*margin: 8px 8px 8px 12px;*/
+    width:100%;
+    color:#fff;
+    background:rgba(55,83,107,.8);
+}
+
+.charts{
+    height: 200px;
+    width: 100%;
+    background-color: rgba(66,75,90,.7);
+    position: fixed;
+   /*  border-top: 1px solid #CBCBC9; */
+    margin-top:42px;
+    bottom: 0px;
+    position: absolute;
+    left: 0;
+    z-index:99;
+}
+.charts .arrLeft,.arrRight{
+    height: 26px;
+    width: 14px;
+    cursor: pointer;
+    position: absolute;
+    top: 78px;
+}
+.charts .arrLeft{
+    background: url("../../image/gis/clickL.png");
+    left: 14px;
+}
+.charts .arrRight{
+    background: url("../../image/gis/clickR.png");
+    right: 20px;
+}
+.charts .center{
+    height: 100%;
+    width: 64rem;
+    overflow: hidden;
+    position: relative;
+    margin-left: 46px;
+}
+.charts .center ul{
+   width: 187000px; 
+    position: absolute;
+}
+.charts .center li{
+    float: left;
+    height: 180px;
+    width: 15.3rem;
+    margin: 10px 0.7rem 0 0;
+    background-color:#424b5a !important;
+}
+.charts .center li #chart4{
+    height: 100%;
+    width: 100%;
+}
+.charts #iconLi .tubiao{
+    position: absolute;
+    top: 26px;
+    right: 10px;
+    color: #000;
+}
+.charts #iconLi .tubiao s{
+    height: 10px;
+    width: 18px;
+    border-radius: 2px;
+    margin-right: 4px;
+    display: inline-block;
+}
+.charts #iconLi .iconLi:first-child s{
+    background-color: #FF302D;
+}
+.charts #iconLi .iconLi:nth-child(2) s{
+    background-color: #00B4FF;
+}
+.charts #iconLi .iconLi:nth-child(3) s{
+    background-color: #BFBF00;
+}
+.charts #iconLi .iconLi:last-child s{
+    background-color: #00D9DD;
+}
+.charts #iconLi .iconLi{
+    float: left;
+    margin-right: 10px;
+    font-size: 12px;
+    color: #6B6B6B;
+}
+.charts #iconLi {
+    position: relative;
+}
+.charts #chart1 {
+    position: relative;
+    /*overflow: hidden;*/
+}
+.charts #chart1 .data{
+    height: 85%;
+    width: 100%;
+}
+.charts #chart1 #yhTitle{
+    height: 15%;
+    width: 100%;
+    font-size: 14px;
+    text-align: center;
+    line-height: 26px;
+    color: #fff;
+}
+#chart1 #yhTitle span{
+    padding-left: 20px;
+}
+.charts #chart1 table{
+    height: 85%;
+    width: 90%;
+    border-collapse: collapse;
+    text-align: right;
+    border: 1px solid transparent;
+    border-bottom: 0px;
+    margin:0 auto;
+}
+.charts #chart1 table th{
+    height: 12px;
+    text-align: right;
+    border: 1px solid #545d6c;
+}
+.charts #chart1 table td{
+    height: 12px;
+    text-align: right;
+    border: 1px solid #545d6c;
+}
+.charts #chart1 table .specific{
+    text-align: center;
+}
+.datagrid-header td, .datagrid-body td, .datagrid-footer td {
+    border-color: #545d6c !important;
+}
+#anTable{
+    height: 24px;
+    width: 14px;
+    position: absolute;
+    top: 55%;
+    right: 0;
+    z-index: 999;
+    background-color: rgba(178,178,178,.8);
+    cursor: pointer;
+}
+#anTable span{
+    display: inline-block;
+    height: 12px;
+    width: 6px;
+    margin-top: 45%;
+    margin-left: 30%;
+    background: url("../../image/gis/yhLeft.png");
+}
+#chart1 #more{
+    position: absolute;
+    height: 80%;
+    width: 86px;
+    background-color: #fff;
+    border:1px solid #E5E5E5;
+    top: 20%;
+    right: 0;
+    display: none;
+}
+#chart1 #more li{
+    height: 21px;
+    width: 100%;
+    border:0px;
+    text-align: right;
+    margin: 0px;
+    border-bottom: 1px solid #E5E5E5;
+}
+#chart1 #more li:first-child{
+	font-weight:bold;
+}
+.result{
+    height: 28px;
+    width: 106px;
+    border: 1px solid rgba(66,75,90,.7);
+    border-bottom: 1px solid rgba(66,75,90,.7);
+    background-color: rgba(66,75,90,.7);
+    position: absolute;
+    bottom: 200px;
+    right: 20px;
+    z-index: 22;
+    color: #333333;
+}
+.result li{
+    float: left;;
+}
+.result li a{
+    line-height: 28px;
+    padding:0 12px;
+    color: #fff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+ .result li:nth-child(2){
+    height: 14px;
+    width: 1px;
+    background-color: #334156;
+    padding: 0 0px;
+    margin-top: 7px;
+}
+ .result li:nth-child(3) a{
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    background: url("../../image/gis/open.png") no-repeat center;
+    margin: 8px 0px 0px 4px;
+}
+/*滚动条样式*/
+.message::-webkit-scrollbar {width: 8px;}
+/* 滚动槽 */
+.message::-webkit-scrollbar-track {-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);    border-radius: 10px;}
+/* 滚动条滑块 */
+.message::-webkit-scrollbar-thumb {border-radius: 10px;    background: rgb(153, 153, 153); -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);}
+.message::-webkit-scrollbar-thumb:window-inactive {    background: rgb(153, 153, 153);}
+
+
+/* 细滚动条 */
+.small::-webkit-scrollbar{
+    width: 2px;
+    height: 16px;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+}
+/*定义滚动条的轨道，内阴影及圆角*/
+.small::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 0px rgba(0,0,0,0);
+    background-color: rgb(153, 153, 153);
+    border-radius: 10px;
+}
+/*定义滑块，内阴影及圆角*/
+.small::-webkit-scrollbar-thumb{
+    height: 20px;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: rgb(153, 153, 153);
+}
+
+
+/***
+重置表格样式
+***/
+.yh-tit{-border-bottom:1px solid #E5E5E5;}
+.charts #chart1 table.yh-table{border:0px;}
+.charts #chart1 table.yh-table tr{width:100%;color:#848e98;}
+.charts #chart1 table.yh-table tr td,.charts #chart1 table.yh-table tr th{width:3rem;border-bottom:1px solid #545d6c;border-right:1px solid #545d6c;border-left:1px solid #545d6c;cursor:pointer;}
+.charts #chart1 table.yh-table tr td:last-child,.charts #chart1 table.yh-table tr th:last-child{border-right:1px solid #545d6c;}
+
+#rightGrid .datagrid-view{
+	height:215px !important;
+}
+#rightGrid .datagrid-view .datagrid-body{
+	height:182px !important;
+}
+.pagination-info {
+    float: right;
+    margin: 0 6px 0 0;
+    padding: 0;
+    height: 0px !important;
+    line-height: 0px !important;
+    font-size: 12px;
+}
+.panel-header, .panel-body {
+     border-color: transparent !important;
+}
+.datagrid-header, .datagrid-toolbar, .datagrid-pager, .datagrid-footer-inner {
+    border-color: #000 !important;
+}
+.pagination-page-list, .pagination .pagination-num {
+    border-color: #D4D4D4;
+     background-color: rgba(7,70,124,.8);
+}
+.datagrid-row-over,
+.datagrid-header td.datagrid-header-over {
+  background: rgba(7,70,124,.8) !important;
+  color: #fff !important;
+  cursor: default;
+}
+@media only screen and (min-width: 1920px){
+	.list li i {
+    display: inline-block;
+    height: 8px;
+    width: 8px;
+    border: 1px solid #A9A9A9;
+    position: absolute;
+    top: 0.5rem;
+    left: 1rem;
+}
+} 
+@media only screen and (min-width:1600px){
+	
+}
+
+
+
+
+
+
+
+
+
+
+

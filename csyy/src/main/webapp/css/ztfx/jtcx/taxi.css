@@ -1,0 +1,271 @@
+html, body {
+    height: 100%;
+}
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+.taxi{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    min-width: 1024px;
+    min-height: 620px;
+    padding: 0.5rem;
+    padding-top:0;
+    background-color: #182133;
+}
+.pageInfo{
+    height: 34px;
+    padding: 6px  10px 6px 0px;
+    color: #0E6792;
+    font-size: 12px;
+}
+.pageInfo i{
+    height: 15px;
+    width: 15px;
+    float: left;
+    display: inline-block;
+    margin-right:0.3rem;
+    background: url("../../../image/ztfx/czcfx/headHome.png") no-repeat center;
+    margin-top: 0.2%;
+}
+.pageInfo span{
+    line-height:22px;
+    color: #0E6792;
+}
+.wrapper{
+    width: 100%;
+    height:calc(100% - 34px );
+    color: #fff;
+}
+.taxi .mgr-10{
+    margin-right:0.5rem;
+}
+.taxi .mgb-10{
+    margin-bottom:0.5rem;
+}
+.taxi .h100{
+    height: 100%;
+    width: 100%;
+}
+.taxi .h50{
+    height: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+.taxi .w21{
+    width: 21.5%;
+    height: 100%;
+}
+.taxi .w79{
+    width: 78.5%;
+    height: 100%;
+}
+.taxi .bgc1{
+    background-color: #FFE149;
+}
+.taxi .bgc2{
+    background-color: #026089;
+}
+.taxi .bgc3{
+    background-color: #F24135;
+}
+.taxi .tLeft{
+    width: 74.2%;
+    height: 100%;
+    border:1px solid #235185;
+    background:url("../../../image/ztfx/czcfx/taxi-bg.png") no-repeat ;
+    background-size: 100% 100%;
+    position: relative;
+}
+.taxi .tLeft .headTitle{
+    height:40px;
+    width: 100%;
+    line-height: 40px;
+    position: absolute;
+    top:0;
+    left: 0;
+    background-color:rgba(5,13,31,.8);
+    font-size: 16px;
+    padding-left:1rem;
+}
+.taxi .tLeft .taxi-bottom{
+    height: 27%;
+    width:calc(100% - 1rem);
+    background-color:rgba(5,13,31,.8);
+    position: absolute;
+    bottom:0.5rem;
+    left:0.5rem;
+}
+.taxi .taxi-bottom .title span:first-child{
+    color: #00ADED;
+    font-size: 14px;
+    padding-left:14px;
+}
+.taxi .taxi-bottom .title span:last-child{
+     color: #fff;
+     font-size: 12px;
+     padding-right:30px;
+ }
+.taxi .taxi-bottom .title span:last-child em{
+    color: #FFE049;
+    display: inline-block;
+    width:20px;
+}
+.taxi-bottom .taxi-box{
+    height:calc(100% - 30px);
+    width: 100%;
+}
+.taxi-bottom .taxi-box li{
+    margin:20px;
+    width:calc((100% - 40px) / 2);
+    height:calc(100% - 40px);
+    color: #000;
+    float: left;
+    margin-right:0px;
+}
+.taxi-bottom .taxi-box li p{
+    text-align: center;
+}
+.taxi-bottom .taxi-box li p:first-child{
+    height: 30%;
+    width: 100%;
+}
+.taxi-bottom .taxi-box li .pic1{
+    background: url("../../../image/ztfx/czcfx/time-car.png") no-repeat bottom center;
+}
+.taxi-bottom .taxi-box li .pic2{
+    background: url("../../../image/ztfx/czcfx/zk.png") no-repeat bottom center;
+}
+.taxi-bottom .taxi-box li p:nth-child(2){
+    margin-top:0.6rem;
+}
+.taxi-bottom .taxi-box li p:last-child{
+    font-size: 1.3rem;
+}
+.taxi .tRight{
+    height: 100%;
+    width:calc(100% - 0.5rem - 74.2%);
+}
+.taxi .tRight .one{
+    height: calc((100% - 1rem) / 3);
+    width:100%;
+    background-color: #050D1F;
+    border:1px solid #235185;
+}
+.taxi .tRight .one p{
+    color: #357ACC;
+    padding-left:10px;
+    font-size: 0.5rem;
+}
+.taxi .tRight .one p s{
+    display: inline-block;
+    height: 6px;
+    width: 16px;
+    margin-right:10px;
+}
+.taxi .tRight .one p .sPic1{
+    background: url("../../../image/ztfx/czcfx/taxi-bf.png") no-repeat;
+}
+.taxi .tRight .one p .sPic2{
+    background: url("../../../image/ztfx/czcfx/taxi-bogu.png") no-repeat;
+}
+.taxi .title{
+    height:30px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+}
+.taxi .tRight .chart{
+    height: calc(100% - 60px);
+    width: 100%;
+}
+.taxi .tRight .chart1{
+    height: calc(100% - 70px);
+    width: 100%;
+    position: relative;
+}
+.taxi .tRight .chart1 .ysTxt{
+    position: absolute;
+    top:10px;
+    left:14px;
+    width:10px;
+    height: 40px;
+    font-size: 0.5rem;
+    color: #416DBC;
+}
+.taxi .tRight .chart1 .ysTxt span{
+    position: absolute;
+    left:-4px;
+}
+.taxi  #chart,#chart1,#chart2,#chart3{
+    height: 100%;
+    width: 100%;
+}
+/*滚动条1*/
+/*定义滚动条宽高及背景，宽高分别对应横竖滚动条的尺寸*/
+.scroolBar::-webkit-scrollbar{
+    width: 4px;
+    height: 6px;
+    border-radius: 10px;
+    background-color: transparent;
+}
+/*定义滚动条的轨道，内阴影及圆角*/
+.scroolBar::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: transparent;
+    border-radius: 10px;
+}
+/*定义滑块，内阴影及圆角*/
+.scroolBar::-webkit-scrollbar-thumb{
+    height: 20px;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color:#808080;
+}
+@media only screen and (min-width: 1600px){
+    .taxi .tLeft .headTitle {
+        height: 2rem;
+        line-height: 2rem;
+        font-size: 0.8rem;
+    }
+    .taxi .title {
+        height: 1.5rem;
+        color: #fff;
+        font-size: 0.8rem;
+        line-height: 1.5rem;
+    }
+    .taxi-bottom .taxi-box {
+        height: calc(100% - 1.5rem);
+        width: 100%;
+    }
+    .taxi .taxi-bottom .title span:first-child{
+        color: #00ADED;
+        font-size: 0.7rem;
+        padding-left:0.7rem;
+    }
+    .taxi .taxi-bottom .title span:last-child{
+        color: #fff;
+        font-size: 0.6rem;
+        padding-right:1.3rem;
+    }
+    .taxi-bottom .taxi-box li p:nth-child(2) {
+        margin-top: 0.6rem;
+        font-size: 0.6rem;
+    }
+    .taxi .tRight .chart {
+        height: calc(100% - 3rem);
+        width: 100%;
+    }
+    .taxi .tRight .chart1 {
+        height: calc(100% - 3.5rem);
+        width: 100%;
+        position: relative;
+    }
+}

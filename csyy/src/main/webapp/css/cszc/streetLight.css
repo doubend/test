@@ -1,0 +1,94 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.pageInfo{
+    height: 3%;
+    padding: 0.3rem  0.5rem 0.3rem 0.5rem;
+    color: #807E7F;
+    
+}
+.pageInfo i{
+    height: 17px;
+    width: 15px;
+    float: left;
+    display: inline-block;
+    margin-right:0.3rem;
+    background: url("../../image/cszc/travelHome.png") no-repeat center;
+}
+.pageInfo span{
+    line-height:1rem;
+    color: #807E7F;
+} 
+.streetLight{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.streetLight .top{
+    height: 32%;
+    width: 99%;
+    margin:  0 0.6rem;
+    margin-bottom: 0.6rem;
+    /*background-color: #fff;*/
+}
+
+.streetLight .bottom{
+    height: 64%;
+    width: 99%;
+    margin: 0 0.6rem;
+    /*background-color: #fff;*/
+}
+.streetLight .public{
+    height: 100%;
+    width: 32%;
+    margin-right: 0.6rem;
+    background: #fff;
+}
+.streetLight .specific{
+    height: 100%;
+    width: 66%;
+    background: #fff;
+    position: relative;
+}
+.streetLight .specific ul{
+    position: absolute;
+    z-index:99;
+    top: 3%;
+    left: 16%;
+}
+.streetLight .specific li{
+    float: left;
+    height: 1.2rem;
+    width: 2rem;
+    line-height: 1.2rem;
+    text-align: center;
+    border: 1px solid #e7e7e7;
+    border-radius: 6px;
+    margin-left:0.4rem;
+    cursor: pointer;
+}
+.streetLight .specific li.tabs{
+    color: #fff;
+    background-color: #01aef0;
+}
+.streetLight .bottom .strLeft{
+    height: 100%;
+    width: 32%;
+    margin-right:0.6rem;
+}
+.streetLight .bottom .strLeft .public1{
+    height: 48.6%;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom:0.6rem;
+}
+#topChart1,#topChart2,#centerChart1,#centerChart2,#bottomChart1,#bottomChart2{
+    height: 100%;
+    width: 100%;
+}
+#map{
+    height: 100%;
+    width: 100%;
+}

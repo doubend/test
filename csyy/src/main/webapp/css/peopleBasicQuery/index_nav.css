@@ -1,0 +1,166 @@
+/* CSS Document */
+/********************** CSS reset Start **********************/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button{font-family: "Microsoft YaHei";margin:0;padding:0;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:500;}
+select,textarea{font-size:100%;}
+table{border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+img{vertical-align:top;}
+abbr,acronym{border:0;font-variant:normal;}
+del{text-decoration:line-through;}
+address,caption,cite,code,dfn,em,b,i,th,var {font-weight:normal; font-style:normal;}
+ol,ul{list-style:none;}
+caption,th{text-align:left;}
+ins{text-decoration:none;}
+input, button, select, textarea {outline:none;}
+textarea {resize:none;}
+a{color:#fff;text-decoration:none;}
+a:hover{color:#fff;text-decoration:underline;}
+.clearfix:before, .clearfix:after,.cf:before, .cf:after{content:""; display:table;}
+.clearfix:after,.cf:after{clear:both;}
+.clearfix,.cf{*zoom:1;}
+.clear{clear:both;}
+.none{display:none;}
+.l{float:left;}
+.r{float:right;}
+html, body{height:100%;}
+
+/* Page Sidebar */
+.page-sidebar.navbar-collapse,
+.page-sidebar:hover.navbar-collapse {
+  height: 100%;
+  box-shadow: none;
+  background-color: #3684b3;
+  position: fixed;
+  width: 180px;
+}
+.page-sidebar .page-sidebar-menu{
+	height: 100%;
+}
+.page-sidebar .page-sidebar-menu > li > a {
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  position: relative;
+  margin: 0;
+  border: 0px;
+  padding: 0px 10px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 300;
+  transition:background .3s;
+  -moz-transition:background .3s; /* Firefox 4 */
+  -webkit-transition:background .3s; /* Safari and Chrome */
+}
+.page-sidebar .page-sidebar-menu > li > a > i {
+  width: 20px;
+  height: 30px;
+  display: block;
+  float: left;
+  font-size: 16px;
+  margin-right: 5px;
+  text-shadow: none;
+}
+.page-sidebar .page-sidebar-menu > li:hover > a,
+.page-sidebar .page-sidebar-menu > li.open > a{
+	background-color: #2693c5;
+}
+.page-sidebar .page-sidebar-menu > li > a > i.glyphicon {
+  top: 3px;
+  margin-left: 1px;
+  margin-right: 4px;
+}
+.page-sidebar .page-sidebar-menu > li > a > [class^="icon-"]{
+  background: url(../../image/sidebar-menu.png) no-repeat;
+  top: 2px;
+  margin-left: 1px;
+  margin-right: 4px;
+}
+
+.page-sidebar .page-sidebar-menu li > a > .arrow {
+  background: url(../../image/sidebar-menu.png) no-repeat 2px 12px;
+  float: right;
+  width: 10px;
+  height: 30px;
+  text-align: center;
+  margin-top: -1px;
+  margin-right: 5px;
+  margin-left: 5px;
+  display: block;
+  font-size: 16px;
+}
+.page-sidebar .page-sidebar-menu li > a > .arrow.open {
+  background: url(../../image/sidebar-menu.png) no-repeat 0 -16px;
+}
+.page-sidebar .page-sidebar-menu .sub-menu {
+  list-style: none;
+  display: none;
+  padding: 0;
+  margin: 0;
+}
+.page-sidebar .page-sidebar-menu .sub-menu li.active {
+	background: #10587e;
+}
+.page-sidebar .page-sidebar-menu .sub-menu li > a {
+  display: block;
+  margin: 0;
+  padding: 5px 10px 5px 20px;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 300;
+  background: none;
+  transition:background .3s;
+  -moz-transition:background .3s; /* Firefox 4 */
+  -webkit-transition:background .3s; /* Safari and Chrome */
+}
+.page-sidebar .page-sidebar-menu .sub-menu li > a:hover{
+  background-color: #21729d;
+}
+.page-sidebar .page-sidebar-menu .sub-menu li.active > a {
+  background: #10587e;
+}
+.page-sidebar .page-sidebar-menu .sub-menu li > a > i {
+  background: url(../../image/sidebar-menu.png) no-repeat 2px 4px;
+  width: 10px;
+  height: 18px;
+  display: block;
+  float: left;
+  font-size: 16px;
+  margin-right: 5px;
+  text-shadow: none;
+}
+
+
+.page-sidebar .page-sidebar-menu > li > a > [class^="icon-personnel"]{
+	background-position: 0 -52px;
+}
+.page-sidebar .page-sidebar-menu > li > a > [class^="icon-bar-chart-o"]{
+	background-position: 0 -114px;
+}
+.page-sidebar .page-sidebar-menu > li > a > [class^="icon-tissue"]{
+  background-position: 0 -141px;
+}
+.page-sidebar .page-sidebar-menu > li > a > [class^="icon-role"]{
+  background-position: 0 -174px;
+}
+.page-sidebar .page-sidebar-menu > li > a > [class^="icon-menu"]{
+  background-position: 0 -204px;
+}
+.page-sidebar .page-sidebar-menu > li > a > [class^="icon-model"]{
+  background-position: 0 -234px;
+}
+.page-sidebar .page-sidebar-menu > li > a > [class^="icon-topology"]{
+  background-position: 0 -263px;
+}
+.page-sidebar .page-sidebar-menu > li > a > [class^="icon-log"]{
+  background-position: 0 -293px;
+}
+.page-sidebar .page-sidebar-menu > li > a > [class^="icon-Echarts"]{
+  background-position: 0 -323px;
+}
+.page-sidebar .page-sidebar-menu > li > a > [class^="icon-legal-person"]{
+  background-position: 0 -352px;
+}
+.page-sidebar .page-sidebar-menu > li > a > [class^="icon-micro"]{
+  background-position: 0 -382px;
+}

@@ -1,0 +1,409 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    font-family: "Microsoft YaHei", "微软雅黑";
+}
+.poorPlan{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+   /*  background: url("../../../image/ztfx/jzfp/overcomePoor.gif") no-repeat; */
+    background-size: 100% 99%;
+    position: relative;
+}
+.poorPlan .poorTitle{
+    position: absolute;
+    top: 0.5rem;
+    left: 50%;
+    z-index: 999;
+    margin-left: -190px;
+    display: block;
+}
+.poorPlan .poorTitle .text{
+    font-size: 28px;
+    color: #25313F;
+}
+.poorPlan .leftMessage{
+    position: absolute;
+    top: 1.5rem;
+    left: 1rem;
+}
+.poorPlan .charts{
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    z-index: 999;
+}
+
+.poorPlan .top{
+    height: 16.65rem;
+    width: 15.6rem;
+    border: 1px solid #e5e5e5;
+    background-color: #fff;
+    margin-bottom: 0.3rem;
+}
+
+
+.poorPlan .bottom{
+    height: 10.85rem;
+    width: 15.6rem;
+    border: 1px solid #e5e5e5;
+    background-color: #fff;
+    margin-bottom: 0.3rem;
+}
+
+.poorPlan .charts .top1,.bottom1{
+    height: 9.85rem;
+    width: 16.6rem;
+    border: 1px solid #e5e5e5;
+    background-color: #fff;
+    margin-bottom: 0.3rem;
+    position:relative;
+}
+.poorPlan .bottom{
+    height: 8.6rem;
+}
+.poorPlan .lenged{
+    height: 8.4rem;
+    width: 16.6rem;
+    border: 1px solid #e5e5e5;
+    background-color: #fff;
+    font-size: 14px;
+    color: #25313F;
+}
+.poorPlan .lenged .public{
+    margin-left:0.6rem;
+    margin-bottom:0.35rem;
+}
+.poorPlan .lenged ul:first-child{
+    margin: 0.5rem 0 0.5rem 0.6rem;
+}
+.poorPlan .lenged ul:nth-child(2){
+    margin-bottom: 0.45rem;
+    margin-left:0.6rem;
+}
+.poorPlan .lenged li{
+    float: left;
+    font-size: 14px;
+    color: #25313F;
+    margin-right:1.2rem;
+}
+.poorPlan .lenged li i{
+   display: inline-block;
+    height: 8px;
+    width: 16px;
+}
+.poorPlan .lenged .c1{
+    background-color: #0CC4AC;
+}
+.poorPlan .lenged .c2{
+    background-color: #FEE061;
+}
+.poorPlan .lenged .c3{
+    background-color: #889CC4;
+}
+.poorPlan .lenged .c4{
+    background-color: #FE2B72;
+}
+.poorPlan .lenged .c5{
+    background-color: #396A95;
+}
+.poorPlan .lenged .lengedInfo em{
+    display: inline-block;
+    height: 14px;
+    width: 14px;
+    background-color: #396A95;
+    border-radius:50%;
+}
+.poorPlan .he1{
+    height: 2.1rem;
+    width: 100%;
+}
+.poorPlan .he1 span:first-child{
+    font-size: 16px;
+    color: #25313F;
+    line-height: 2.3rem;
+    margin-left: 0.6rem;
+}
+.poorPlan .he1 span:nth-child(2){
+    font-size: 12px;
+    color: #6C6C6C;
+    line-height: 2.3rem;
+}
+.poorPlan .he2{
+    height: 8.55rem;
+    width: 100%;
+}
+.poorPlan #charts1,#charts2{
+    height: 100%;
+    width: 100%;
+}
+.poorPlan .special{
+    position: relative;
+}
+.poorPlan .chartsText{
+    position: absolute;
+    top: 7%;
+    left: 42%;
+    font-size: 12px;
+    color: #6C6C6C;
+}
+.poorPlan .chartsText1{
+    position: absolute;
+    top: 7%;
+    left: 66%;
+    font-size: 12px;
+    color: #6C6C6C;
+}
+.poorPlan .top .message li{
+    height: 1.5rem;
+    width: 13.4rem;
+    margin-left:1.1rem;
+    margin-bottom: 0.5rem;
+    margin-right: 0.6rem;
+    border: 1px solid #E5E5E5;
+    position: relative;
+}
+.poorPlan .top .message span:nth-child(3){
+    display: inline-block;
+    font-size: 12px;
+    margin: 0 0 0 0.9rem;
+    color: #25313F;
+    line-height: 1.5rem;
+}
+.poorPlan .top .message span:nth-child(4){
+    display: inline-block;
+    line-height: 1.5rem;
+    font-size: 16px;
+    color: #376993;
+    float: right;
+    margin-right: 0.4rem;
+}
+.poorPlan .top .message i{
+    display: block;
+    height: 1.1rem;
+    width: 1.1rem;
+    background-color: #18D9EA;
+    border-radius: 50%;
+    position: absolute;
+    top:50%;
+    left: -0.55rem;
+    margin-top: -0.55rem;
+    /*font-size: 16px;*/
+    /*line-height: 1.1rem;*/
+    /*text-align: center;*/
+    /*color: #25313F;*/
+    /*font-weight: 700;*/
+}
+.poorPlan .top .message em.one{
+    height: 13px;
+    width: 5px;
+    background: url("../../../image/ztfx/jzfp/one.png");
+    position: absolute;
+    top: 50%;
+    left: -2%;
+    margin-top:-7.5px;
+}
+.poorPlan .top .message em.two{
+     height: 13px;
+     width: 10px;
+     background: url("../../../image/ztfx/jzfp//two.png");
+     position: absolute;
+     top: 50%;
+     left: -2%;
+     margin-top:-6.5px;
+ }
+.poorPlan .top .message em.three{
+    height: 13px;
+    width: 10px;
+    background: url("../../../image/ztfx/jzfp//three.png");
+    position: absolute;
+    top: 50%;
+    left: -2%;
+    margin-top:-6.5px;
+}
+.poorPlan .top .message em.four{
+    height: 13px;
+    width: 10px;
+    background: url("../../../image/ztfx/jzfp//four.png");
+    position: absolute;
+    top: 50%;
+    left: -2%;
+    margin-top:-6.5px;
+}
+.poorPlan .top .message em.five{
+    height: 13px;
+    width: 10px;
+    background: url("../../../image/ztfx/jzfp//five.png");
+    position: absolute;
+    top: 50%;
+    left: -2%;
+    margin-top:-6.5px;
+}
+.poorPlan .top .message em.six{
+    height: 13px;
+    width: 10px;
+    background: url("../../../image/ztfx/jzfp//six.png");
+    position: absolute;
+    top: 50%;
+    left: -2%;
+    margin-top:-6.5px;
+}
+.poorPlan .top .message em.seven{
+    height: 13px;
+    width: 10px;
+    background: url("../../../image/ztfx/jzfp//seven.png");
+    position: absolute;
+    top: 50%;
+    left: -2%;
+    margin-top:-6.5px;
+}
+.poorPlan .information li{
+    margin: 0 0 0.5rem 0.6rem;
+}
+.poorPlan .information .pic{
+    height: 2.55rem;
+    width: 2.8rem;
+    background-color: #18D9EA;
+    position: relative;
+}
+.poorPlan .information .p1{
+    height: 33px;
+    width: 45px;
+    background: url("../../../image/ztfx/jzfp//poorHu.png") no-repeat center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -22.5px;
+    margin-top:-16.5px;
+}
+.poorPlan .information .p2{
+    height: 27px;
+    width: 41px;
+    background: url("../../../image/ztfx/jzfp//poorhome.png") no-repeat center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -20.5px;
+    margin-top:-13.5px;
+}
+.poorPlan .information .p3{
+    height: 34px;
+    width: 40px;
+    background: url("../../../image/ztfx/jzfp//poorpeople.png") no-repeat center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -20px;
+    margin-top:-17px;
+}
+.poorPlan .information .info{
+    height: 2.45rem;
+    width: 11.7rem;
+    line-height: 2.45rem;
+    border: 0.05rem solid #e5e5e5;
+    border-left:0px;
+    background-color: #fff;
+}
+.poorPlan .information .info span:first-child{
+    margin-left:0.5rem;
+    font-size: 16px;
+    color: #25313F;
+}
+.poorPlan .information .info span:last-child{
+    font-size: 24px;
+    color: #376993;
+    margin-right: 0.5rem;
+}
+.poorPlan .timeLine{
+    position: absolute;
+    bottom: 0.5rem;
+    left: 50%;
+    margin-left: -153px;
+    z-index: 999;
+    display: block;
+}
+.poorPlan .timeLine ul{
+    height: 5px;
+    width: 306px;
+    background: #AAAAAA;
+    margin-bottom:0px;
+    position: relative;
+}
+.poorPlan .pie{
+    height: 12px;
+    width: 12px;
+    background-color: #21B7F6;
+    border-radius: 50%;
+    position: absolute;
+    top: -4px;
+    left: 0px;
+    z-index: 199;
+}
+.poorPlan .timeLine  li{
+    float: left;
+    font-size: 16px;
+    color: #25313F;
+    margin-top: 0.7rem;
+    margin-right: 33px;
+    position: relative;
+}
+.poorPlan .timeLine li span{
+    margin-left: 2px;
+}
+.poorPlan .timeLine li span.move{
+    font-size: 20px;
+}
+.poorPlan .timeLine li i{
+    display: inline-block;
+    height: 26px;
+    width: 26px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: -1.3rem;
+    left: 0.5rem;
+    border:1px solid #ABABAB;
+    z-index:99;
+}
+.poorPlan .timeLine .blueLine{
+    /*height: 5px;*/
+    width: 0px;
+}
+.poorPlan .timeLine .lineMove{
+    height: 5px;
+    position: absolute;
+    top: -0.7rem;
+    left: 0.9rem;
+    background-color: #21B7F6;
+    animation:lineChange 2.5s linear forwards;
+    -moz-animation:lineChange 2.5s linear forwards;
+    -o-animation:lineChange 2.5s linear forwards;
+    -webkit-animation:lineChange 2.5s linear forwards;
+}
+
+@-webkit-keyframes lineChange {
+    from{
+        width: 0;
+    }
+    to{
+        width: 76px;
+    }
+
+}
+@keyframes lineChange {
+    from{
+        width: 0;
+    }
+    to{
+        width: 76px;
+    }
+}
+
+.poorPlan .timeLine  li:first-child{
+    margin-left:-18px;
+}
+.poorPlan .timeLine  li:last-child{
+    margin-right:-18px;
+}

@@ -1,0 +1,69 @@
+<%@ page language="java" pageEncoding="UTF-8"%>
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+	<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<%@include file="/jsp/include/base-tag.jsp"%>
+		<style type="text/css">
+		.form-horizontal .control-label {
+		    padding-top: 7px;
+		    margin-bottom: 0;
+		    text-align: right;
+		    white-space: nowrap;
+		}
+		.form-horizontal .form-group{
+			margin-bottom: 10px;
+		}
+		.section-wrapper{
+			padding:0px;
+		}
+		</style>
+		
+	</head>
+
+	<body>
+		<div class="easyui-tabs" data-options="border:false,fit:true,plain:true,
+			onSelect:function(title) {
+				system.user.selectTab(title,'#update-role-tree');
+			}">
+			<div title="基本资料" style="padding:10px">
+				<form id="update-form" class="section-wrapper form-horizontal">
+					<div class="form-group form-group-sm">
+						<label class="col-xs-2 control-label" for="username">用户名：</label>
+						<div class="col-xs-3">
+							<input name="username" type="text" class="form-control" readonly="readonly" maxlength="16" value="${user.username}" />
+						</div>
+						<label class="col-xs-2 control-label" for="nickname">昵称：</label>
+						<div class="col-xs-3">
+							<input name="nickname" type="text" class="form-control easyui-validatebox" maxlength="16" value="${user.nickname}" />
+						</div>
+					</div>
+					<div class="form-group form-group-sm">
+						<label class="col-xs-2 control-label" for="status">状态：</label>
+						<div class="col-xs-8">
+							<i:data code="system.user.status" name="status" cssClass="form-control" selectedValue="${user.status}" />
+						</div>
+					</div>
+					<div class="form-group form-group-sm">
+						<label class="col-xs-2 control-label" for="dataRight">数据权限：</label>
+						<div class="col-xs-8">
+							<i:data code="system.user.dataright" name="dataRight" cssClass="form-control" selectedValue="${user.dataRight}" />
+						</div>
+					</div>
+					<div class="form-group form-group-sm">
+						<label class="col-xs-2 control-label" for="description">备注：</label>
+						<div class="col-xs-8">
+							<textarea class="field-remark form-control easyui-validatebox" name="description" data-options="validType:'length[0,120]',invalidMessage:'不能超过120个字符！'">${user.description}</textarea>
+						</div>
+					</div>
+				</form>
+			</div>
+			<div title="分配角色" style="padding:10px">
+				<form class="dialog-data-form easyui">
+					<ul id="update-role-tree" class="easyui-tree tree" data-options="url:'${contextPath}/system/user/role_tree?userId=${user.userId}'"></ul>
+				</form>
+			</div>
+		</div>
+	</body>
+
+	</html>

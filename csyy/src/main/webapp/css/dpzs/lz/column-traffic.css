@@ -1,0 +1,229 @@
+#hand{
+    height: 704px;
+    width: 256px;
+}
+.wrapp .top{
+    background: url("../../../image/dpzs/lz/traffic2.png") no-repeat;
+    background-size: 100%;
+    color: #0E56A0;
+}
+.wrapp .top .topIcon{
+    background: url("../../../image/dpzs/lz/traffic1.png") no-repeat center bottom;
+    background-size: 90%;
+    bottom: 12%;
+}
+.wrapp .chart{
+    height: 29.4%;
+    width: 100%;
+    position: relative;
+}
+.wrapp #chart{
+    height: 100%;
+    width: 100%;
+}
+.wrapp .chart .text{
+     font-size: 32px;
+     position: absolute;
+     left: 44%;
+     bottom:10%;
+ }
+.wrapp .chart .text2{
+    left: 32%;
+    bottom: 0%;
+    font-size: 16px;
+}
+.wrapp .chart .text em{
+    font-size: 11px;
+}
+.wrapp .info{
+    height: 5%;
+    width: 50%;
+    background-color: #FF8A00;
+    color: #fff;
+    font-size: 16px;
+    line-height: 33px;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 16px 0 16px 0;
+    margin-left: 25%;
+    margin-top:2%;
+}
+.wrapp .zero{
+    height: 6%;
+    width: 100%;
+}
+.wrapp .bus{
+    width: 62.5%;
+    height: 6%;
+    background: url(../../../image/dpzs/lz/bus.png) no-repeat;
+    background-size: 100% 88%;
+    font-size: 14px;
+    color: #003362;
+    line-height: 30px;
+    margin-left: 18%;
+    padding-left: 62px;
+    box-sizing: border-box;
+    font-weight: 700;
+}
+.wrapp .bus-people{
+    height: 23.6%;
+    width: 100%;
+}
+.wrapp .bus-people ul{
+    height: 90%;
+    width: 90%;
+    /*margin-top:4%;*/
+    margin-left: 5%;
+}
+.wrapp .bus-people ul li{
+    height: 25%;
+    width: 100%;
+    line-height: 37px;
+}
+.wrapp .bus-people ul li.bgColor{
+    background-color: #006DB0;
+}
+.wrapp .bus-people ul li p.pt5{
+    padding-left: 5%;
+    text-align: left;
+    font-size: 11px;
+    font-weight: 100;
+}
+.wrapp .bus-people ul li p.pr10{
+    padding-right: 10%;
+    text-align: right;
+    color: #FFFA02;
+    position: relative;
+    font-size: 22px;
+    font-weight: 100;
+}
+.wrapp .bus-people ul li p em{
+    position: absolute;
+    top: -14%;
+    right: 10%;
+    color: #fff;
+    font-size: 11px;
+}
+.wrapp .bottom{
+    background: url("../../../image/dpzs/lz/busIcon.png") no-repeat center bottom;
+    background-size: 64% 100%;
+}
+
+/*浜ら�B鏍峰紡*/
+.wrapp .bus-public{
+    width: 82%;
+    height: 6%;
+    background: url(../../../image/dpzs/lz/bus2.png) no-repeat;
+    background-size: 100% 88%;
+    font-size: 16px;
+    color: #003362;
+    line-height: 30px;
+    margin-left: 10%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    text-align: center;
+    font-weight: 700;
+}
+.wrapp .bus-public1{
+    width: 82%;
+    height: 6%;
+    background: url("../../../image/dpzs/lz/taxi.png") no-repeat;
+    background-size: 100% 88%;
+    padding-left: 3px;
+}
+.wrapp .busInfo1{
+    height: 59.6%;
+    width: 100%;
+}
+.wrapp .busInfo1 ul{
+    height: 100%;
+    width: 100%;
+}
+.wrapp .busInfo1 li{
+    height: 21%;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom:5%;
+    border: 0.5px solid #2B77B1;
+    background-color: #005490;
+    border-radius: 16px;
+}
+.wrapp .busInfo1 li .w40{
+    height: 100%;
+    width: 45%;
+}
+.wrapp .busInfo1 li .w60{
+    height: 100%;
+    width: 55%;
+}
+.wrapp .busInfo1 li .bg1{
+    background: url("../../../image/dpzs/lz/roadLine.png") no-repeat center;
+    background-size: 60%;
+}
+.wrapp .busInfo1 li .bg2{
+    background: url("../../../image/dpzs/lz/roadLength.png") no-repeat center;
+    background-size: 70%;
+}
+.wrapp .busInfo1 li .bg3{
+    background: url("../../../image/dpzs/lz/roadDensity.png") no-repeat center;
+    background-size: 60%;
+}
+.wrapp .busInfo1 li .bg4{
+    background: url("../../../image/dpzs/lz/people.png") no-repeat center;
+    background-size: 70%;
+}
+.wrapp .busInfo1 li .bg5{
+    background: url("../../../image/dpzs/lz/didi.png") no-repeat center;
+    background-size: 76%;
+}
+.wrapp .busInfo1 li .bg6{
+    background: url("../../../image/dpzs/lz/people2.png") no-repeat center;
+    background-size: 74%;
+}
+.wrapp .busInfo1 li .bg7{
+    background: url("../../../image/dpzs/lz/time.png") no-repeat center;
+    background-size: 66%;
+}
+.wrapp .busInfo1 li .bg8{
+    background: url("../../../image/dpzs/lz/ruler.png") no-repeat center;
+    background-size: 70%;
+}
+.wrapp .busInfo1 li .fontG{
+    font-size: 18px;
+    color: #00FCFE;
+    margin-top:10%;
+}
+.wrapp .busInfo1 li .fontY{
+    font-size: 18px;
+    color: #FFFF00;
+    margin-top:10%;
+}
+.wrapp .busInfo1 li .fontW{
+    font-size: 42px;
+    position: relative;
+    text-align: right;
+    padding-right: 28%;
+}
+.wrapp .busInfo1 li .fontW2{
+  font-size: 34px;
+}
+.wrapp .busInfo1 li .fontW3{
+    padding-right: 48%;
+}
+.wrapp .busInfo1 li .fontW4{
+    padding-right: 40%;
+}
+.wrapp .busInfo1 li .fontW5{
+    padding-right: 38%;
+}
+.wrapp .busInfo1 li .fontW em{
+    color: #fff;
+    font-size: 11px;
+    position: absolute;
+    top: 0;
+    right: 10%;
+}
+.wrapp .busInfo1 li .fontW .px1{
+    top: 0;
+    right: 4%;
+}

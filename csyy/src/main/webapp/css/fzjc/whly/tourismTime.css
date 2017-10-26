@@ -1,0 +1,352 @@
+html,body{
+    height: 100%;
+    font-family: "Microsoft YaHei", "微软雅黑";
+    background-color: #f2f2f2;
+}
+.pageInfo {
+    height: 3%;
+    padding: 0.3rem 0.5rem 0.3rem 0.5rem;
+    color: #807E7F;
+}
+.pageInfo span {
+    line-height: 1rem;
+    color: #807E7F;
+}
+.pageInfo i {
+    height: 17px;
+    width: 15px;
+    float: left;
+    display: inline-block;
+    margin-right: 0.3rem;
+    background: url(../../../image/cszc/travelHome.png) no-repeat center;
+}
+.travelTime{
+    height: 92%;
+    margin: 0.1rem 0.5rem 0 0.7rem;
+    overflow: auto;
+    border: 1px solid #DDDDDD;
+    overflow-x: hidden;
+    position: relative;
+}
+.travelTime .main{
+    height: 35%;
+}
+.travelTime .main .header{
+    height: 100%;
+    background: url("../../../image/fzjc/whly/signs-index.jpg") no-repeat right center;
+    background-size: 100% 100%;
+}
+.travelTime .main .nav{
+    height: 100%;
+    background: url("../../../image/fzjc/whly/b1.png") no-repeat center bottom;
+    background-size: 68% 68%;
+}
+.travelTime .time{
+     height: 2.5rem;
+     width: 2.5rem;
+     /*border:1px solid #DDDDDD;*/
+     position: absolute;
+     top: 0.9rem;
+     left: 1.9rem;
+     border-radius: 5px;
+ }
+.travelTime .time .year{
+    height: 0.9rem;
+    line-height: 0.9rem;
+    color: #fff;
+    background: #1D82C8;
+    border-radius: 5px 5px 0 0;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+}
+.travelTime .time .year1{
+    color: #333;
+    background: #fff;
+    border: 0.05rem solid #dedede;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+    height: 1.6rem;
+    line-height: 1.6rem;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+}
+.travelTime .holiday{
+    height: 2.5rem;
+    width: 2.5rem;
+    color: #fff;
+    position: absolute;
+    top: 0.9rem;
+    left: 4.9rem;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+    background-color: #FF4F51;
+}
+.travelTime .holidayData{
+    height: 2.5rem;
+    /*width: 31%;*/
+    position: absolute;
+    top: 0.9rem;
+    left: 7.9rem;
+    background: #fff;
+    border-radius: 5px;
+}
+.travelTime .header li{
+    float: left;
+    padding: 0 0.5rem;
+}
+.travelTime .header li .holidayName{
+    height: 1rem;
+    line-height: 1rem;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+.travelTime .header li .holidayPeople{
+    color: #333;
+    background: #fff;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    font-size: 22px;
+    font-weight: 300;
+    text-align: center;
+}
+.travelTime .header li .c1{
+    color: #FFFF66;
+}
+.travelTime .header li .c2{
+    color: #8CC600;
+}
+.travelTime .header li .c3{
+    color: #00AEED;
+}
+.travelTime .header li .c4{
+    color: #0170C1;
+}
+.travelTime .header li .c5{
+    color: #70309E;
+}
+.travelTime .header li .c6{
+    color: #FD0168;
+}
+.travelTime .header li .c7{
+    color: #9A003E;
+}
+.travelTime .pie{
+    height: 38.6%;
+    width: 18%;
+    position: absolute;
+    bottom: 49.5%;
+    left: 18%;
+}
+.travelTime #pie{
+    height: 100%;
+    width: 100%;
+}
+.travelTime .buy{
+    height: 2.5rem;
+}
+.travelTime .buy .buyWay{
+    height: 2.5rem;
+    width: 2.5rem;
+    color: #fff;
+    position: absolute;
+    top: 0.9rem;
+    right: 15.5rem;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+    background-color: #32B16C;
+}
+.travelTime .buy .buyInfo{
+    position: absolute;
+    top: 0.9rem;
+    right: 3rem;
+    background: #fff;
+    border-radius: 5px;
+}
+.travelTime .buy .buyInfo .c8{
+    color: #32B16C;
+}
+.travelTime .line{
+    height: 2%;
+    width: 100%;
+    background-color: #185131;
+}
+.travelTime .travelTimeBody{
+    height: 62.9%;
+    background: url("../../../image/fzjc/whly/body_bg.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+/*主体信息左侧部分样式*/
+.travelTime .travelTimeBody .left{
+    height: 100%;
+    width: 42%;
+}
+.travelTime .travelTimeBody .leftTop{	
+    height: 100px;
+    width: 100%;
+    background: url("../../../image/fzjc/whly/time-tit.png") no-repeat center center;
+    /*background-size: 65% 65%;*/
+    text-align: center;
+    line-height: 100px;
+    color: #fff;
+    font-size: 18px;
+}
+.travelTime .travelTimeBody .leftBottom{
+    height: 72%;
+    width: 100%;
+}
+.travelTime .leftBottom .chartsLeft,.chartsRight{
+    height: 100%;
+    width: 50%;
+    position: relative;
+}
+.travelTime .leftBottom .icon1{
+    height: 30%;
+    width: 30%;
+    background: url("../../../image/fzjc/whly/travalIn.png") no-repeat center;
+    position: absolute;
+    top: 4%;
+    left: 16%;
+    z-index:99;
+}
+.travelTime .leftBottom .icon2{
+    height: 30%;
+    width: 30%;
+    background: url("../../../image/fzjc/whly/trvalOut.png") no-repeat center;
+    position: absolute;
+    right: 4%;
+    bottom: 16%;
+    z-index:99;
+}
+.travelTime .leftBottom #chartsLeft,#chartsRight{
+    height: 100%;
+    width: 100%;
+}
+/*主体信息右侧部分样式*/
+.travelTime .travelTimeBody .right{
+    height: 100%;
+    width: 58%;
+}
+.travelTime .travelTimeBody .rightTop,.rightBottom{
+    height: 50%;
+    width: 100%;
+    position: relative;
+}
+.travelTime .travelTimeBody .rightTop .chart{
+    height: 100%;
+    width: 50%;
+}
+.travelTime .travelTimeBody .rightTop .chartTop{
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    line-height: 5.3rem;
+    font-size: 18px;
+    color: #fff;
+    /*background: url(../../../image/fzjc/whly/rightIcon.png) no-repeat bottom center;*/
+}
+.travelTime .travelTimeBody .rightTop .chartTop1{
+    background: url(../../../image/fzjc/whly/rightIcon.png) no-repeat bottom center;
+     /*background-size: 80% 74%;*/
+    line-height: 88px;
+}
+.travelTime .travelTimeBody .rightTop .chartTop2{
+    line-height: 77px;
+    background: url(../../../image/fzjc/whly/rightIcon2.png) no-repeat bottom center;
+    /* background-size: 64% 88%; */
+}
+.travelTime .travelTimeBody .rightTop .chartBottom{
+    height: 62%;
+    width: 100%;
+}
+.travelTime .travelTimeBody .rightChart1{
+    height: 100%;
+    width: 67%;
+}
+.travelTime .travelTimeBody .rightChart2{
+    height: 100%;
+    width: 33%;
+}
+.travelTime .travelTimeBody #rightChart1,#rightChart2,#rightChart3,#rightChart4{
+    height: 100%;
+    width: 100%;
+}
+.travelTime .travelTimeBody .rightChart3{
+    height: 100%;
+    width: 100%;
+}
+.travelTime .travelTimeBody .rightChart4 {
+    height: 100%;
+    width: 30%;
+    background: url(../../../image/fzjc/whly/rightIcon3.png) no-repeat;
+    /* background-size: 50% 80%; */
+}
+.travelTime .rightTitle{
+    height: 70px;
+    width: 100%;
+    background: url("../../../image/fzjc/whly/rightIcon4.png") no-repeat bottom center;
+    /* background-size: 36% 84%; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+     line-height: 86px;
+}
+@media only screen and (min-width: 1920px) {
+    .travelTime .travelTimeBody .leftTop{
+        height: 28%;
+        width: 100%;
+        background: url(../../../image/fzjc/whly/time-tit.png) no-repeat center center;
+        background-size: 65% 55%;
+        text-align: center;
+        line-height: 5.2rem;
+        color: #fff;
+        font-size: 0.9rem;
+    }
+    .travelTime .travelTimeBody .rightTop .chartTop{
+        height: 110px;
+        width: 100%;
+        text-align: center;
+        line-height: 5.3rem;
+        font-size: 18px;
+        color: #fff;
+        /*background: url(../images/rightIcon.png) no-repeat bottom center;*/
+    }
+    .travelTime .travelTimeBody .rightTop .chartTop1{
+        background: url(../../../image/fzjc/whly/rightIcon.png) no-repeat bottom center;
+        background-size: 80% 74%;
+        line-height: 136px;
+        font-size: 0.9rem;
+    }
+    .travelTime .travelTimeBody .rightTop .chartTop2{
+        line-height:110px;
+        background: url(../../../image/fzjc/whly/rightIcon2.png) no-repeat bottom center;
+        background-size: 64% 88%;
+        font-size: 0.9rem;
+    }
+    .travelTime .travelTimeBody .rightChart4{
+        height: 100%;
+        width: 30%;
+        background: url(../../../image/fzjc/whly/rightIcon3.png) no-repeat;
+        background-size: 50% 80%;
+    }
+    .travelTime .rightTitle{
+        height: 110px;
+        width: 100%;
+        background: url("../../../image/fzjc/whly/rightIcon4.png") no-repeat bottom center;
+        background-size: 36% 84%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: #fff;
+        font-size: 0.9rem;
+        text-align: center;
+        line-height: 120px;
+    }
+}

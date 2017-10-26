@@ -1,0 +1,53 @@
+html {
+    font-size: 20px;
+}
+
+body {
+    position: relative;
+    overflow-y: hidden;
+}
+
+.navTitle {
+    position: absolute;
+    right: 3px;
+    top: 8px;
+    display: inline-block;
+    width: 40px;
+    height: 30px;
+    line-height: 2;
+    font-size: 14px;
+    text-align: center;
+    color: transparent;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.navTitle:hover {
+    box-shadow: 0 0 2px 2px transparent;
+}
+
+.navBomb {
+    display: none;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: 999;
+    width: 150px;
+    background-color: #005ba1;
+    border: 1px solid #1286FA;
+}
+
+.navBomb ul li {
+    height: 36px;
+    
+    line-height: 36px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.navBomb a {
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}

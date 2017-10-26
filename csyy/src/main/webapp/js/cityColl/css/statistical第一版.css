@@ -1,0 +1,269 @@
+/*页面代码*/
+.wrapper {
+    width: 100%;
+    height: 100%;
+    background: url("../img/bg1.png") no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+/*top部分*/
+.wrapper-top {
+    height: 67%;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.leftSide {
+    width: 60%;
+    height: 98%;
+    padding-top: 10px;
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.rightSide {
+    height: 98%;
+    padding-top: 5px;
+    width: 40%;
+    float: right;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.tag {
+    margin: 0 0 5px 0;
+}
+
+/*页面左边*/
+.leftSide .header {
+    width: 90%;
+    height: 15%;
+    margin: 0 auto;
+    background: url("../img/header-bg2.png") no-repeat;
+    background-size: 100% 100%;
+    padding-top: 25px;
+}
+
+.header-p {
+    width: 90%;
+    line-height: 30px;
+    margin: 0 auto;
+
+}
+
+
+.leftSide .info1 {
+    font-size: 18px;
+    color: #fffb88;
+}
+
+.leftSide .info2 {
+    display:inline-block;
+    font-size: 20px;
+    color: #ff8604;
+    padding: 0 8px;
+    font-style: italic;
+    animation:zdjpop 2s linear infinite alternate;
+    -moz-animation:zdjpop 2s linear infinite alternate;
+    -webkit-animation:zdjpop 2s linear infinite alternate;
+    -o-animation:zdjpop 2s linear infinite alternate;
+}
+@keyframes zdjpop {
+    0% {
+        font-weight: 600;
+        transform:scale(1);
+    }
+    50% {
+        font-weight: 600;
+        transform:scale(1.3);
+    }
+    100% {
+        font-weight: 600;
+        transform:scale(1);
+    }
+}
+
+.map-btm {
+    width: 72%;
+    height: 80%;
+    background: url("../img/map-1.png") no-repeat;
+    background-size: 100% 100%;
+    margin: 13px auto 0;
+}
+
+/*页面右边*/
+.dataText {
+    width: 100%;
+    height: 34%;
+    background: url("../img/area-bg.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.title {
+    padding-left: 30px;
+    height: 42px;
+    line-height: 40px;
+}
+
+.title .span1 {
+    display: inline-block;
+    color: #0daebe;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+.title .span2 {
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.dataText p {
+    width: 85%;
+    margin: 0 auto 8px;
+}
+
+.dataText p span {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    background-color: #1a1f28;
+    padding: 0 30px;
+}
+
+.dataText p .span1 {
+    color: #79afeb;
+    font-size: 15px;
+    font-weight: 600;
+    animation:tada 2s linear infinite alternate;
+    -moz-animation:tada 2s linear infinite alternate;
+    -o-animation:tada 2s linear infinite alternate;
+    -webkit-animation:tada 2s linear infinite alternate;
+}
+
+.dataText p .span1 em {
+    color: #ef9600;
+    font-size: 20px;
+    padding: 2px;
+    font-family: "楷体", "微软雅黑";
+}
+
+.bigdata {
+    width: 100%;
+    height: 66%;
+    background: url("../img/area.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.statisTable {
+    width: 95%;
+    height: 78%;
+    margin: 0 auto;
+    color: #7a7b7f;
+}
+
+.statisTable tr {
+    height: 20px;
+    line-height: 20px;
+}
+
+.statisTable thead tr {
+    background-color: #0b518d;
+}
+
+.statisTable .th1 {
+    width: 30%;
+}
+
+.statisTable .th2 {
+    width: 20%;
+}
+
+.statisTable .th3 {
+    width: 30%;
+}
+
+.statisTable .th4 {
+    width: 20%;
+}
+
+.statisTable tr th {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.statisTable tr td {
+    font-size: 12px;
+    text-align: center;
+}
+
+.statisTable tbody tr td {
+    border-bottom: 1px solid #7a7b7f;
+}
+
+/*底部*/
+.wrapper-btm {
+    height: 33%;
+    width: 100%;
+    position: relative;
+    bottom: 5px;
+    left: 0;
+}
+
+.bigdata-bottom {
+    width: 100%;
+    height: 470px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+
+.bigdata-desc {
+    width: 20%;
+    height: 100%;
+    background: url("../img/area.png") no-repeat;
+    background-size: 100% 100%;
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.bigdata-header {
+    color: #fff;
+    font-size: 14px;
+    position: absolute;
+}
+
+.bigdata-header .title {
+    font-size: 16px;
+    font-style: italic;
+    color: #0cb2c2;
+    padding-right: 10px;
+}
+
+.bigdata-desc-cont {
+    width: 100%;
+    height: 50%;
+    position: relative;
+    bottom: -11px;
+    right: 2px;
+}
+
+.bigdata-desc-cont1 {
+    width: 125%;
+    height: 50%;
+    position: relative;
+    bottom: -11px;
+    right: 77px;
+}

@@ -1,0 +1,318 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    font-family: "Microsoft YaHei", "寰蒋闆呴粦";
+}
+
+.pageInfo{
+    height: 3%;
+    padding: 0.3rem  0.5rem 0.3rem 0.5rem;
+    color: #807E7F;
+    background-color: #e7e7e7;
+}
+.pageInfo i{
+    height: 17px;
+    width: 15px;
+    float: left;
+    display: inline-block;
+    margin-right:0.3rem;
+    background: url("../../../../image/common/travelHome.png") no-repeat center;
+}
+.pageInfo span{
+    line-height:1rem;
+    color: #807E7F;
+}
+
+
+.peopleAge {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    /*background: url("../images/peoplelive.png") no-repeat center;*/
+    /*background-size: cover;*/
+    background-color: #fff;
+    position: relative;
+}
+.peopleAge #peopleAge{
+    height: 100%;
+    width: 100%;
+}
+.peopleAge .peopleAgeTitle {
+    position: absolute;
+    top: 0.5rem;
+    left: 50%;
+    z-index: 999;
+    margin-left: -190px;
+}
+
+.peopleAge .peopleAgeTitle .text {
+    height: 37px;
+    width: 296px;
+    position: absolute;
+    top: 0.5rem;
+    left: 3rem;
+}
+
+.peopleAge .leftMessage {
+    position: absolute;
+    top: 0.5rem;
+    left: 1rem;
+}
+
+.peopleAge .charts {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    z-index: 999;
+}
+
+.peopleAge .top, .bottom {
+    height: 12.9rem;
+    width: 16rem;
+    border: 1px solid #e5e5e5;
+    background-color: #fff;
+    margin-bottom: 0.3rem;
+    position: relative;
+}
+
+.peopleAge .top .unit {
+    position: absolute;
+    top: 0;
+    left: 48%;
+    font-size: 12px;
+    color: #6C6C6C;
+    line-height: 2.3rem;
+}
+
+.peopleAge .top .unit1 {
+    position: absolute;
+    top: 0;
+    left: 66%;
+    font-size: 12px;
+    color: #6C6C6C;
+    line-height: 2.3rem;
+}
+
+.peopleAge .bottom {
+    height: 15.5rem;
+    position: relative;
+}
+
+.peopleAge .bottom1 {
+    height: 16.5rem;
+    position: relative;
+    /*overflow: hidden;*/
+}
+
+.peopleAge .bottom .tab {
+    position: absolute;
+    top: 4%;
+    right: 5%;
+}
+
+.peopleAge .bottom .tab i {
+    display: inline-block;
+    width: 20px;
+    height: 21px;
+    cursor: pointer;
+    background: url("../../../../image/fzjc/rk//pieAge.png") no-repeat;
+}
+
+.peopleAge .bottom .tab em {
+    display: inline-block;
+    width: 24px;
+    height: 21px;
+    cursor: pointer;
+    background: url("../../../../image/fzjc/rk//tableAge.png") no-repeat;
+}
+
+.peopleAge .bottom .tabIcon {
+    height: 2rem;
+    width: 100%;
+}
+
+.peopleAge .bottom .tabIcon li {
+    float: left;
+    height: 1.5rem;
+    width: 3.2rem;
+    line-height: 1.5rem;
+    text-align: center;
+    margin: 0.3rem 0.5rem 0 0;
+    border: 1px solid #E5E5E5;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.peopleAge .bottom .tabIcon li.tabStyle {
+    background-color: #00B4FF;
+    color: #fff;
+}
+
+.peopleAge .bottom .tabIcon li:first-child {
+    margin-left: 0.6rem;
+}
+
+.peopleAge .bottom .box {
+    height: 12.5rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+.peopleAge .bottom .leftChart2 {
+    height: 100%;
+    width: 100%;
+}
+
+.peopleAge .bottom .box .boxTable {
+    height: 100%;
+    width: 100%;
+}
+
+.peopleAge .box table {
+    width: 90%;
+    /*margin-top: 0.3rem;*/
+    margin: 0.3rem 0.7rem;
+}
+
+/*鍥句緥鏍峰紡*/
+.peopleAge .legend {
+    height: 3.3rem;
+    width: 16rem;
+    margin-bottom: 0.3rem;
+    background-color: #fff;
+    font-size: 14px;
+    color: #25313F;
+}
+
+.peopleAge .legend .legendLeft {
+    height: 100%;
+    width: 20%;
+    background: url("../../../../image/fzjc/rk//legendAge.png") no-repeat center;
+}
+
+.peopleAge .legend .legendRight {
+    height: 100%;
+    width: 80%;
+}
+
+.peopleAge .legend .legendText {
+    font-size: 14px;
+    color: #25313F;
+    height: 30%;
+}
+
+.peopleAge .legend .pic {
+    height: 36%;
+    width: 100%;
+    background: url("../../../../image/fzjc/rk//legendAge1.png") no-repeat center;
+}
+
+.peopleAge .he1 {
+    height: 2.1rem;
+    width: 100%;
+}
+
+.peopleAge .he1 span:first-child {
+    font-size: 16px;
+    color: #25313F;
+    line-height: 2.3rem;
+    margin-left: 0.6rem;
+}
+
+.peopleAge .he1 span:nth-child(2) {
+    font-size: 12px;
+    color: #6C6C6C;
+    line-height: 2.3rem;
+}
+
+.peopleAge #leftChart1, #leftChart2, #charts1, #charts2 {
+    height: 100%;
+    width: 100%;
+}
+
+.peopleAge .charts table {
+    height: 13.4rem;
+    width: 90%;
+    margin: 0 0.7rem;
+    border-collapse: collapse;
+}
+
+.peopleAge table th, td {
+    height: 1.1rem;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+}
+
+
+.peopleAge .time {
+    position: absolute;
+    bottom: 6%;
+    left: 40%;
+}
+
+.peopleAge .timeline li {
+    float: left;
+    position: relative;
+    cursor: pointer;
+    margin-right:26PX;
+}
+
+.peopleAge .timeline .dot {
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    /*line-height: 1.1;*/
+    border-radius: 50%;
+    text-align: center;
+    background-color: #fff;
+    border:1px solid #ccc;
+}
+
+.peopleAge .timeline .dot > i {
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    border-radius: 50%;
+    margin-top: 28%;
+}
+
+.peopleAge .timeline .beat {
+    background-color: #00A0D3;
+}
+
+.peopleAge .timeline .progress {
+    position: relative;
+    top: -18px;
+    left: 30px;
+    width: 60px;
+    height: 5px;
+    background: #AAAAAA;
+}
+
+.peopleAge .timeline .progress span {
+    position: absolute;
+    left: 0;
+    background-color: #00A0D3;
+    width: 0;
+    height: 100%;
+}
+
+
+.peopleAge .timeline li > em {
+    position: absolute;
+    top: 30px;
+    left: -6px;
+    width: 40px;
+    text-align: center;
+    font-size: 16px;
+    color: #25313F;
+}
+
+.peopleAge .timeline .txtBig {
+    font-size: 20px !important;
+    color: #25313F;
+}

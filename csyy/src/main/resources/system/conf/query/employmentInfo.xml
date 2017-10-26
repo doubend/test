@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sqlXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="sql.xsd">
+<select key="queryEmploymentByYear" des="查询各区域就业人数">
+ 	<sql> 
+  		select t1.QY,t.RS from rktjxx_rkstj t left join rkxx_bm_area t1 on t.QY = t1.code
+  		 where t.ZTFL="0700"  and t.RKJBLX="0" and t.XB="0" and t.HYZK="00" and t.NLD="00"  and t.TJNF=#{nian}
+    </sql>
+</select>
+<select key="queryThreeIndustryByYear" des="查询各区域的三大产业就业人数及总的就业人数">
+ 	<sql> 
+  		select t1.QY,t.ZTFL,t.XB,t.RS from rktjxx_rkstj t left join rkxx_bm_area t1 on t.QY = t1.code
+  		 where t.ZTFL in ("0701","0702","0703","0700") and t.RKJBLX="0" and t.XB in("0","1","2")
+		and t.HYZK="00" and t.NLD="00" and t.TJNF=#{nian}
+    </sql>
+</select>
+<select key="queryOnceEmployment" des="根据年份去查询再就业不同类型的人数">
+	<sql>
+		select  t1.QY,t.ZTFL,t.RS from rktjxx_rkstj t left join rkxx_bm_area t1 on t.QY = t1.code 
+		where t.HYZK="00" and t.NLD="00" and t.XB="0" and t.RKJBLX="0" and t.ZTFL in("0704","0705","0706") and t.TJNF=#{nian} order by t.QY
+	</sql>
+</select>
+<select key="queryEdudegree" des="根据年份查询全县一产,二产,三产 不同文化程度的人数以及参保的人数">
+	<sql>
+		SELECT
+			t.ZTFL,
+			CASE
+		WHEN t.WHCD = "00" THEN
+			"all"
+		WHEN t.WHCD = "10" THEN
+			"onUniversity"
+		WHEN t.WHCD = "30" THEN
+			"juniorCollege"
+		WHEN t.WHCD IN ("40", "60") THEN
+			"middleStudent"
+		WHEN t.WHCD in ("91","93") THEN
+			"underGradeStudent"
+		END AS "edu",
+		 sum(t.RS) "total"
+		FROM
+			rktjxx_rkstj t
+		LEFT JOIN rkxx_bm_tjztfl t2 ON t.ZTFL = t2. CODE
+		WHERE
+			t.XB = "0"
+		AND t.HYZK = "00"
+		AND t.RKJBLX = "0"
+		AND t.NLD = "00"
+		AND t.ZTFL IN ("0701", "0702", "0703","0810","0811","0812")
+		AND t.TJNF = #{nian}
+		AND t.QY = "000"
+		GROUP BY
+			t.ZTFL,
+			edu;
+	</sql>
+</select>
+
+</sqlXml>

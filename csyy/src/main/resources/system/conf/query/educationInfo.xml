@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sqlXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="sql.xsd">
+<select key="getTeaOffice"  des="教育机构数量" author="dxliug">
+   <sql> 
+    select sum(r.JGSL) JGSL,sum(r.JZRYS) JZRYS ,r.ZXSRS,r.XXLX,k.QY,b.EDU from RKTJXX_JYXX r 
+           left join rkxx_bm_area k on r.QY=k.code 
+           left join rkxx_bm_eduschool b on r.XXLX = b.CODE
+           where  r.TJNF = #{nian}
+         GROUP BY r.qy,b.edu 
+       ORDER BY r.QY asc
+   </sql>
+</select>
+<select key="queryTeacherCount" des="查询教师数量" author="dxliug">
+ <sql> 
+  	select r.* ,k.QY as hQY,b.EDU,SUM(JZRYS) as njzrys from RKTJXX_JYXX r 
+           left join rkxx_bm_area k on r.QY=k.code 
+           left join rkxx_bm_eduschool b on r.XXLX = b.CODE
+           where r.tjnf = #{nian} and b.EDU != '幼儿园' 
+           GROUP BY hqy,edu ORDER BY qy ASC
+   </sql>
+</select>
+<select key="queryTSCount" des="查询师生对比数量" author="dxliug">
+ <sql> 
+  	select sum(r.ZXSRS) as SZXSRS,SUM(r.JZRYS) as SJZRYS, r.* ,k.QY as hQY from RKTJXX_JYXX r 
+           left join rkxx_bm_area k on r.QY=k.code
+           where  r.TJNF = #{nian}
+            GROUP BY r.QY ORDER BY r.QY ASC
+   </sql>
+</select>
+ <select key="queryReceiveEd" des="受教育情况" author="dxliug">
+  <sql>
+    select j.*,f.EDU,k.QY as hqy  from rktjxx_rkstj j left join frxx_bm_edudgree f on j.WHCD = f.CODE
+    left join rkxx_bm_area k on j.QY = k.CODE
+    where j.tjnf = #{nian}
+          and j.WHCD not in(00,92,91)
+    GROUP BY QY,EDU order by qy asc
+  </sql>
+ 
+ </select>
+ <select key="queryTeaAndStu" des="查询老师和学生 分小学 初中 高中" author="frj">
+ <sql>
+ 	SELECT
+a.QY ,r.XXLX ,r.ZXSRS,r.JZRYS,r.TJNF
+FROM
+	rktjxx_jyxx r
+LEFT JOIN rkxx_bm_area a ON a. CODE = r.QY
+WHERE
+	r.XXLX IN ("02", "03", "04")
+AND r.TJNF BETWEEN #{befNian} AND #{nian}
+ORDER BY r.QY ASC,r.XXLX ASC ,r.TJNF DESC
+ </sql>
+ </select>
+ 
+ <select key="queryEducation" des="受教育与未受教育情况" author="dxliug">
+  <sql>
+    select r.*,b.QY as hqy,SUM(r.rs) as nrs  from rktjxx_rkstj r LEFT JOIN rkxx_bm_area b on r.QY = b.CODE
+    where r.whcd = 92 and r.TJNF = #{nian}
+    GROUP BY r.QY
+    UNION ALL
+    select t.*,c.QY as hqy ,SUM(t.rs) as nrs from rktjxx_rkstj t LEFT JOIN rkxx_bm_area c on t.QY = c.CODE
+    where t.WHCD != 92 and t.TJNF = #{nian}
+    GROUP BY t.QY
+    order by qy asc
+   </sql>
+ </select>
+ 
+ <select key="queryWeiEducation" des="未受教育的数据" author="dxliug">
+    <sql>
+    select j.*,f.EDU,k.QY as hqy  from rktjxx_rkstj j left join frxx_bm_edudgree f on j.WHCD = f.CODE
+    left join rkxx_bm_area k on j.QY = k.CODE
+    where j.tjnf = #{nian}
+          and j.WHCD != 00
+    GROUP BY QY,EDU order by qy asc
+    </sql>
+ </select>
+</sqlXml>

@@ -1,0 +1,146 @@
+#hand{
+    height: 704px;
+    width: 256px;
+}
+.wrapp .top{
+    background: url("../../../image/dpzs/lz/tour-top.png") no-repeat;
+    background-size: 100%;
+    color: #005E9F;
+}
+.wrapp .top .topIcon{
+    background: url("../../../image/dpzs/lz/tour-top1.png") no-repeat center bottom;
+    background-size: 90%;
+}
+.wrapp .center{
+    height: 72.4%;
+    width: 100%;
+}
+.wrapp .center .h50{
+    height: 50%;
+    width: 100%;
+    position: relative;
+}
+.wrapp .center .h50 .text50{
+    font-size: 11px;
+    color: #fff;
+    position: absolute;
+    top: 48px;
+    left: 94px;
+}
+.wrapp .center .h58{
+    height: 58%;
+    width: 100%;
+    position: relative;
+}
+.wrapp .center .h58 .text58{
+    font-size: 11px;
+    color: #fff;
+    position: absolute;
+    top: 52px;
+    left: 94px;
+}
+.wrapp .center .h42{
+    height: 42%;
+    width: 100%;
+    position: relative;
+}
+.wrapp .center .h42 .text42{
+    font-size: 11px;
+    color: #fff;
+    position: absolute;
+    top: 52px;
+    left: 94px;
+}
+.wrapp .center .h22{
+    height: 22%;
+    width: 90%;
+}
+.wrapp .center .h75{
+    height: 75%;
+    width: 90%;
+}
+.wrapp .center .h20{
+    height: 20%;
+    width: 90%;
+}
+.wrapp .center .h68{
+    height: 68%;
+    width: 90%;
+}
+.wrapp .center .h27{
+    height: 27%;
+    width: 90%;
+}
+.wrapp .center .h70{
+    height: 70%;
+    width: 90%;
+}
+.wrapp .center .icon{
+    background: url("../../../image/dpzs/lz/tour-center.png") no-repeat center;
+    background-size: 90% 100%;
+    margin-left:5%;
+    font-size: 16px;
+    color: #003362;
+    line-height: 58px;
+    padding-left:24%;
+    box-sizing: border-box;
+    font-weight: 700;
+}
+.wrapp .center .icon1{
+    padding-left: 12%;
+    font-size: 14px;
+}
+.wrapp .center .icon2{
+    padding-left: 24%;
+    font-size: 14px;
+}
+.wrapp .center ul{
+    margin-left: 5%;
+    margin-top: 4%;
+}
+.wrapp .center ul li{
+    height: 16%;
+    width: 100%;
+    line-height: 30px;
+}
+.wrapp .center .h60 ul li{
+    height: 14.1%;
+    width: 100%;
+    line-height: 9px;
+}
+.wrapp .center .h42 ul li{
+    height: 20%;
+    width: 100%;
+    line-height: 29px;
+}
+.wrapp .center ul li.bgColor{
+    background-color: #006DB0;
+}
+.wrapp .center ul li p.pt5{
+    padding-left: 5%;
+    text-align: left;
+    font-size: 11px;
+    font-weight: 100;
+    width: 35%;
+}
+.wrapp .center ul li p.pr10{
+    width: 50%;
+    padding-right: 10%;
+    text-align: right;
+    color: #FFFA02;
+    position: relative;
+    font-size: 22px;
+    font-weight: 100;
+}
+.wrapp .center ul li p em{
+    position: absolute;
+    top: -18%;
+    right: 8%;
+    color: #fff;
+    font-size: 8px;
+}
+
+.wrapp .bottom{
+    background: url("../../../image/dpzs/lz/tour-bottom.png") no-repeat center bottom;
+    background-size: 64% 100%;
+}

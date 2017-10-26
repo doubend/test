@@ -1,0 +1,230 @@
+.devwrapper{
+	width:100%;
+	height:100%;
+	overflow-y:auto;
+	position:relative;
+}
+.bigdata-dev{
+	margin: 0px 0.05rem;
+	border: 0.05rem solid #1B1B22;
+	width:19.84%;
+	height:100%;
+	float:left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+ }
+ .search{
+   	height:5%;
+   	width:auto;
+}
+ .map-btm-dev{
+  	width: 150%;
+  	height: 100%;
+  	background: url("../../../cityColl/img/map-1.png") no-repeat;
+  	background-size: 100% 100%;
+ }
+ .bigdata-bottom-dev{
+   	width:100%;
+   	height:100%;
+   	margin-top: 3rem;
+ }
+ .tab-info{
+   	margin:10px 0px;
+   	width:100%;
+   	font-size:15px;
+ }
+.tab-info table{ 
+   	width:100%;
+	table-layout:fixed; 
+	empty-cells:show; 
+	border-collapse: collapse; 
+	margin:0 auto; 
+} 
+
+.tb{ 
+	border:1px solid #cad9ea; 
+	color:#666; 
+} 
+.tb td,.tb th{ 
+	border:1px solid #cad9ea; 
+	padding:0 0.5em 0; 
+} 
+.tb td{ 
+	height:20px; 
+	text-align:center;
+} 
+.tb th { 
+	text-align : center;
+	height:45px; 
+}
+.tb tr.alter{ 
+	background-color:#f5fafe; 
+}
+.tab-title{
+	margin-top:20px;
+	padding:5px 30px;
+	height:50px;
+	line-height:50px;
+	font-size:20px;
+	border-bottom:  1px solid #CD8162;
+}
+.chart-title{
+	margin-top:1%;
+	padding:5px 30px;
+	height:30px;
+	line-height:30px;
+	font-size:20px;
+}
+.firstChart{
+	margin-top:3.5%;
+}
+.chart-title span{
+	color : "#33cc66"
+}
+.two-chart{
+	margin-top:1%;
+	height:30px;
+	width:100%;
+	font-size:20px;
+}
+.two-chart div{
+	line-height:30px;
+	height:100%;
+	padding:5px 30px;
+	float :left;
+	width:49%;
+}
+.tab-title span{
+	color:#666;
+}
+
+.wrapper-ehctop{
+	height:40%;
+	width:100%;
+	margin-top:1%;
+	-webkit-box-sizing: border-box;
+   	-moz-box-sizing: border-box;
+   	box-sizing: border-box;
+}
+.e2{
+	margin-top:1%;
+}
+.ehc-data{
+	margin: 0px 0.1rem;
+	border: 0.05rem solid #1B1B22;
+	width:49.7%;
+	height:100%;
+	float:left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.line-chart{
+	width:99%;
+}
+.chart-cs{
+	width: 100%;
+	height:90%;
+	position: relative;
+	margin-bottom:0;
+}
+.bigdata-header .title{
+	font-size: 0.7rem;
+	color: #9932CC;
+	height:10%;
+	padding: 2px 20px;
+	text-shadow: 0 0 1px #addfff;
+}
+.wrapper-top{
+	height:66%;
+	width:100%;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.leftSide{
+	width:60%;
+	height:99%;
+	float:left;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url('../../../cityColl/img/bg.png') no-repeat;   
+}
+.leftSide .header{
+    width: 80%;
+    height: 12%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 1rem;
+}
+.header-p{
+    width: 100%;
+    height: 1.8rem;
+    line-height: 1.8rem;
+    margin: 0 auto;
+}
+.leftSide .info1{
+	font-size:1rem;
+	color:#fffb88;
+}
+.leftSide .info2{
+	font-size:1.1rem;
+	color:#ff8604; 
+	font-style: italic;
+}
+.anchorBL {
+	display: none;
+}
+.rightView{
+	height: 111%;
+	/* padding-top:0.25rem; */
+	width:39.5%;
+	float:right;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.dataText{
+    width:100%;
+    height:100%;
+    /* background: url("../../../cityColl/img/area-bg.png") no-repea */t; 
+    /* background-size: 100% 100%; */
+    border : 0.5px solid #668B8B;
+}
+.dataText p{
+	width:90%;
+	margin:0 auto;
+}
+.dataText .p-tag{
+	margin-bottom:0.25rem;
+}
+.dataText p span{
+	display: inline-block;
+	height: 20%;
+	/* line-height:1.8; */
+	background-color: #1a1f28;
+	padding-left:0.5rem;
+}
+.dataText p .span1{
+	width:100%;
+	color:#79afeb;
+	font-size:0.7rem;
+	font-weight: 600;
+}
+.dataText p .span1 em{
+	color:#ef9600;
+	font-size:0.9rem;
+	padding-left:0.25rem; 
+	font-family: "΢���ź�","Microsoft YaHei";
+}
+.oldMapInfo{
+	line-height : 4.2;
+}
+.devMapInfo{
+	line-height : 2.3;
+}
+.totalMapInfo{
+	line-height : 2.6;
+}

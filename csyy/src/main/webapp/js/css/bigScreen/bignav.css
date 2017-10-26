@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  overflow-x : hidden;   
+  overflow-y : hidden;   
+}
+.navBox {
+	display:block;
+	margin:auto;
+	padding:0px;
+	width:250px;
+	min-height:300px;
+	background:rgba(24,64,87,0.9);
+	position:absolute;
+	top:300px;
+	right:0%;
+}
+.hidden {
+  display: none !important;
+}
+
+.navBoxTitle {
+	display:block;
+	width:100%;
+	height:112px;
+	margin:auto;
+	padding:10px 0;
+	background:rgba(6,39,59,1) center 10px url("../../images/bigdata/navBack.png") no-repeat;
+	box-sizing:content-box;
+	position:relative;
+}
+
+
+.navList,
+.navList ul,
+.navList ul li{
+	display:block;
+	width:100%;
+	margin:0px;
+	padding:0px;
+
+}
+
+.navList a {
+	color:#FFF;
+	text-decoration:none;
+	height:35px;
+	line-height:35px;
+	padding-left:50px;
+	display:block;
+}
+
+.navList a:hover {
+	background:rgba(255,255,255,0.1);
+}
+
+.navList li {
+	list-style:none;
+	font-size:16px;
+	clear:right;
+}
+
+.navList span {
+	width:20px;
+	height:24px;
+	padding:10px;
+	margin:5px 15px 0 0;
+	background:url("../../images/bigdata/navBack.png") no-repeat;
+}
+
+.navList #liA {
+
+	background-position:0px -115px;
+}
+
+.navList #liB {
+
+	background-position:-27px -115px;
+}
+
+.navList #liC {
+
+	background-position:-55px -115px;
+}
+
+.navList #liD {
+
+	background-position:-82px -115px;
+}
+
+.navList #liE {
+
+	background-position:-109px -115px;
+}
+
+.navBoxBar {
+	display:block;
+	width:100%;
+	height:25px;
+	margin:auto;
+	background:rgba(6,39,59,1);
+	box-sizing:content-box;
+}
+
+.navButtonHide {
+	display:block;
+	margin:auto;
+	width:32px;
+	height:25px;
+	background:rgba(0,0,0,0) -156px -120px url("../../images/bigdata/navBack.png") no-repeat;
+	opacity:0.4;
+}
+
+.navButtonHide:hover {
+	opacity:1;
+}
+
+.navButton a{
+	display:block;
+	margin:auto;
+	width:60px;
+	height:60px;
+	background:rgba(24,64,87,0.5);
+	
+	position:absolute;
+	bottom:0px;
+	right:0px;
+}
+
+
+
+.navButton a:hover {
+	background:rgba(24,64,87,1.0);
+}
+
+.arrowUp{
+	display:block;
+	margin:auto;
+	width:30px;
+	height:17px;
+	margin-top:20px;
+	background:-189px -127px url("../../images/bigdata/navBack.png") no-repeat;
+}
